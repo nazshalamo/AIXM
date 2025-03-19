@@ -865,4 +865,50 @@
   <aixm:Navaid gml:id="uuid.navaid19">
     <gml:identifier codeSpace="urn:uuid:">uuid.navaid19</gml:identifier>
     <aixm:timeSlice>
-      <aixm
+      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_19">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="TP_NAVAID_19">
+            <gml:beginPosition>2015-12-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:sequenceNumber>19</aixm:sequenceNumber>
+        <aixm:type>VOR</aixm:type>
+        <aixm:name>Montreal VOR 2</aixm:name>
+      </aixm:NavaidTimeSlice>
+    </aixm:timeSlice>
+    <aixm:location>
+      <aixm:ElevatedPoint gml:id="EP_NAVAID_19" srsName="urn:ogc:def:crs:EPSG::4326">
+        <gml:pos>45.4800 -73.7200</gml:pos>
+        <aixm:elevation uom="M">135</aixm:elevation>
+      </aixm:ElevatedPoint>
+    </aixm:location>
+  </aixm:Navaid>
+</message:hasMember>
+
+<message:hasMember>
+  <aixm:Navaid gml:id="uuid.navaid20">
+    <gml:identifier codeSpace="urn:uuid:">uuid.navaid20</gml:identifier>
+    <aixm:timeSlice>
+      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_20">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="TP_NAVAID_20">
+            <gml:beginPosition>2017-10-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:sequenceNumber>20</aixm:sequenceNumber>
+        <aixm:type>ILS</aixm:type>
+        <aixm:name>Calgary ILS</aixm:name>
+      </aixm:NavaidTimeSlice>
+    </aixm:timeSlice>
+    <aixm:location>
+      <aixm:ElevatedPoint gml:id="EP_NAVAID_20" srsName="urn:ogc:def:crs:EPSG::4326">
+        <gml:pos>50.9800 -113.9700</gml:pos>
+        <aixm:elevation uom="M">205</aixm:elevation>
+      </aixm:ElevatedPoint>
+    </aixm:location>
+  </aixm:Navaid>
+</message:hasMember>
