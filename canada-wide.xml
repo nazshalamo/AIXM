@@ -1165,7 +1165,7 @@
        </aixm:Airspace>
    </message:hasMember>
    <!-- Procedure Section: Instrument Approach and Standard Instrument Departure Procedures -->
-   <mes:hasMember xmlns:mes="http://www.aixm.aero/schema/5.1.1/message"
+   <message:hasMember xmlns:mes="http://www.aixm.aero/schema/5.1.1/message"
                xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                xmlns:gml="http://www.opengis.net/gml/3.2"
                xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -1245,9 +1245,9 @@
                </aixm:StandardInstrumentDepartureTimeSlice>
            </aixm:timeSlice>
        </aixm:StandardInstrumentDeparture>
-   </mes:hasMember>
+   </message:hasMember>
    <!-- Regulatory and NOTAM Information Section -->
-   <mes:hasMember>
+   <message:hasMember>
        <!-- Flight Restrictions -->
        <aixm:FlightRestriction gml:id="uuid.reg001">
            <gml:identifier codeSpace="urn:uuid:">reg001</gml:identifier>
@@ -1403,5 +1403,5 @@
                </aixm:Note>
            </aixm:annotation>
        </aixm:RegulatoryAnnotation>
-   </mes:hasMember>
+   </message:hasMember>
 </message:AIXMBasicMessage>
