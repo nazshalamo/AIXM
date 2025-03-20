@@ -1086,85 +1086,117 @@
        </aixm:Route>
    </message:hasMember>
    <!-- FIR (Flight Information Region) Section -->
-   <message:hasMember>
-       <aixm:Airspace gml:id="uuid.fir1">
-           <gml:identifier codeSpace="urn:uuid:">fir-atlantic</gml:identifier>
-           <aixm:timeSlice>
-               <aixm:AirspaceTimeSlice gml:id="AT_slice1">
-                   <gml:validTime>
-                       <gml:TimePeriod gml:id="TP_fir1">
-                           <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition indeterminatePosition="unknown"/>
-                       </gml:TimePeriod>
-                   </gml:validTime>
-                   <aixm:interpretation>BASELINE</aixm:interpretation>
-                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
-                   <aixm:featureLifetime>
-                       <gml:TimePeriod gml:id="LT_fir1">
-                           <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition indeterminatePosition="unknown"/>
-                       </gml:TimePeriod>
-                   </aixm:featureLifetime>
-                   <aixm:type>FIR</aixm:type>
-                   <aixm:designator>EATL</aixm:designator>
-                   <aixm:name>Atlantic FIR</aixm:name>
-                   <!-- Optionally include boundary geometry here -->
-               </aixm:AirspaceTimeSlice>
-           </aixm:timeSlice>
-       </aixm:Airspace>
-   </message:hasMember>
-   <message:hasMember>
-       <aixm:Airspace gml:id="uuid.fir2">
-           <gml:identifier codeSpace="urn:uuid:">fir-central</gml:identifier>
-           <aixm:timeSlice>
-               <aixm:AirspaceTimeSlice gml:id="AT_slice2">
-                   <gml:validTime>
-                       <gml:TimePeriod gml:id="TP_fir2">
-                           <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition indeterminatePosition="unknown"/>
-                       </gml:TimePeriod>
-                   </gml:validTime>
-                   <aixm:interpretation>BASELINE</aixm:interpretation>
-                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
-                   <aixm:featureLifetime>
-                       <gml:TimePeriod gml:id="LT_fir2">
-                           <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition indeterminatePosition="unknown"/>
-                       </gml:TimePeriod>
-                   </aixm:featureLifetime>
-                   <aixm:type>FIR</aixm:type>
-                   <aixm:designator>ECTR</aixm:designator>
-                   <aixm:name>Central FIR</aixm:name>
-               </aixm:AirspaceTimeSlice>
-           </aixm:timeSlice>
-       </aixm:Airspace>
-   </message:hasMember>
-   <message:hasMember>
-       <aixm:Airspace gml:id="uuid.fir3">
-           <gml:identifier codeSpace="urn:uuid:">fir-pacific</gml:identifier>
-           <aixm:timeSlice>
-               <aixm:AirspaceTimeSlice gml:id="AT_slice3">
-                   <gml:validTime>
-                       <gml:TimePeriod gml:id="TP_fir3">
-                           <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition indeterminatePosition="unknown"/>
-                       </gml:TimePeriod>
-                   </gml:validTime>
-                   <aixm:interpretation>BASELINE</aixm:interpretation>
-                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
-                   <aixm:featureLifetime>
-                       <gml:TimePeriod gml:id="LT_fir3">
-                           <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition indeterminatePosition="unknown"/>
-                       </gml:TimePeriod>
-                   </aixm:featureLifetime>
-                   <aixm:type>FIR</aixm:type>
-                   <aixm:designator>EPAC</aixm:designator>
-                   <aixm:name>Pacific FIR</aixm:name>
-               </aixm:AirspaceTimeSlice>
-           </aixm:timeSlice>
-       </aixm:Airspace>
-   </message:hasMember>
+<message:hasMember>
+  <aixm:Airspace gml:id="uuid.fir1">
+    <gml:identifier codeSpace="urn:uuid:">fir-atlantic</gml:identifier>
+    <aixm:timeSlice>
+      <aixm:AirspaceTimeSlice gml:id="AT_slice1">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="TP_fir1">
+            <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:sequenceNumber>1</aixm:sequenceNumber>
+        <aixm:featureLifetime>
+          <gml:TimePeriod gml:id="LT_fir1">
+            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </aixm:featureLifetime>
+        <aixm:type>FIR</aixm:type>
+        <aixm:designator>EATL</aixm:designator>
+        <aixm:name>Atlantic FIR</aixm:name>
+        <!-- Boundary geometry for Atlantic FIR -->
+        <gml:Polygon gml:id="poly_fir1">
+          <gml:exterior>
+            <gml:LinearRing>
+              <gml:posList>
+                45.0 -65.0 45.0 -50.0 55.0 -50.0 55.0 -65.0 45.0 -65.0
+              </gml:posList>
+            </gml:LinearRing>
+          </gml:exterior>
+        </gml:Polygon>
+      </aixm:AirspaceTimeSlice>
+    </aixm:timeSlice>
+  </aixm:Airspace>
+</message:hasMember>
+
+<message:hasMember>
+  <aixm:Airspace gml:id="uuid.fir2">
+    <gml:identifier codeSpace="urn:uuid:">fir-central</gml:identifier>
+    <aixm:timeSlice>
+      <aixm:AirspaceTimeSlice gml:id="AT_slice2">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="TP_fir2">
+            <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:sequenceNumber>1</aixm:sequenceNumber>
+        <aixm:featureLifetime>
+          <gml:TimePeriod gml:id="LT_fir2">
+            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </aixm:featureLifetime>
+        <aixm:type>FIR</aixm:type>
+        <aixm:designator>ECTR</aixm:designator>
+        <aixm:name>Central FIR</aixm:name>
+        <!-- Boundary geometry for Central FIR -->
+        <gml:Polygon gml:id="poly_fir2">
+          <gml:exterior>
+            <gml:LinearRing>
+              <gml:posList>
+                55.0 -110.0 55.0 -80.0 65.0 -80.0 65.0 -110.0 55.0 -110.0
+              </gml:posList>
+            </gml:LinearRing>
+          </gml:exterior>
+        </gml:Polygon>
+      </aixm:AirspaceTimeSlice>
+    </aixm:timeSlice>
+  </aixm:Airspace>
+</message:hasMember>
+
+<message:hasMember>
+  <aixm:Airspace gml:id="uuid.fir3">
+    <gml:identifier codeSpace="urn:uuid:">fir-pacific</gml:identifier>
+    <aixm:timeSlice>
+      <aixm:AirspaceTimeSlice gml:id="AT_slice3">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="TP_fir3">
+            <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:sequenceNumber>1</aixm:sequenceNumber>
+        <aixm:featureLifetime>
+          <gml:TimePeriod gml:id="LT_fir3">
+            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </aixm:featureLifetime>
+        <aixm:type>FIR</aixm:type>
+        <aixm:designator>EPAC</aixm:designator>
+        <aixm:name>Pacific FIR</aixm:name>
+        <!-- Boundary geometry for Pacific FIR -->
+        <gml:Polygon gml:id="poly_fir3">
+          <gml:exterior>
+            <gml:LinearRing>
+              <gml:posList>
+                48.0 -130.0 48.0 -120.0 54.0 -120.0 54.0 -130.0 48.0 -130.0
+              </gml:posList>
+            </gml:LinearRing>
+          </gml:exterior>
+        </gml:Polygon>
+      </aixm:AirspaceTimeSlice>
+    </aixm:timeSlice>
+  </aixm:Airspace>
+</message:hasMember>
+
    <!-- Procedure Section: Instrument Approach and Standard Instrument Departure Procedures -->
    <message:hasMember xmlns:mes="http://www.aixm.aero/schema/5.1.1/message"
                xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
