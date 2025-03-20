@@ -18,8 +18,6 @@
     </gml:Envelope>
   </gml:boundedBy>
   <aixm:messageMetadata>
-    <!-- Metadata here -->
-  </aixm:messageMetadata>
        <gmd:MD_Metadata id="MD_CANADA_MESSAGE">
            <gmd:characterSet>
                <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
