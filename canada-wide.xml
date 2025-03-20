@@ -73,7 +73,6 @@
     </gmd:MD_Metadata>
   </aixm:messageMetadata>
   <!-- Additional dataset content (airports, navaids, runways, etc.) would follow here -->
-</message:AIXMBasicMessage>
 <!-- Airport Section: International Airports across Canada -->
 <message:hasMember>
   <aixm:AirportHeliport gml:id="uuid.cyyz">
@@ -1473,3 +1472,4 @@
   </aixm:RegulatoryAnnotation>
   
 </mes:hasMember>
+</message:AIXMBasicMessage>
