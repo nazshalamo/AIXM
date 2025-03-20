@@ -7,1469 +7,1399 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.aixm.aero/schema/5.1.1/message http://www.aixm.aero/schema/5.1.1/message/AIXM_BasicMessage.xsd"
     gml:id="M0000001">
-  <gml:boundedBy>
-    <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
-      <!-- Rough bounding box covering Canada -->
-      <gml:lowerCorner>42.0 -141.0</gml:lowerCorner>
-      <gml:upperCorner>83.0 -52.0</gml:upperCorner>
-    </gml:Envelope>
-  </gml:boundedBy>
-  <aixm:messageMetadata>
-    <gmd:MD_Metadata id="MD_CANADA_MESSAGE">
-      <gmd:characterSet>
-        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
-      </gmd:characterSet>
-      <gmd:contact>
-        <gmd:CI_ResponsibleParty>
-          <gmd:organisationName>
-            <gco:CharacterString>Transport Canada</gco:CharacterString>
-          </gmd:organisationName>
-          <gmd:contactInfo>
-            <gmd:CI_Contact>
-              <gmd:onlineResource>
-                <gmd:CI_OnlineResource>
-                  <gmd:linkage>
-                    <gmd:URL>https://www.tc.gc.ca</gmd:URL>
-                  </gmd:linkage>
-                </gmd:CI_OnlineResource>
-              </gmd:onlineResource>
-            </gmd:CI_Contact>
-          </gmd:contactInfo>
-          <gmd:role>
-            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
-          </gmd:role>
-        </gmd:CI_ResponsibleParty>
-      </gmd:contact>
-      <gmd:dateStamp>
-        <gco:DateTime>2024-09-12T12:00:00Z</gco:DateTime>
-      </gmd:dateStamp>
-      <gmd:identificationInfo>
-        <gmd:MD_DataIdentification>
-          <gmd:citation>
-            <gmd:CI_Citation>
-              <gmd:title>
-                <gco:CharacterString>Canada AIXM Sample Dataset</gco:CharacterString>
-              </gmd:title>
-              <gmd:date>
-                <gmd:CI_Date>
-                  <gmd:date>
-                    <gco:DateTime>2024-09-12T00:00:00Z</gco:DateTime>
-                  </gmd:date>
-                  <gmd:dateType>
-                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
-                  </gmd:dateType>
-                </gmd:CI_Date>
-              </gmd:date>
-            </gmd:CI_Citation>
-          </gmd:citation>
-          <gmd:abstract>
-            <gco:CharacterString>This is a sample AIXM 5.1 dataset for Canada, created to showcase how NLP techniques can extract and analyze meaningful aviation insights.</gco:CharacterString>
-          </gmd:abstract>
-          <gmd:language>
-            <gco:CharacterString>eng</gco:CharacterString>
-          </gmd:language>
-        </gmd:MD_DataIdentification>
-      </gmd:identificationInfo>
-    </gmd:MD_Metadata>
-  </aixm:messageMetadata>
-  <!-- Additional dataset content (airports, navaids, runways, etc.) would follow here -->
-<!-- Airport Section: International Airports across Canada -->
-<message:hasMember>
-  <aixm:AirportHeliport gml:id="uuid.cyyz">
-    <gml:identifier codeSpace="urn:uuid:">uuid.cyyz</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:AirportHeliportTimeSlice gml:id="AP_TS_CYYZ">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_CYYZ">
-            <gml:beginPosition>2010-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:correctionNumber>0</aixm:correctionNumber>
-        <aixm:featureLifetime>
-          <gml:TimePeriod gml:id="LT_CYYZ">
-            <gml:beginPosition>2010-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </aixm:featureLifetime>
-        <aixm:designator>CYYZ/YYZ</aixm:designator>
-        <aixm:name>Toronto Pearson International Airport</aixm:name>
-        <aixm:locationIndicatorICAO>CYYZ</aixm:locationIndicatorICAO>
-        <aixm:fieldElevation uom="M">173</aixm:fieldElevation>
-        <aixm:ARP>
-          <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ARP_CYYZ">
-            <gml:pos>43.6777 -79.6248</gml:pos>
-          </aixm:ElevatedPoint>
-        </aixm:ARP>
-      </aixm:AirportHeliportTimeSlice>
-    </aixm:timeSlice>
-  </aixm:AirportHeliport>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:AirportHeliport gml:id="uuid.cyvr">
-    <gml:identifier codeSpace="urn:uuid:">uuid.cyvr</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:AirportHeliportTimeSlice gml:id="AP_TS_CYVR">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_CYVR">
-            <gml:beginPosition>2011-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:correctionNumber>0</aixm:correctionNumber>
-        <aixm:featureLifetime>
-          <gml:TimePeriod gml:id="LT_CYVR">
-            <gml:beginPosition>2011-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </aixm:featureLifetime>
-        <aixm:designator>CYVR/YVR</aixm:designator>
-        <aixm:name>Vancouver International Airport</aixm:name>
-        <aixm:locationIndicatorICAO>CYVR</aixm:locationIndicatorICAO>
-        <aixm:fieldElevation uom="M">14</aixm:fieldElevation>
-        <aixm:ARP>
-          <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ARP_CYVR">
-            <gml:pos>49.1947 -123.1792</gml:pos>
-          </aixm:ElevatedPoint>
-        </aixm:ARP>
-      </aixm:AirportHeliportTimeSlice>
-    </aixm:timeSlice>
-  </aixm:AirportHeliport>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:AirportHeliport gml:id="uuid.cyul">
-    <gml:identifier codeSpace="urn:uuid:">uuid.cyul</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:AirportHeliportTimeSlice gml:id="AP_TS_CYUL">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_CYUL">
-            <gml:beginPosition>2012-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:correctionNumber>0</aixm:correctionNumber>
-        <aixm:featureLifetime>
-          <gml:TimePeriod gml:id="LT_CYUL">
-            <gml:beginPosition>2012-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </aixm:featureLifetime>
-        <aixm:designator>CYUL/YUL</aixm:designator>
-        <aixm:name>Montreal-Pierre Elliott Trudeau International Airport</aixm:name>
-        <aixm:locationIndicatorICAO>CYUL</aixm:locationIndicatorICAO>
-        <aixm:fieldElevation uom="M">15</aixm:fieldElevation>
-        <aixm:ARP>
-          <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ARP_CYUL">
-            <gml:pos>45.4706 -73.7408</gml:pos>
-          </aixm:ElevatedPoint>
-        </aixm:ARP>
-      </aixm:AirportHeliportTimeSlice>
-    </aixm:timeSlice>
-  </aixm:AirportHeliport>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:AirportHeliport gml:id="uuid.cyyc">
-    <gml:identifier codeSpace="urn:uuid:">uuid.cyyc</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:AirportHeliportTimeSlice gml:id="AP_TS_CYYC">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_CYYC">
-            <gml:beginPosition>2013-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:correctionNumber>0</aixm:correctionNumber>
-        <aixm:featureLifetime>
-          <gml:TimePeriod gml:id="LT_CYYC">
-            <gml:beginPosition>2013-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </aixm:featureLifetime>
-        <aixm:designator>CYYC/YYC</aixm:designator>
-        <aixm:name>Calgary International Airport</aixm:name>
-        <aixm:locationIndicatorICAO>CYYC</aixm:locationIndicatorICAO>
-        <aixm:fieldElevation uom="M">1048</aixm:fieldElevation>
-        <aixm:ARP>
-          <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ARP_CYYC">
-            <gml:pos>51.1139 -114.0194</gml:pos>
-          </aixm:ElevatedPoint>
-        </aixm:ARP>
-      </aixm:AirportHeliportTimeSlice>
-    </aixm:timeSlice>
-  </aixm:AirportHeliport>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:AirportHeliport gml:id="uuid.cyeg">
-    <gml:identifier codeSpace="urn:uuid:">uuid.cyeg</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:AirportHeliportTimeSlice gml:id="AP_TS_CYEG">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_CYEG">
-            <gml:beginPosition>2014-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:correctionNumber>0</aixm:correctionNumber>
-        <aixm:featureLifetime>
-          <gml:TimePeriod gml:id="LT_CYEG">
-            <gml:beginPosition>2014-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </aixm:featureLifetime>
-        <aixm:designator>CYEG/YEG</aixm:designator>
-        <aixm:name>Edmonton International Airport</aixm:name>
-        <aixm:locationIndicatorICAO>CYEG</aixm:locationIndicatorICAO>
-        <aixm:fieldElevation uom="M">668</aixm:fieldElevation>
-        <aixm:ARP>
-          <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ARP_CYEG">
-            <gml:pos>53.3097 -113.5804</gml:pos>
-          </aixm:ElevatedPoint>
-        </aixm:ARP>
-      </aixm:AirportHeliportTimeSlice>
-    </aixm:timeSlice>
-  </aixm:AirportHeliport>
-</message:hasMember>
-<!-- Runway Section: Runway details for selected international airports in Canada -->
-<!-- Toronto Pearson International Airport (uuid.cyyz) -->
-<message:hasMember>
-  <aixm:Runway gml:id="uuid.runway1">
-    <gml:identifier codeSpace="urn:uuid:">uuid.runway1</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:RunwayTimeSlice gml:id="RWY_TS_CYYZ_09L27R">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_RWY_CYYZ">
-            <gml:beginPosition>2010-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:designator>09L/27R</aixm:designator>
-        <aixm:type>RWY</aixm:type>
-        <aixm:nominalLength uom="M">2800.0</aixm:nominalLength>
-        <aixm:nominalWidth uom="M">45.0</aixm:nominalWidth>
-        <aixm:associatedAirportHeliport xlink:href="urn:uuid:uuid.cyyz" xlink:title="Toronto Pearson International Airport"/>
-      </aixm:RunwayTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Runway>
-</message:hasMember>
-
-<!-- Vancouver International Airport (uuid.cyvr) -->
-<message:hasMember>
-  <aixm:Runway gml:id="uuid.runway2">
-    <gml:identifier codeSpace="urn:uuid:">uuid.runway2</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:RunwayTimeSlice gml:id="RWY_TS_CYVR_08_26">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_RWY_CYVR">
-            <gml:beginPosition>2011-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:designator>08/26</aixm:designator>
-        <aixm:type>RWY</aixm:type>
-        <aixm:nominalLength uom="M">3200.0</aixm:nominalLength>
-        <aixm:nominalWidth uom="M">60.0</aixm:nominalWidth>
-        <aixm:associatedAirportHeliport xlink:href="urn:uuid:uuid.cyvr" xlink:title="Vancouver International Airport"/>
-      </aixm:RunwayTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Runway>
-</message:hasMember>
-
-<!-- Montreal-Pierre Elliott Trudeau International Airport (uuid.cyul) -->
-<message:hasMember>
-  <aixm:Runway gml:id="uuid.runway3">
-    <gml:identifier codeSpace="urn:uuid:">uuid.runway3</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:RunwayTimeSlice gml:id="RWY_TS_CYUL_11_29">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_RWY_CYUL">
-            <gml:beginPosition>2012-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:designator>11/29</aixm:designator>
-        <aixm:type>RWY</aixm:type>
-        <aixm:nominalLength uom="M">3200.0</aixm:nominalLength>
-        <aixm:nominalWidth uom="M">60.0</aixm:nominalWidth>
-        <aixm:associatedAirportHeliport xlink:href="urn:uuid:uuid.cyul" xlink:title="Montreal-Pierre Elliott Trudeau International Airport"/>
-      </aixm:RunwayTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Runway>
-</message:hasMember>
-
-<!-- Calgary International Airport (uuid.cyyc) -->
-<message:hasMember>
-  <aixm:Runway gml:id="uuid.runway4">
-    <gml:identifier codeSpace="urn:uuid:">uuid.runway4</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:RunwayTimeSlice gml:id="RWY_TS_CYYC_16_34">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_RWY_CYYC">
-            <gml:beginPosition>2013-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:designator>16/34</aixm:designator>
-        <aixm:type>RWY</aixm:type>
-        <aixm:nominalLength uom="M">3500.0</aixm:nominalLength>
-        <aixm:nominalWidth uom="M">75.0</aixm:nominalWidth>
-        <aixm:associatedAirportHeliport xlink:href="urn:uuid:uuid.cyyc" xlink:title="Calgary International Airport"/>
-      </aixm:RunwayTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Runway>
-</message:hasMember>
-
-<!-- Edmonton International Airport (uuid.cyeg) - Two Runways -->
-<message:hasMember>
-  <aixm:Runway gml:id="uuid.runway5">
-    <gml:identifier codeSpace="urn:uuid:">uuid.runway5</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:RunwayTimeSlice gml:id="RWY_TS_CYEG_07_25">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_RWY_CYEG_1">
-            <gml:beginPosition>2014-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:designator>07/25</aixm:designator>
-        <aixm:type>RWY</aixm:type>
-        <aixm:nominalLength uom="M">3000.0</aixm:nominalLength>
-        <aixm:nominalWidth uom="M">45.0</aixm:nominalWidth>
-        <aixm:associatedAirportHeliport xlink:href="urn:uuid:uuid.cyeg" xlink:title="Edmonton International Airport"/>
-      </aixm:RunwayTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Runway>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Runway gml:id="uuid.runway6">
-    <gml:identifier codeSpace="urn:uuid:">uuid.runway6</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:RunwayTimeSlice gml:id="RWY_TS_CYEG_15_33">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_RWY_CYEG_2">
-            <gml:beginPosition>2014-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>2</aixm:sequenceNumber>
-        <aixm:designator>15/33</aixm:designator>
-        <aixm:type>RWY</aixm:type>
-        <aixm:nominalLength uom="M">2800.0</aixm:nominalLength>
-        <aixm:nominalWidth uom="M">45.0</aixm:nominalWidth>
-        <aixm:associatedAirportHeliport xlink:href="urn:uuid:uuid.cyeg" xlink:title="Edmonton International Airport"/>
-      </aixm:RunwayTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Runway>
-</message:hasMember>
-<!-- Navaid Section: Navaids across Canada -->
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid1">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid1</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_1">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_1">
-            <gml:beginPosition>2015-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:type>VOR</aixm:type>
-        <aixm:name>Toronto VOR</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_1" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>43.6777 -79.6248</gml:pos>
-        <aixm:elevation uom="M">150</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid2">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid2</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_2">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_2">
-            <gml:beginPosition>2016-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>2</aixm:sequenceNumber>
-        <aixm:type>NDB</aixm:type>
-        <aixm:name>Toronto NDB</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_2" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>43.7000 -79.5000</gml:pos>
-        <aixm:elevation uom="M">100</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid3">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid3</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_3">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_3">
-            <gml:beginPosition>2014-06-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>3</aixm:sequenceNumber>
-        <aixm:type>DME</aixm:type>
-        <aixm:name>Toronto DME</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_3" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>43.6800 -79.6200</gml:pos>
-        <aixm:elevation uom="M">120</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid4">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid4</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_4">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_4">
-            <gml:beginPosition>2017-03-15T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>4</aixm:sequenceNumber>
-        <aixm:type>ILS</aixm:type>
-        <aixm:name>Toronto ILS</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_4" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>43.6700 -79.6300</gml:pos>
-        <aixm:elevation uom="M">130</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<!-- Vancouver Navaids -->
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid5">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid5</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_5">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_5">
-            <gml:beginPosition>2015-05-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>5</aixm:sequenceNumber>
-        <aixm:type>VOR</aixm:type>
-        <aixm:name>Vancouver VOR</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_5" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>49.1930 -123.1845</gml:pos>
-        <aixm:elevation uom="M">80</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid6">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid6</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_6">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_6">
-            <gml:beginPosition>2016-05-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>6</aixm:sequenceNumber>
-        <aixm:type>NDB</aixm:type>
-        <aixm:name>Vancouver NDB</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_6" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>49.2000 -123.2000</gml:pos>
-        <aixm:elevation uom="M">60</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid7">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid7</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_7">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_7">
-            <gml:beginPosition>2014-08-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>7</aixm:sequenceNumber>
-        <aixm:type>DME</aixm:type>
-        <aixm:name>Vancouver DME</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_7" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>49.1900 -123.1800</gml:pos>
-        <aixm:elevation uom="M">70</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<!-- Montreal Navaids -->
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid8">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid8</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_8">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_8">
-            <gml:beginPosition>2013-09-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>8</aixm:sequenceNumber>
-        <aixm:type>VOR</aixm:type>
-        <aixm:name>Montreal VOR</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_8" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>45.4700 -73.7400</gml:pos>
-        <aixm:elevation uom="M">130</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid9">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid9</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_9">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_9">
-            <gml:beginPosition>2015-11-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>9</aixm:sequenceNumber>
-        <aixm:type>NDB</aixm:type>
-        <aixm:name>Montreal NDB</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_9" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>45.5000 -73.6000</gml:pos>
-        <aixm:elevation uom="M">90</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid10">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid10</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_10">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_10">
-            <gml:beginPosition>2014-03-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>10</aixm:sequenceNumber>
-        <aixm:type>ILS</aixm:type>
-        <aixm:name>Montreal ILS</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_10" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>45.4800 -73.7500</gml:pos>
-        <aixm:elevation uom="M">110</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<!-- Calgary Navaids -->
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid11">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid11</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_11">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_11">
-            <gml:beginPosition>2015-02-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>11</aixm:sequenceNumber>
-        <aixm:type>VOR</aixm:type>
-        <aixm:name>Calgary VOR</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_11" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>51.0000 -114.0000</gml:pos>
-        <aixm:elevation uom="M">200</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid12">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid12</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_12">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_12">
-            <gml:beginPosition>2014-11-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>12</aixm:sequenceNumber>
-        <aixm:type>NDB</aixm:type>
-        <aixm:name>Calgary NDB</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_12" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>50.9000 -113.9500</gml:pos>
-        <aixm:elevation uom="M">180</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<!-- Edmonton Navaids -->
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid13">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid13</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_13">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_13">
-            <gml:beginPosition>2013-07-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>13</aixm:sequenceNumber>
-        <aixm:type>VOR</aixm:type>
-        <aixm:name>Edmonton VOR</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_13" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>53.4500 -113.5500</gml:pos>
-        <aixm:elevation uom="M">170</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid14">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid14</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_14">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_14">
-            <gml:beginPosition>2016-03-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>14</aixm:sequenceNumber>
-        <aixm:type>NDB</aixm:type>
-        <aixm:name>Edmonton NDB</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_14" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>53.4300 -113.6000</gml:pos>
-        <aixm:elevation uom="M">160</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<!-- Additional Navaids to reach 20 entries -->
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid15">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid15</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_15">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_15">
-            <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>15</aixm:sequenceNumber>
-        <aixm:type>ILS</aixm:type>
-        <aixm:name>Edmonton ILS</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_15" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>53.5000 -113.5500</gml:pos>
-        <aixm:elevation uom="M">165</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid16">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid16</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_16">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_16">
-            <gml:beginPosition>2014-09-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>16</aixm:sequenceNumber>
-        <aixm:type>VOR</aixm:type>
-        <aixm:name>Calgary VOR 2</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_16" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>50.9900 -113.9800</gml:pos>
-        <aixm:elevation uom="M">210</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid17">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid17</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_17">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_17">
-            <gml:beginPosition>2013-03-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>17</aixm:sequenceNumber>
-        <aixm:type>ILS</aixm:type>
-        <aixm:name>Montreal ILS 2</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_17" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>45.4600 -73.7300</gml:pos>
-        <aixm:elevation uom="M">115</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid18">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid18</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_18">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_18">
-            <gml:beginPosition>2016-07-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>18</aixm:sequenceNumber>
-        <aixm:type>NDB</aixm:type>
-        <aixm:name>Edmonton NDB 2</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_18" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>53.4600 -113.5800</gml:pos>
-        <aixm:elevation uom="M">165</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid19">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid19</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_19">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_19">
-            <gml:beginPosition>2015-12-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>19</aixm:sequenceNumber>
-        <aixm:type>VOR</aixm:type>
-        <aixm:name>Montreal VOR 2</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_19" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>45.4800 -73.7200</gml:pos>
-        <aixm:elevation uom="M">135</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Navaid gml:id="uuid.navaid20">
-    <gml:identifier codeSpace="urn:uuid:">uuid.navaid20</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NavaidTimeSlice gml:id="NAVAID_TS_20">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_NAVAID_20">
-            <gml:beginPosition>2017-10-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>20</aixm:sequenceNumber>
-        <aixm:type>ILS</aixm:type>
-        <aixm:name>Calgary ILS</aixm:name>
-      </aixm:NavaidTimeSlice>
-    </aixm:timeSlice>
-    <aixm:location>
-      <aixm:ElevatedPoint gml:id="EP_NAVAID_20" srsName="urn:ogc:def:crs:EPSG::4326">
-        <gml:pos>50.9800 -113.9700</gml:pos>
-        <aixm:elevation uom="M">205</aixm:elevation>
-      </aixm:ElevatedPoint>
-    </aixm:location>
-  </aixm:Navaid>
-</message:hasMember>
-<!-- Flight Routes Section: Robust Flight Routes across Canada (6 Routes) -->
-<message:hasMember>
-  <aixm:Route gml:id="uuid.route1">
-    <gml:identifier codeSpace="urn:uuid:">uuid.route1</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:RouteTimeSlice gml:id="RTS_route1">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_route1">
-            <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:featureLifetime>
-          <gml:TimePeriod gml:id="LT_route1">
-            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </aixm:featureLifetime>
-        <aixm:designatorPrefix>U</aixm:designatorPrefix>
-        <aixm:designatorSecondLetter>A</aixm:designatorSecondLetter>
-        <aixm:designatorNumber>101</aixm:designatorNumber>
-        <aixm:type>ATS</aixm:type>
-        <aixm:flightRule>IFR</aixm:flightRule>
-        <aixm:routeGeometry>
-          <gml:LineString gml:id="LS_route1">
-            <gml:posList srsName="urn:ogc:def:crs:EPSG::4326">
-              43.6777 -79.6248 45.4700 -73.7400
-            </gml:posList>
-          </gml:LineString>
-        </aixm:routeGeometry>
-      </aixm:RouteTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Route>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Route gml:id="uuid.route2">
-    <gml:identifier codeSpace="urn:uuid:">uuid.route2</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:RouteTimeSlice gml:id="RTS_route2">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_route2">
-            <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:featureLifetime>
-          <gml:TimePeriod gml:id="LT_route2">
-            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </aixm:featureLifetime>
-        <aixm:designatorPrefix>U</aixm:designatorPrefix>
-        <aixm:designatorSecondLetter>B</aixm:designatorSecondLetter>
-        <aixm:designatorNumber>202</aixm:designatorNumber>
-        <aixm:type>ATS</aixm:type>
-        <aixm:flightRule>IFR</aixm:flightRule>
-        <aixm:routeGeometry>
-          <gml:LineString gml:id="LS_route2">
-            <gml:posList srsName="urn:ogc:def:crs:EPSG::4326">
-              49.1930 -123.1845 51.0000 -114.0000
-            </gml:posList>
-          </gml:LineString>
-        </aixm:routeGeometry>
-      </aixm:RouteTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Route>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Route gml:id="uuid.route3">
-    <gml:identifier codeSpace="urn:uuid:">uuid.route3</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:RouteTimeSlice gml:id="RTS_route3">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_route3">
-            <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:featureLifetime>
-          <gml:TimePeriod gml:id="LT_route3">
-            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </aixm:featureLifetime>
-        <aixm:designatorPrefix>U</aixm:designatorPrefix>
-        <aixm:designatorSecondLetter>C</aixm:designatorSecondLetter>
-        <aixm:designatorNumber>303</aixm:designatorNumber>
-        <aixm:type>ATS</aixm:type>
-        <aixm:flightRule>IFR</aixm:flightRule>
-        <aixm:routeGeometry>
-          <gml:LineString gml:id="LS_route3">
-            <gml:posList srsName="urn:ogc:def:crs:EPSG::4326">
-              53.4500 -113.5500 43.6777 -79.6248
-            </gml:posList>
-          </gml:LineString>
-        </aixm:routeGeometry>
-      </aixm:RouteTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Route>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Route gml:id="uuid.route4">
-    <gml:identifier codeSpace="urn:uuid:">uuid.route4</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:RouteTimeSlice gml:id="RTS_route4">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_route4">
-            <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:featureLifetime>
-          <gml:TimePeriod gml:id="LT_route4">
-            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </aixm:featureLifetime>
-        <aixm:designatorPrefix>U</aixm:designatorPrefix>
-        <aixm:designatorSecondLetter>D</aixm:designatorSecondLetter>
-        <aixm:designatorNumber>404</aixm:designatorNumber>
-        <aixm:type>ATS</aixm:type>
-        <aixm:flightRule>IFR</aixm:flightRule>
-        <aixm:routeGeometry>
-          <gml:LineString gml:id="LS_route4">
-            <gml:posList srsName="urn:ogc:def:crs:EPSG::4326">
-              45.4215 -75.6972 44.6488 -63.5752
-            </gml:posList>
-          </gml:LineString>
-        </aixm:routeGeometry>
-      </aixm:RouteTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Route>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Route gml:id="uuid.route5">
-    <gml:identifier codeSpace="urn:uuid:">uuid.route5</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:RouteTimeSlice gml:id="RTS_route5">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_route5">
-            <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:featureLifetime>
-          <gml:TimePeriod gml:id="LT_route5">
-            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </aixm:featureLifetime>
-        <aixm:designatorPrefix>U</aixm:designatorPrefix>
-        <aixm:designatorSecondLetter>E</aixm:designatorSecondLetter>
-        <aixm:designatorNumber>505</aixm:designatorNumber>
-        <aixm:type>ATS</aixm:type>
-        <aixm:flightRule>IFR</aixm:flightRule>
-        <aixm:routeGeometry>
-          <gml:LineString gml:id="LS_route5">
-            <gml:posList srsName="urn:ogc:def:crs:EPSG::4326">
-              51.0447 -114.0719 49.8951 -97.1384
-            </gml:posList>
-          </gml:LineString>
-        </aixm:routeGeometry>
-      </aixm:RouteTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Route>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Route gml:id="uuid.route6">
-    <gml:identifier codeSpace="urn:uuid:">uuid.route6</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:RouteTimeSlice gml:id="RTS_route6">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_route6">
-            <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:featureLifetime>
-          <gml:TimePeriod gml:id="LT_route6">
-            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </aixm:featureLifetime>
-        <aixm:designatorPrefix>U</aixm:designatorPrefix>
-        <aixm:designatorSecondLetter>F</aixm:designatorSecondLetter>
-        <aixm:designatorNumber>606</aixm:designatorNumber>
-        <aixm:type>ATS</aixm:type>
-        <aixm:flightRule>IFR</aixm:flightRule>
-        <aixm:routeGeometry>
-          <gml:LineString gml:id="LS_route6">
-            <gml:posList srsName="urn:ogc:def:crs:EPSG::4326">
-              45.5017 -73.5673 49.2827 -123.1207
-            </gml:posList>
-          </gml:LineString>
-        </aixm:routeGeometry>
-      </aixm:RouteTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Route>
-</message:hasMember>
-<!-- FIR (Flight Information Region) Section -->
-<message:hasMember>
-  <aixm:Airspace gml:id="uuid.fir1">
-    <gml:identifier codeSpace="urn:uuid:">fir-atlantic</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:AirspaceTimeSlice gml:id="AT_slice1">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_fir1">
-            <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:featureLifetime>
-          <gml:TimePeriod gml:id="LT_fir1">
-            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </aixm:featureLifetime>
-        <aixm:type>FIR</aixm:type>
-        <aixm:designator>EATL</aixm:designator>
-        <aixm:name>Atlantic FIR</aixm:name>
-        <!-- Optionally include boundary geometry here -->
-      </aixm:AirspaceTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Airspace>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Airspace gml:id="uuid.fir2">
-    <gml:identifier codeSpace="urn:uuid:">fir-central</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:AirspaceTimeSlice gml:id="AT_slice2">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_fir2">
-            <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:featureLifetime>
-          <gml:TimePeriod gml:id="LT_fir2">
-            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </aixm:featureLifetime>
-        <aixm:type>FIR</aixm:type>
-        <aixm:designator>ECTR</aixm:designator>
-        <aixm:name>Central FIR</aixm:name>
-      </aixm:AirspaceTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Airspace>
-</message:hasMember>
-
-<message:hasMember>
-  <aixm:Airspace gml:id="uuid.fir3">
-    <gml:identifier codeSpace="urn:uuid:">fir-pacific</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:AirspaceTimeSlice gml:id="AT_slice3">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_fir3">
-            <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:featureLifetime>
-          <gml:TimePeriod gml:id="LT_fir3">
-            <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </aixm:featureLifetime>
-        <aixm:type>FIR</aixm:type>
-        <aixm:designator>EPAC</aixm:designator>
-        <aixm:name>Pacific FIR</aixm:name>
-      </aixm:AirspaceTimeSlice>
-    </aixm:timeSlice>
-  </aixm:Airspace>
-</message:hasMember>
-<!-- Procedure Section: Instrument Approach and Standard Instrument Departure Procedures -->
-
-<mes:hasMember xmlns:mes="http://www.aixm.aero/schema/5.1.1/message"
+   <gml:boundedBy>
+       <gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326">
+           <!-- Rough bounding box covering Canada -->
+           <gml:lowerCorner>42.0 -141.0</gml:lowerCorner>
+           <gml:upperCorner>83.0 -52.0</gml:upperCorner>
+       </gml:Envelope>
+   </gml:boundedBy>
+   <aixm:messageMetadata>
+       <gmd:MD_Metadata id="MD_CANADA_MESSAGE">
+           <gmd:characterSet>
+               <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+           </gmd:characterSet>
+           <gmd:contact>
+               <gmd:CI_ResponsibleParty>
+                   <gmd:organisationName>
+                       <gco:CharacterString>Transport Canada</gco:CharacterString>
+                   </gmd:organisationName>
+                   <gmd:contactInfo>
+                       <gmd:CI_Contact>
+                           <gmd:onlineResource>
+                               <gmd:CI_OnlineResource>
+                                   <gmd:linkage>
+                                       <gmd:URL>https://www.tc.gc.ca</gmd:URL>
+                                   </gmd:linkage>
+                               </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                       </gmd:CI_Contact>
+                   </gmd:contactInfo>
+                   <gmd:role>
+                       <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                   </gmd:role>
+               </gmd:CI_ResponsibleParty>
+           </gmd:contact>
+           <gmd:dateStamp>
+               <gco:DateTime>2024-09-12T12:00:00Z</gco:DateTime>
+           </gmd:dateStamp>
+           <gmd:identificationInfo>
+               <gmd:MD_DataIdentification>
+                   <gmd:citation>
+                       <gmd:CI_Citation>
+                           <gmd:title>
+                               <gco:CharacterString>Canada AIXM Sample Dataset</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                               <gmd:CI_Date>
+                                   <gmd:date>
+                                       <gco:DateTime>2024-09-12T00:00:00Z</gco:DateTime>
+                                   </gmd:date>
+                                   <gmd:dateType>
+                                       <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                   </gmd:dateType>
+                               </gmd:CI_Date>
+                           </gmd:date>
+                       </gmd:CI_Citation>
+                   </gmd:citation>
+                   <gmd:abstract>
+                       <gco:CharacterString>This is a sample AIXM 5.1 dataset for Canada, created to showcase how NLP techniques can extract and analyze meaningful aviation insights.</gco:CharacterString>
+                   </gmd:abstract>
+                   <gmd:language>
+                       <gco:CharacterString>eng</gco:CharacterString>
+                   </gmd:language>
+               </gmd:MD_DataIdentification>
+           </gmd:identificationInfo>
+       </gmd:MD_Metadata>
+   </aixm:messageMetadata>
+   <!-- Additional dataset content (airports, navaids, runways, etc.) would follow here -->
+   <!-- Airport Section: International Airports across Canada -->
+   <message:hasMember>
+       <aixm:AirportHeliport gml:id="uuid.cyyz">
+           <gml:identifier codeSpace="urn:uuid:">uuid.cyyz</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:AirportHeliportTimeSlice gml:id="AP_TS_CYYZ">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_CYYZ">
+                           <gml:beginPosition>2010-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:correctionNumber>0</aixm:correctionNumber>
+                   <aixm:featureLifetime>
+                       <gml:TimePeriod gml:id="LT_CYYZ">
+                           <gml:beginPosition>2010-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </aixm:featureLifetime>
+                   <aixm:designator>CYYZ/YYZ</aixm:designator>
+                   <aixm:name>Toronto Pearson International Airport</aixm:name>
+                   <aixm:locationIndicatorICAO>CYYZ</aixm:locationIndicatorICAO>
+                   <aixm:fieldElevation uom="M">173</aixm:fieldElevation>
+                   <aixm:ARP>
+                       <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ARP_CYYZ">
+                           <gml:pos>43.6777 -79.6248</gml:pos>
+                       </aixm:ElevatedPoint>
+                   </aixm:ARP>
+               </aixm:AirportHeliportTimeSlice>
+           </aixm:timeSlice>
+       </aixm:AirportHeliport>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:AirportHeliport gml:id="uuid.cyvr">
+           <gml:identifier codeSpace="urn:uuid:">uuid.cyvr</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:AirportHeliportTimeSlice gml:id="AP_TS_CYVR">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_CYVR">
+                           <gml:beginPosition>2011-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:correctionNumber>0</aixm:correctionNumber>
+                   <aixm:featureLifetime>
+                       <gml:TimePeriod gml:id="LT_CYVR">
+                           <gml:beginPosition>2011-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </aixm:featureLifetime>
+                   <aixm:designator>CYVR/YVR</aixm:designator>
+                   <aixm:name>Vancouver International Airport</aixm:name>
+                   <aixm:locationIndicatorICAO>CYVR</aixm:locationIndicatorICAO>
+                   <aixm:fieldElevation uom="M">14</aixm:fieldElevation>
+                   <aixm:ARP>
+                       <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ARP_CYVR">
+                           <gml:pos>49.1947 -123.1792</gml:pos>
+                       </aixm:ElevatedPoint>
+                   </aixm:ARP>
+               </aixm:AirportHeliportTimeSlice>
+           </aixm:timeSlice>
+       </aixm:AirportHeliport>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:AirportHeliport gml:id="uuid.cyul">
+           <gml:identifier codeSpace="urn:uuid:">uuid.cyul</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:AirportHeliportTimeSlice gml:id="AP_TS_CYUL">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_CYUL">
+                           <gml:beginPosition>2012-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:correctionNumber>0</aixm:correctionNumber>
+                   <aixm:featureLifetime>
+                       <gml:TimePeriod gml:id="LT_CYUL">
+                           <gml:beginPosition>2012-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </aixm:featureLifetime>
+                   <aixm:designator>CYUL/YUL</aixm:designator>
+                   <aixm:name>Montreal-Pierre Elliott Trudeau International Airport</aixm:name>
+                   <aixm:locationIndicatorICAO>CYUL</aixm:locationIndicatorICAO>
+                   <aixm:fieldElevation uom="M">15</aixm:fieldElevation>
+                   <aixm:ARP>
+                       <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ARP_CYUL">
+                           <gml:pos>45.4706 -73.7408</gml:pos>
+                       </aixm:ElevatedPoint>
+                   </aixm:ARP>
+               </aixm:AirportHeliportTimeSlice>
+           </aixm:timeSlice>
+       </aixm:AirportHeliport>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:AirportHeliport gml:id="uuid.cyyc">
+           <gml:identifier codeSpace="urn:uuid:">uuid.cyyc</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:AirportHeliportTimeSlice gml:id="AP_TS_CYYC">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_CYYC">
+                           <gml:beginPosition>2013-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:correctionNumber>0</aixm:correctionNumber>
+                   <aixm:featureLifetime>
+                       <gml:TimePeriod gml:id="LT_CYYC">
+                           <gml:beginPosition>2013-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </aixm:featureLifetime>
+                   <aixm:designator>CYYC/YYC</aixm:designator>
+                   <aixm:name>Calgary International Airport</aixm:name>
+                   <aixm:locationIndicatorICAO>CYYC</aixm:locationIndicatorICAO>
+                   <aixm:fieldElevation uom="M">1048</aixm:fieldElevation>
+                   <aixm:ARP>
+                       <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ARP_CYYC">
+                           <gml:pos>51.1139 -114.0194</gml:pos>
+                       </aixm:ElevatedPoint>
+                   </aixm:ARP>
+               </aixm:AirportHeliportTimeSlice>
+           </aixm:timeSlice>
+       </aixm:AirportHeliport>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:AirportHeliport gml:id="uuid.cyeg">
+           <gml:identifier codeSpace="urn:uuid:">uuid.cyeg</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:AirportHeliportTimeSlice gml:id="AP_TS_CYEG">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_CYEG">
+                           <gml:beginPosition>2014-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:correctionNumber>0</aixm:correctionNumber>
+                   <aixm:featureLifetime>
+                       <gml:TimePeriod gml:id="LT_CYEG">
+                           <gml:beginPosition>2014-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </aixm:featureLifetime>
+                   <aixm:designator>CYEG/YEG</aixm:designator>
+                   <aixm:name>Edmonton International Airport</aixm:name>
+                   <aixm:locationIndicatorICAO>CYEG</aixm:locationIndicatorICAO>
+                   <aixm:fieldElevation uom="M">668</aixm:fieldElevation>
+                   <aixm:ARP>
+                       <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="ARP_CYEG">
+                           <gml:pos>53.3097 -113.5804</gml:pos>
+                       </aixm:ElevatedPoint>
+                   </aixm:ARP>
+               </aixm:AirportHeliportTimeSlice>
+           </aixm:timeSlice>
+       </aixm:AirportHeliport>
+   </message:hasMember>
+   <!-- Runway Section: Runway details for selected international airports in Canada -->
+   <!-- Toronto Pearson International Airport (uuid.cyyz) -->
+   <message:hasMember>
+       <aixm:Runway gml:id="uuid.runway1">
+           <gml:identifier codeSpace="urn:uuid:">uuid.runway1</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:RunwayTimeSlice gml:id="RWY_TS_CYYZ_09L27R">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_RWY_CYYZ">
+                           <gml:beginPosition>2010-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:designator>09L/27R</aixm:designator>
+                   <aixm:type>RWY</aixm:type>
+                   <aixm:nominalLength uom="M">2800.0</aixm:nominalLength>
+                   <aixm:nominalWidth uom="M">45.0</aixm:nominalWidth>
+                   <aixm:associatedAirportHeliport xlink:href="urn:uuid:uuid.cyyz" xlink:title="Toronto Pearson International Airport"/>
+               </aixm:RunwayTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Runway>
+   </message:hasMember>
+   <!-- Vancouver International Airport (uuid.cyvr) -->
+   <message:hasMember>
+       <aixm:Runway gml:id="uuid.runway2">
+           <gml:identifier codeSpace="urn:uuid:">uuid.runway2</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:RunwayTimeSlice gml:id="RWY_TS_CYVR_08_26">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_RWY_CYVR">
+                           <gml:beginPosition>2011-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:designator>08/26</aixm:designator>
+                   <aixm:type>RWY</aixm:type>
+                   <aixm:nominalLength uom="M">3200.0</aixm:nominalLength>
+                   <aixm:nominalWidth uom="M">60.0</aixm:nominalWidth>
+                   <aixm:associatedAirportHeliport xlink:href="urn:uuid:uuid.cyvr" xlink:title="Vancouver International Airport"/>
+               </aixm:RunwayTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Runway>
+   </message:hasMember>
+   <!-- Montreal-Pierre Elliott Trudeau International Airport (uuid.cyul) -->
+   <message:hasMember>
+       <aixm:Runway gml:id="uuid.runway3">
+           <gml:identifier codeSpace="urn:uuid:">uuid.runway3</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:RunwayTimeSlice gml:id="RWY_TS_CYUL_11_29">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_RWY_CYUL">
+                           <gml:beginPosition>2012-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:designator>11/29</aixm:designator>
+                   <aixm:type>RWY</aixm:type>
+                   <aixm:nominalLength uom="M">3200.0</aixm:nominalLength>
+                   <aixm:nominalWidth uom="M">60.0</aixm:nominalWidth>
+                   <aixm:associatedAirportHeliport xlink:href="urn:uuid:uuid.cyul" xlink:title="Montreal-Pierre Elliott Trudeau International Airport"/>
+               </aixm:RunwayTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Runway>
+   </message:hasMember>
+   <!-- Calgary International Airport (uuid.cyyc) -->
+   <message:hasMember>
+       <aixm:Runway gml:id="uuid.runway4">
+           <gml:identifier codeSpace="urn:uuid:">uuid.runway4</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:RunwayTimeSlice gml:id="RWY_TS_CYYC_16_34">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_RWY_CYYC">
+                           <gml:beginPosition>2013-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:designator>16/34</aixm:designator>
+                   <aixm:type>RWY</aixm:type>
+                   <aixm:nominalLength uom="M">3500.0</aixm:nominalLength>
+                   <aixm:nominalWidth uom="M">75.0</aixm:nominalWidth>
+                   <aixm:associatedAirportHeliport xlink:href="urn:uuid:uuid.cyyc" xlink:title="Calgary International Airport"/>
+               </aixm:RunwayTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Runway>
+   </message:hasMember>
+   <!-- Edmonton International Airport (uuid.cyeg) - Two Runways -->
+   <message:hasMember>
+       <aixm:Runway gml:id="uuid.runway5">
+           <gml:identifier codeSpace="urn:uuid:">uuid.runway5</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:RunwayTimeSlice gml:id="RWY_TS_CYEG_07_25">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_RWY_CYEG_1">
+                           <gml:beginPosition>2014-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:designator>07/25</aixm:designator>
+                   <aixm:type>RWY</aixm:type>
+                   <aixm:nominalLength uom="M">3000.0</aixm:nominalLength>
+                   <aixm:nominalWidth uom="M">45.0</aixm:nominalWidth>
+                   <aixm:associatedAirportHeliport xlink:href="urn:uuid:uuid.cyeg" xlink:title="Edmonton International Airport"/>
+               </aixm:RunwayTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Runway>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Runway gml:id="uuid.runway6">
+           <gml:identifier codeSpace="urn:uuid:">uuid.runway6</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:RunwayTimeSlice gml:id="RWY_TS_CYEG_15_33">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_RWY_CYEG_2">
+                           <gml:beginPosition>2014-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                   <aixm:designator>15/33</aixm:designator>
+                   <aixm:type>RWY</aixm:type>
+                   <aixm:nominalLength uom="M">2800.0</aixm:nominalLength>
+                   <aixm:nominalWidth uom="M">45.0</aixm:nominalWidth>
+                   <aixm:associatedAirportHeliport xlink:href="urn:uuid:uuid.cyeg" xlink:title="Edmonton International Airport"/>
+               </aixm:RunwayTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Runway>
+   </message:hasMember>
+   <!-- Navaid Section: Navaids across Canada -->
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid1">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid1</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_1">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_1">
+                           <gml:beginPosition>2015-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:type>VOR</aixm:type>
+                   <aixm:name>Toronto VOR</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_1" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>43.6777 -79.6248</gml:pos>
+                   <aixm:elevation uom="M">150</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid2">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid2</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_2">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_2">
+                           <gml:beginPosition>2016-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>2</aixm:sequenceNumber>
+                   <aixm:type>NDB</aixm:type>
+                   <aixm:name>Toronto NDB</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_2" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>43.7000 -79.5000</gml:pos>
+                   <aixm:elevation uom="M">100</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid3">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid3</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_3">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_3">
+                           <gml:beginPosition>2014-06-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>3</aixm:sequenceNumber>
+                   <aixm:type>DME</aixm:type>
+                   <aixm:name>Toronto DME</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_3" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>43.6800 -79.6200</gml:pos>
+                   <aixm:elevation uom="M">120</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid4">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid4</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_4">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_4">
+                           <gml:beginPosition>2017-03-15T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>4</aixm:sequenceNumber>
+                   <aixm:type>ILS</aixm:type>
+                   <aixm:name>Toronto ILS</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_4" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>43.6700 -79.6300</gml:pos>
+                   <aixm:elevation uom="M">130</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <!-- Vancouver Navaids -->
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid5">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid5</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_5">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_5">
+                           <gml:beginPosition>2015-05-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>5</aixm:sequenceNumber>
+                   <aixm:type>VOR</aixm:type>
+                   <aixm:name>Vancouver VOR</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_5" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>49.1930 -123.1845</gml:pos>
+                   <aixm:elevation uom="M">80</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid6">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid6</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_6">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_6">
+                           <gml:beginPosition>2016-05-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>6</aixm:sequenceNumber>
+                   <aixm:type>NDB</aixm:type>
+                   <aixm:name>Vancouver NDB</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_6" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>49.2000 -123.2000</gml:pos>
+                   <aixm:elevation uom="M">60</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid7">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid7</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_7">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_7">
+                           <gml:beginPosition>2014-08-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>7</aixm:sequenceNumber>
+                   <aixm:type>DME</aixm:type>
+                   <aixm:name>Vancouver DME</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_7" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>49.1900 -123.1800</gml:pos>
+                   <aixm:elevation uom="M">70</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <!-- Montreal Navaids -->
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid8">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid8</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_8">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_8">
+                           <gml:beginPosition>2013-09-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>8</aixm:sequenceNumber>
+                   <aixm:type>VOR</aixm:type>
+                   <aixm:name>Montreal VOR</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_8" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>45.4700 -73.7400</gml:pos>
+                   <aixm:elevation uom="M">130</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid9">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid9</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_9">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_9">
+                           <gml:beginPosition>2015-11-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>9</aixm:sequenceNumber>
+                   <aixm:type>NDB</aixm:type>
+                   <aixm:name>Montreal NDB</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_9" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>45.5000 -73.6000</gml:pos>
+                   <aixm:elevation uom="M">90</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid10">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid10</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_10">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_10">
+                           <gml:beginPosition>2014-03-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>10</aixm:sequenceNumber>
+                   <aixm:type>ILS</aixm:type>
+                   <aixm:name>Montreal ILS</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_10" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>45.4800 -73.7500</gml:pos>
+                   <aixm:elevation uom="M">110</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <!-- Calgary Navaids -->
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid11">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid11</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_11">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_11">
+                           <gml:beginPosition>2015-02-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>11</aixm:sequenceNumber>
+                   <aixm:type>VOR</aixm:type>
+                   <aixm:name>Calgary VOR</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_11" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>51.0000 -114.0000</gml:pos>
+                   <aixm:elevation uom="M">200</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid12">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid12</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_12">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_12">
+                           <gml:beginPosition>2014-11-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>12</aixm:sequenceNumber>
+                   <aixm:type>NDB</aixm:type>
+                   <aixm:name>Calgary NDB</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_12" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>50.9000 -113.9500</gml:pos>
+                   <aixm:elevation uom="M">180</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <!-- Edmonton Navaids -->
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid13">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid13</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_13">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_13">
+                           <gml:beginPosition>2013-07-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>13</aixm:sequenceNumber>
+                   <aixm:type>VOR</aixm:type>
+                   <aixm:name>Edmonton VOR</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_13" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>53.4500 -113.5500</gml:pos>
+                   <aixm:elevation uom="M">170</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid14">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid14</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_14">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_14">
+                           <gml:beginPosition>2016-03-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>14</aixm:sequenceNumber>
+                   <aixm:type>NDB</aixm:type>
+                   <aixm:name>Edmonton NDB</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_14" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>53.4300 -113.6000</gml:pos>
+                   <aixm:elevation uom="M">160</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <!-- Additional Navaids to reach 20 entries -->
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid15">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid15</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_15">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_15">
+                           <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>15</aixm:sequenceNumber>
+                   <aixm:type>ILS</aixm:type>
+                   <aixm:name>Edmonton ILS</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_15" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>53.5000 -113.5500</gml:pos>
+                   <aixm:elevation uom="M">165</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid16">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid16</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_16">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_16">
+                           <gml:beginPosition>2014-09-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>16</aixm:sequenceNumber>
+                   <aixm:type>VOR</aixm:type>
+                   <aixm:name>Calgary VOR 2</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_16" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>50.9900 -113.9800</gml:pos>
+                   <aixm:elevation uom="M">210</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid17">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid17</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_17">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_17">
+                           <gml:beginPosition>2013-03-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>17</aixm:sequenceNumber>
+                   <aixm:type>ILS</aixm:type>
+                   <aixm:name>Montreal ILS 2</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_17" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>45.4600 -73.7300</gml:pos>
+                   <aixm:elevation uom="M">115</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid18">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid18</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_18">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_18">
+                           <gml:beginPosition>2016-07-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>18</aixm:sequenceNumber>
+                   <aixm:type>NDB</aixm:type>
+                   <aixm:name>Edmonton NDB 2</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_18" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>53.4600 -113.5800</gml:pos>
+                   <aixm:elevation uom="M">165</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid19">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid19</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_19">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_19">
+                           <gml:beginPosition>2015-12-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>19</aixm:sequenceNumber>
+                   <aixm:type>VOR</aixm:type>
+                   <aixm:name>Montreal VOR 2</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_19" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>45.4800 -73.7200</gml:pos>
+                   <aixm:elevation uom="M">135</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Navaid gml:id="uuid.navaid20">
+           <gml:identifier codeSpace="urn:uuid:">uuid.navaid20</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NavaidTimeSlice gml:id="NAVAID_TS_20">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_NAVAID_20">
+                           <gml:beginPosition>2017-10-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>20</aixm:sequenceNumber>
+                   <aixm:type>ILS</aixm:type>
+                   <aixm:name>Calgary ILS</aixm:name>
+               </aixm:NavaidTimeSlice>
+           </aixm:timeSlice>
+           <aixm:location>
+               <aixm:ElevatedPoint gml:id="EP_NAVAID_20" srsName="urn:ogc:def:crs:EPSG::4326">
+                   <gml:pos>50.9800 -113.9700</gml:pos>
+                   <aixm:elevation uom="M">205</aixm:elevation>
+               </aixm:ElevatedPoint>
+           </aixm:location>
+       </aixm:Navaid>
+   </message:hasMember>
+   <!-- Flight Routes Section: Robust Flight Routes across Canada (6 Routes) -->
+   <message:hasMember>
+       <aixm:Route gml:id="uuid.route1">
+           <gml:identifier codeSpace="urn:uuid:">uuid.route1</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:RouteTimeSlice gml:id="RTS_route1">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_route1">
+                           <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:featureLifetime>
+                       <gml:TimePeriod gml:id="LT_route1">
+                           <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </aixm:featureLifetime>
+                   <aixm:designatorPrefix>U</aixm:designatorPrefix>
+                   <aixm:designatorSecondLetter>A</aixm:designatorSecondLetter>
+                   <aixm:designatorNumber>101</aixm:designatorNumber>
+                   <aixm:type>ATS</aixm:type>
+                   <aixm:flightRule>IFR</aixm:flightRule>
+                   <aixm:routeGeometry>
+                       <gml:LineString gml:id="LS_route1">
+                           <gml:posList srsName="urn:ogc:def:crs:EPSG::4326">43.6777 -79.6248 45.4700 -73.7400</gml:posList>
+                       </gml:LineString>
+                   </aixm:routeGeometry>
+               </aixm:RouteTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Route>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Route gml:id="uuid.route2">
+           <gml:identifier codeSpace="urn:uuid:">uuid.route2</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:RouteTimeSlice gml:id="RTS_route2">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_route2">
+                           <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:featureLifetime>
+                       <gml:TimePeriod gml:id="LT_route2">
+                           <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </aixm:featureLifetime>
+                   <aixm:designatorPrefix>U</aixm:designatorPrefix>
+                   <aixm:designatorSecondLetter>B</aixm:designatorSecondLetter>
+                   <aixm:designatorNumber>202</aixm:designatorNumber>
+                   <aixm:type>ATS</aixm:type>
+                   <aixm:flightRule>IFR</aixm:flightRule>
+                   <aixm:routeGeometry>
+                       <gml:LineString gml:id="LS_route2">
+                           <gml:posList srsName="urn:ogc:def:crs:EPSG::4326">49.1930 -123.1845 51.0000 -114.0000</gml:posList>
+                       </gml:LineString>
+                   </aixm:routeGeometry>
+               </aixm:RouteTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Route>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Route gml:id="uuid.route3">
+           <gml:identifier codeSpace="urn:uuid:">uuid.route3</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:RouteTimeSlice gml:id="RTS_route3">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_route3">
+                           <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:featureLifetime>
+                       <gml:TimePeriod gml:id="LT_route3">
+                           <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </aixm:featureLifetime>
+                   <aixm:designatorPrefix>U</aixm:designatorPrefix>
+                   <aixm:designatorSecondLetter>C</aixm:designatorSecondLetter>
+                   <aixm:designatorNumber>303</aixm:designatorNumber>
+                   <aixm:type>ATS</aixm:type>
+                   <aixm:flightRule>IFR</aixm:flightRule>
+                   <aixm:routeGeometry>
+                       <gml:LineString gml:id="LS_route3">
+                           <gml:posList srsName="urn:ogc:def:crs:EPSG::4326">53.4500 -113.5500 43.6777 -79.6248</gml:posList>
+                       </gml:LineString>
+                   </aixm:routeGeometry>
+               </aixm:RouteTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Route>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Route gml:id="uuid.route4">
+           <gml:identifier codeSpace="urn:uuid:">uuid.route4</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:RouteTimeSlice gml:id="RTS_route4">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_route4">
+                           <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:featureLifetime>
+                       <gml:TimePeriod gml:id="LT_route4">
+                           <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </aixm:featureLifetime>
+                   <aixm:designatorPrefix>U</aixm:designatorPrefix>
+                   <aixm:designatorSecondLetter>D</aixm:designatorSecondLetter>
+                   <aixm:designatorNumber>404</aixm:designatorNumber>
+                   <aixm:type>ATS</aixm:type>
+                   <aixm:flightRule>IFR</aixm:flightRule>
+                   <aixm:routeGeometry>
+                       <gml:LineString gml:id="LS_route4">
+                           <gml:posList srsName="urn:ogc:def:crs:EPSG::4326">45.4215 -75.6972 44.6488 -63.5752</gml:posList>
+                       </gml:LineString>
+                   </aixm:routeGeometry>
+               </aixm:RouteTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Route>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Route gml:id="uuid.route5">
+           <gml:identifier codeSpace="urn:uuid:">uuid.route5</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:RouteTimeSlice gml:id="RTS_route5">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_route5">
+                           <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:featureLifetime>
+                       <gml:TimePeriod gml:id="LT_route5">
+                           <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </aixm:featureLifetime>
+                   <aixm:designatorPrefix>U</aixm:designatorPrefix>
+                   <aixm:designatorSecondLetter>E</aixm:designatorSecondLetter>
+                   <aixm:designatorNumber>505</aixm:designatorNumber>
+                   <aixm:type>ATS</aixm:type>
+                   <aixm:flightRule>IFR</aixm:flightRule>
+                   <aixm:routeGeometry>
+                       <gml:LineString gml:id="LS_route5">
+                           <gml:posList srsName="urn:ogc:def:crs:EPSG::4326">51.0447 -114.0719 49.8951 -97.1384</gml:posList>
+                       </gml:LineString>
+                   </aixm:routeGeometry>
+               </aixm:RouteTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Route>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Route gml:id="uuid.route6">
+           <gml:identifier codeSpace="urn:uuid:">uuid.route6</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:RouteTimeSlice gml:id="RTS_route6">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_route6">
+                           <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:featureLifetime>
+                       <gml:TimePeriod gml:id="LT_route6">
+                           <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </aixm:featureLifetime>
+                   <aixm:designatorPrefix>U</aixm:designatorPrefix>
+                   <aixm:designatorSecondLetter>F</aixm:designatorSecondLetter>
+                   <aixm:designatorNumber>606</aixm:designatorNumber>
+                   <aixm:type>ATS</aixm:type>
+                   <aixm:flightRule>IFR</aixm:flightRule>
+                   <aixm:routeGeometry>
+                       <gml:LineString gml:id="LS_route6">
+                           <gml:posList srsName="urn:ogc:def:crs:EPSG::4326">45.5017 -73.5673 49.2827 -123.1207</gml:posList>
+                       </gml:LineString>
+                   </aixm:routeGeometry>
+               </aixm:RouteTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Route>
+   </message:hasMember>
+   <!-- FIR (Flight Information Region) Section -->
+   <message:hasMember>
+       <aixm:Airspace gml:id="uuid.fir1">
+           <gml:identifier codeSpace="urn:uuid:">fir-atlantic</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:AirspaceTimeSlice gml:id="AT_slice1">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_fir1">
+                           <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:featureLifetime>
+                       <gml:TimePeriod gml:id="LT_fir1">
+                           <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </aixm:featureLifetime>
+                   <aixm:type>FIR</aixm:type>
+                   <aixm:designator>EATL</aixm:designator>
+                   <aixm:name>Atlantic FIR</aixm:name>
+                   <!-- Optionally include boundary geometry here -->
+               </aixm:AirspaceTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Airspace>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Airspace gml:id="uuid.fir2">
+           <gml:identifier codeSpace="urn:uuid:">fir-central</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:AirspaceTimeSlice gml:id="AT_slice2">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_fir2">
+                           <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:featureLifetime>
+                       <gml:TimePeriod gml:id="LT_fir2">
+                           <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </aixm:featureLifetime>
+                   <aixm:type>FIR</aixm:type>
+                   <aixm:designator>ECTR</aixm:designator>
+                   <aixm:name>Central FIR</aixm:name>
+               </aixm:AirspaceTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Airspace>
+   </message:hasMember>
+   <message:hasMember>
+       <aixm:Airspace gml:id="uuid.fir3">
+           <gml:identifier codeSpace="urn:uuid:">fir-pacific</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:AirspaceTimeSlice gml:id="AT_slice3">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_fir3">
+                           <gml:beginPosition>2017-07-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:featureLifetime>
+                       <gml:TimePeriod gml:id="LT_fir3">
+                           <gml:beginPosition>2009-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </aixm:featureLifetime>
+                   <aixm:type>FIR</aixm:type>
+                   <aixm:designator>EPAC</aixm:designator>
+                   <aixm:name>Pacific FIR</aixm:name>
+               </aixm:AirspaceTimeSlice>
+           </aixm:timeSlice>
+       </aixm:Airspace>
+   </message:hasMember>
+   <!-- Procedure Section: Instrument Approach and Standard Instrument Departure Procedures -->
+   <mes:hasMember xmlns:mes="http://www.aixm.aero/schema/5.1.1/message"
                xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                xmlns:gml="http://www.opengis.net/gml/3.2"
                xmlns:xlink="http://www.w3.org/1999/xlink">
-  <!-- Instrument Approach Procedure -->
-  <aixm:InstrumentApproachProcedure gml:id="uuid.mock.ipa1">
-    <gml:identifier codeSpace="urn:uuid:">mock-procedure-001</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:InstrumentApproachProcedureTimeSlice gml:id="IPA_TS1">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_IPA1">
-            <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:name>ILS Approach to CYVR</aixm:name>
-        <aixm:procedureType>ILS</aixm:procedureType>
-        <aixm:annotation>
-          <aixm:Note gml:id="note1">
-            <aixm:purpose>REMARK</aixm:purpose>
-            <aixm:translatedNote>
-              <aixm:LinguisticNote gml:id="ln1">
-                <aixm:note>This ILS approach procedure includes a steep descent profile due to terrain constraints.</aixm:note>
-              </aixm:LinguisticNote>
-            </aixm:translatedNote>
-          </aixm:Note>
-        </aixm:annotation>
-        <aixm:annotation>
-          <aixm:Note gml:id="note2">
-            <aixm:purpose>OPERATIONAL_REMARK</aixm:purpose>
-            <aixm:translatedNote>
-              <aixm:LinguisticNote gml:id="ln2">
-                <aixm:note>Monitor wind shear conditions closely during final approach.</aixm:note>
-              </aixm:LinguisticNote>
-            </aixm:translatedNote>
-          </aixm:Note>
-        </aixm:annotation>
-      </aixm:InstrumentApproachProcedureTimeSlice>
-    </aixm:timeSlice>
-  </aixm:InstrumentApproachProcedure>
-
-  <!-- Standard Instrument Departure Procedure -->
-  <aixm:StandardInstrumentDeparture gml:id="uuid.mock.sid1">
-    <gml:identifier codeSpace="urn:uuid:">mock-procedure-002</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:StandardInstrumentDepartureTimeSlice gml:id="SID_TS1">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="TP_SID1">
-            <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition indeterminatePosition="unknown"/>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:sequenceNumber>1</aixm:sequenceNumber>
-        <aixm:name>SID from CYVR</aixm:name>
-        <aixm:procedureType>SID</aixm:procedureType>
-        <aixm:annotation>
-          <aixm:Note gml:id="note3">
-            <aixm:purpose>REMARK</aixm:purpose>
-            <aixm:translatedNote>
-              <aixm:LinguisticNote gml:id="ln3">
-                <aixm:note>This SID procedure requires climbing at a minimum rate of 800 fpm.</aixm:note>
-              </aixm:LinguisticNote>
-            </aixm:translatedNote>
-          </aixm:Note>
-        </aixm:annotation>
-        <aixm:annotation>
-          <aixm:Note gml:id="note4">
-            <aixm:purpose>OPERATIONAL_REMARK</aixm:purpose>
-            <aixm:translatedNote>
-              <aixm:LinguisticNote gml:id="ln4">
-                <aixm:note>Traffic separation is in effect for departing aircraft.</aixm:note>
-              </aixm:LinguisticNote>
-            </aixm:translatedNote>
-          </aixm:Note>
-        </aixm:annotation>
-      </aixm:StandardInstrumentDepartureTimeSlice>
-    </aixm:timeSlice>
-  </aixm:StandardInstrumentDeparture>
-</mes:hasMember>
-
-<!-- Regulatory and NOTAM Information Section -->
-<mes:hasMember>
-  <!-- Flight Restrictions -->
-  <aixm:FlightRestriction gml:id="uuid.reg001">
-    <gml:identifier codeSpace="urn:uuid:">reg001</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:FlightRestrictionTimeSlice gml:id="FR_TS_1">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="FR_TP_1">
-            <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition>2024-06-30T23:59:59Z</gml:endPosition>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:restrictionType>Operational</aixm:restrictionType>
-        <aixm:restrictionDetails>
-          Runway operations at selected airports are restricted to daytime only during winter months.
-        </aixm:restrictionDetails>
-      </aixm:FlightRestrictionTimeSlice>
-    </aixm:timeSlice>
-  </aixm:FlightRestriction>
-
-  <aixm:FlightRestriction gml:id="uuid.reg002">
-    <gml:identifier codeSpace="urn:uuid:">reg002</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:FlightRestrictionTimeSlice gml:id="FR_TS_2">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="FR_TP_2">
-            <gml:beginPosition>2024-07-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition>2024-12-31T23:59:59Z</gml:endPosition>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:restrictionType>Safety</aixm:restrictionType>
-        <aixm:restrictionDetails>
-          All aircraft must maintain a minimum separation of 3000 ft above ground level within controlled airspace.
-        </aixm:restrictionDetails>
-      </aixm:FlightRestrictionTimeSlice>
-    </aixm:timeSlice>
-  </aixm:FlightRestriction>
-
-  <aixm:FlightRestriction gml:id="uuid.reg003">
-    <gml:identifier codeSpace="urn:uuid:">reg003</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:FlightRestrictionTimeSlice gml:id="FR_TS_3">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="FR_TP_3">
-            <gml:beginPosition>2024-03-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition>2024-03-31T23:59:59Z</gml:endPosition>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:restrictionType>Weather</aixm:restrictionType>
-        <aixm:restrictionDetails>
-          Operations are limited to IFR conditions during severe weather alerts.
-        </aixm:restrictionDetails>
-      </aixm:FlightRestrictionTimeSlice>
-    </aixm:timeSlice>
-  </aixm:FlightRestriction>
-
-  <!-- NOTAM Entries -->
-  <aixm:NOTAM gml:id="uuid.notam001">
-    <gml:identifier codeSpace="urn:uuid:">notam001</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NOTAMTimeSlice gml:id="NOTAM_TS_1">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="NOTAM_TP_1">
-            <gml:beginPosition>2024-05-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition>2024-05-15T23:59:59Z</gml:endPosition>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:note>NOTAM: Temporary closure of Runway 09L/27R for scheduled maintenance.</aixm:note>
-      </aixm:NOTAMTimeSlice>
-    </aixm:timeSlice>
-  </aixm:NOTAM>
-
-  <aixm:NOTAM gml:id="uuid.notam002">
-    <gml:identifier codeSpace="urn:uuid:">notam002</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NOTAMTimeSlice gml:id="NOTAM_TS_2">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="NOTAM_TP_2">
-            <gml:beginPosition>2024-08-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition>2024-08-31T23:59:59Z</gml:endPosition>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:note>NOTAM: Restricted airspace due to VIP movement in the Ottawa region.</aixm:note>
-      </aixm:NOTAMTimeSlice>
-    </aixm:timeSlice>
-  </aixm:NOTAM>
-
-  <aixm:NOTAM gml:id="uuid.notam003">
-    <gml:identifier codeSpace="urn:uuid:">notam003</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:NOTAMTimeSlice gml:id="NOTAM_TS_3">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="NOTAM_TP_3">
-            <gml:beginPosition>2024-09-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition>2024-09-15T23:59:59Z</gml:endPosition>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:note>NOTAM: Temporary change in approach procedures at Toronto Pearson International due to construction work.</aixm:note>
-      </aixm:NOTAMTimeSlice>
-    </aixm:timeSlice>
-  </aixm:NOTAM>
-
-  <!-- Rules and Procedures -->
-  <aixm:RulesProcedures gml:id="uuid.rules001">
-    <gml:identifier codeSpace="urn:uuid:">rules001</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:RulesProceduresTimeSlice gml:id="RP_TS_1">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="RP_TP_1">
-            <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition>2024-12-31T23:59:59Z</gml:endPosition>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:procedureType>Standard Instrument Departure</aixm:procedureType>
-        <aixm:procedureDetails>
-          All departures from Montreal-Trudeau International must follow SID MT001 during peak hours.
-        </aixm:procedureDetails>
-      </aixm:RulesProceduresTimeSlice>
-    </aixm:timeSlice>
-  </aixm:RulesProcedures>
-
-  <aixm:RulesProcedures gml:id="uuid.rules002">
-    <gml:identifier codeSpace="urn:uuid:">rules002</gml:identifier>
-    <aixm:timeSlice>
-      <aixm:RulesProceduresTimeSlice gml:id="RP_TS_2">
-        <gml:validTime>
-          <gml:TimePeriod gml:id="RP_TP_2">
-            <gml:beginPosition>2024-06-01T00:00:00Z</gml:beginPosition>
-            <gml:endPosition>2024-06-30T23:59:59Z</gml:endPosition>
-          </gml:TimePeriod>
-        </gml:validTime>
-        <aixm:interpretation>BASELINE</aixm:interpretation>
-        <aixm:procedureType>Standard Instrument Arrival</aixm:procedureType>
-        <aixm:procedureDetails>
-          Approaches to Vancouver International must follow STAR VI001 with a minimum descent rate of 700 ft/min.
-        </aixm:procedureDetails>
-      </aixm:RulesProceduresTimeSlice>
-    </aixm:timeSlice>
-  </aixm:RulesProcedures>
-  
-  <!-- Additional Regulatory Annotations -->
-  <aixm:RegulatoryAnnotation gml:id="uuid.annot001">
-    <gml:identifier codeSpace="urn:uuid:">annot001</gml:identifier>
-    <aixm:annotation>
-      <aixm:Note gml:id="annot_note_001">
-        <aixm:purpose>REMARK</aixm:purpose>
-        <aixm:translatedNote>
-          <aixm:LinguisticNote gml:id="ln_annot_001">
-            <aixm:note>Mandatory equipment inspection required for all aircraft during winter operations.</aixm:note>
-          </aixm:LinguisticNote>
-        </aixm:translatedNote>
-      </aixm:Note>
-    </aixm:annotation>
-  </aixm:RegulatoryAnnotation>
-  
-  <aixm:RegulatoryAnnotation gml:id="uuid.annot002">
-    <gml:identifier codeSpace="urn:uuid:">annot002</gml:identifier>
-    <aixm:annotation>
-      <aixm:Note gml:id="annot_note_002">
-        <aixm:purpose>REMARK</aixm:purpose>
-        <aixm:translatedNote>
-          <aixm:LinguisticNote gml:id="ln_annot_002">
-            <aixm:note>Emergency procedures must be reviewed bi-annually by all operational staff.</aixm:note>
-          </aixm:LinguisticNote>
-        </aixm:translatedNote>
-      </aixm:Note>
-    </aixm:annotation>
-  </aixm:RegulatoryAnnotation>
-  
-</mes:hasMember>
+       <!-- Instrument Approach Procedure -->
+       <aixm:InstrumentApproachProcedure gml:id="uuid.mock.ipa1">
+           <gml:identifier codeSpace="urn:uuid:">mock-procedure-001</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:InstrumentApproachProcedureTimeSlice gml:id="IPA_TS1">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_IPA1">
+                           <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:name>ILS Approach to CYVR</aixm:name>
+                   <aixm:procedureType>ILS</aixm:procedureType>
+                   <aixm:annotation>
+                       <aixm:Note gml:id="note1">
+                           <aixm:purpose>REMARK</aixm:purpose>
+                           <aixm:translatedNote>
+                               <aixm:LinguisticNote gml:id="ln1">
+                                   <aixm:note>This ILS approach procedure includes a steep descent profile due to terrain constraints.</aixm:note>
+                               </aixm:LinguisticNote>
+                           </aixm:translatedNote>
+                       </aixm:Note>
+                   </aixm:annotation>
+                   <aixm:annotation>
+                       <aixm:Note gml:id="note2">
+                           <aixm:purpose>OPERATIONAL_REMARK</aixm:purpose>
+                           <aixm:translatedNote>
+                               <aixm:LinguisticNote gml:id="ln2">
+                                   <aixm:note>Monitor wind shear conditions closely during final approach.</aixm:note>
+                               </aixm:LinguisticNote>
+                           </aixm:translatedNote>
+                       </aixm:Note>
+                   </aixm:annotation>
+               </aixm:InstrumentApproachProcedureTimeSlice>
+           </aixm:timeSlice>
+       </aixm:InstrumentApproachProcedure>
+       <!-- Standard Instrument Departure Procedure -->
+       <aixm:StandardInstrumentDeparture gml:id="uuid.mock.sid1">
+           <gml:identifier codeSpace="urn:uuid:">mock-procedure-002</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:StandardInstrumentDepartureTimeSlice gml:id="SID_TS1">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="TP_SID1">
+                           <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown"/>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:sequenceNumber>1</aixm:sequenceNumber>
+                   <aixm:name>SID from CYVR</aixm:name>
+                   <aixm:procedureType>SID</aixm:procedureType>
+                   <aixm:annotation>
+                       <aixm:Note gml:id="note3">
+                           <aixm:purpose>REMARK</aixm:purpose>
+                           <aixm:translatedNote>
+                               <aixm:LinguisticNote gml:id="ln3">
+                                   <aixm:note>This SID procedure requires climbing at a minimum rate of 800 fpm.</aixm:note>
+                               </aixm:LinguisticNote>
+                           </aixm:translatedNote>
+                       </aixm:Note>
+                   </aixm:annotation>
+                   <aixm:annotation>
+                       <aixm:Note gml:id="note4">
+                           <aixm:purpose>OPERATIONAL_REMARK</aixm:purpose>
+                           <aixm:translatedNote>
+                               <aixm:LinguisticNote gml:id="ln4">
+                                   <aixm:note>Traffic separation is in effect for departing aircraft.</aixm:note>
+                               </aixm:LinguisticNote>
+                           </aixm:translatedNote>
+                       </aixm:Note>
+                   </aixm:annotation>
+               </aixm:StandardInstrumentDepartureTimeSlice>
+           </aixm:timeSlice>
+       </aixm:StandardInstrumentDeparture>
+   </mes:hasMember>
+   <!-- Regulatory and NOTAM Information Section -->
+   <mes:hasMember>
+       <!-- Flight Restrictions -->
+       <aixm:FlightRestriction gml:id="uuid.reg001">
+           <gml:identifier codeSpace="urn:uuid:">reg001</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:FlightRestrictionTimeSlice gml:id="FR_TS_1">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="FR_TP_1">
+                           <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2024-06-30T23:59:59Z</gml:endPosition>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:restrictionType>Operational</aixm:restrictionType>
+                   <aixm:restrictionDetails>Runway operations at selected airports are restricted to daytime only during winter months.</aixm:restrictionDetails>
+               </aixm:FlightRestrictionTimeSlice>
+           </aixm:timeSlice>
+       </aixm:FlightRestriction>
+       <aixm:FlightRestriction gml:id="uuid.reg002">
+           <gml:identifier codeSpace="urn:uuid:">reg002</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:FlightRestrictionTimeSlice gml:id="FR_TS_2">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="FR_TP_2">
+                           <gml:beginPosition>2024-07-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2024-12-31T23:59:59Z</gml:endPosition>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:restrictionType>Safety</aixm:restrictionType>
+                   <aixm:restrictionDetails>All aircraft must maintain a minimum separation of 3000 ft above ground level within controlled airspace.</aixm:restrictionDetails>
+               </aixm:FlightRestrictionTimeSlice>
+           </aixm:timeSlice>
+       </aixm:FlightRestriction>
+       <aixm:FlightRestriction gml:id="uuid.reg003">
+           <gml:identifier codeSpace="urn:uuid:">reg003</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:FlightRestrictionTimeSlice gml:id="FR_TS_3">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="FR_TP_3">
+                           <gml:beginPosition>2024-03-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2024-03-31T23:59:59Z</gml:endPosition>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:restrictionType>Weather</aixm:restrictionType>
+                   <aixm:restrictionDetails>Operations are limited to IFR conditions during severe weather alerts.</aixm:restrictionDetails>
+               </aixm:FlightRestrictionTimeSlice>
+           </aixm:timeSlice>
+       </aixm:FlightRestriction>
+       <!-- NOTAM Entries -->
+       <aixm:NOTAM gml:id="uuid.notam001">
+           <gml:identifier codeSpace="urn:uuid:">notam001</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NOTAMTimeSlice gml:id="NOTAM_TS_1">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="NOTAM_TP_1">
+                           <gml:beginPosition>2024-05-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2024-05-15T23:59:59Z</gml:endPosition>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:note>NOTAM: Temporary closure of Runway 09L/27R for scheduled maintenance.</aixm:note>
+               </aixm:NOTAMTimeSlice>
+           </aixm:timeSlice>
+       </aixm:NOTAM>
+       <aixm:NOTAM gml:id="uuid.notam002">
+           <gml:identifier codeSpace="urn:uuid:">notam002</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NOTAMTimeSlice gml:id="NOTAM_TS_2">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="NOTAM_TP_2">
+                           <gml:beginPosition>2024-08-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2024-08-31T23:59:59Z</gml:endPosition>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:note>NOTAM: Restricted airspace due to VIP movement in the Ottawa region.</aixm:note>
+               </aixm:NOTAMTimeSlice>
+           </aixm:timeSlice>
+       </aixm:NOTAM>
+       <aixm:NOTAM gml:id="uuid.notam003">
+           <gml:identifier codeSpace="urn:uuid:">notam003</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:NOTAMTimeSlice gml:id="NOTAM_TS_3">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="NOTAM_TP_3">
+                           <gml:beginPosition>2024-09-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2024-09-15T23:59:59Z</gml:endPosition>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:note>NOTAM: Temporary change in approach procedures at Toronto Pearson International due to construction work.</aixm:note>
+               </aixm:NOTAMTimeSlice>
+           </aixm:timeSlice>
+       </aixm:NOTAM>
+       <!-- Rules and Procedures -->
+       <aixm:RulesProcedures gml:id="uuid.rules001">
+           <gml:identifier codeSpace="urn:uuid:">rules001</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:RulesProceduresTimeSlice gml:id="RP_TS_1">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="RP_TP_1">
+                           <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2024-12-31T23:59:59Z</gml:endPosition>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:procedureType>Standard Instrument Departure</aixm:procedureType>
+                   <aixm:procedureDetails>All departures from Montreal-Trudeau International must follow SID MT001 during peak hours.</aixm:procedureDetails>
+               </aixm:RulesProceduresTimeSlice>
+           </aixm:timeSlice>
+       </aixm:RulesProcedures>
+       <aixm:RulesProcedures gml:id="uuid.rules002">
+           <gml:identifier codeSpace="urn:uuid:">rules002</gml:identifier>
+           <aixm:timeSlice>
+               <aixm:RulesProceduresTimeSlice gml:id="RP_TS_2">
+                   <gml:validTime>
+                       <gml:TimePeriod gml:id="RP_TP_2">
+                           <gml:beginPosition>2024-06-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2024-06-30T23:59:59Z</gml:endPosition>
+                       </gml:TimePeriod>
+                   </gml:validTime>
+                   <aixm:interpretation>BASELINE</aixm:interpretation>
+                   <aixm:procedureType>Standard Instrument Arrival</aixm:procedureType>
+                   <aixm:procedureDetails>Approaches to Vancouver International must follow STAR VI001 with a minimum descent rate of 700 ft/min.</aixm:procedureDetails>
+               </aixm:RulesProceduresTimeSlice>
+           </aixm:timeSlice>
+       </aixm:RulesProcedures>
+       <!-- Additional Regulatory Annotations -->
+       <aixm:RegulatoryAnnotation gml:id="uuid.annot001">
+           <gml:identifier codeSpace="urn:uuid:">annot001</gml:identifier>
+           <aixm:annotation>
+               <aixm:Note gml:id="annot_note_001">
+                   <aixm:purpose>REMARK</aixm:purpose>
+                   <aixm:translatedNote>
+                       <aixm:LinguisticNote gml:id="ln_annot_001">
+                           <aixm:note>Mandatory equipment inspection required for all aircraft during winter operations.</aixm:note>
+                       </aixm:LinguisticNote>
+                   </aixm:translatedNote>
+               </aixm:Note>
+           </aixm:annotation>
+       </aixm:RegulatoryAnnotation>
+       <aixm:RegulatoryAnnotation gml:id="uuid.annot002">
+           <gml:identifier codeSpace="urn:uuid:">annot002</gml:identifier>
+           <aixm:annotation>
+               <aixm:Note gml:id="annot_note_002">
+                   <aixm:purpose>REMARK</aixm:purpose>
+                   <aixm:translatedNote>
+                       <aixm:LinguisticNote gml:id="ln_annot_002">
+                           <aixm:note>Emergency procedures must be reviewed bi-annually by all operational staff.</aixm:note>
+                       </aixm:LinguisticNote>
+                   </aixm:translatedNote>
+               </aixm:Note>
+           </aixm:annotation>
+       </aixm:RegulatoryAnnotation>
+   </mes:hasMember>
 </message:AIXMBasicMessage>
