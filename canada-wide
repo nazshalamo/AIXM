@@ -1295,3 +1295,181 @@
   </aixm:StandardInstrumentDeparture>
 </mes:hasMember>
 
+<!-- Regulatory and NOTAM Information Section -->
+<mes:hasMember>
+  <!-- Flight Restrictions -->
+  <aixm:FlightRestriction gml:id="uuid.reg001">
+    <gml:identifier codeSpace="urn:uuid:">reg001</gml:identifier>
+    <aixm:timeSlice>
+      <aixm:FlightRestrictionTimeSlice gml:id="FR_TS_1">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="FR_TP_1">
+            <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition>2024-06-30T23:59:59Z</gml:endPosition>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:restrictionType>Operational</aixm:restrictionType>
+        <aixm:restrictionDetails>
+          Runway operations at selected airports are restricted to daytime only during winter months.
+        </aixm:restrictionDetails>
+      </aixm:FlightRestrictionTimeSlice>
+    </aixm:timeSlice>
+  </aixm:FlightRestriction>
+
+  <aixm:FlightRestriction gml:id="uuid.reg002">
+    <gml:identifier codeSpace="urn:uuid:">reg002</gml:identifier>
+    <aixm:timeSlice>
+      <aixm:FlightRestrictionTimeSlice gml:id="FR_TS_2">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="FR_TP_2">
+            <gml:beginPosition>2024-07-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition>2024-12-31T23:59:59Z</gml:endPosition>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:restrictionType>Safety</aixm:restrictionType>
+        <aixm:restrictionDetails>
+          All aircraft must maintain a minimum separation of 3000 ft above ground level within controlled airspace.
+        </aixm:restrictionDetails>
+      </aixm:FlightRestrictionTimeSlice>
+    </aixm:timeSlice>
+  </aixm:FlightRestriction>
+
+  <aixm:FlightRestriction gml:id="uuid.reg003">
+    <gml:identifier codeSpace="urn:uuid:">reg003</gml:identifier>
+    <aixm:timeSlice>
+      <aixm:FlightRestrictionTimeSlice gml:id="FR_TS_3">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="FR_TP_3">
+            <gml:beginPosition>2024-03-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition>2024-03-31T23:59:59Z</gml:endPosition>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:restrictionType>Weather</aixm:restrictionType>
+        <aixm:restrictionDetails>
+          Operations are limited to IFR conditions during severe weather alerts.
+        </aixm:restrictionDetails>
+      </aixm:FlightRestrictionTimeSlice>
+    </aixm:timeSlice>
+  </aixm:FlightRestriction>
+
+  <!-- NOTAM Entries -->
+  <aixm:NOTAM gml:id="uuid.notam001">
+    <gml:identifier codeSpace="urn:uuid:">notam001</gml:identifier>
+    <aixm:timeSlice>
+      <aixm:NOTAMTimeSlice gml:id="NOTAM_TS_1">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="NOTAM_TP_1">
+            <gml:beginPosition>2024-05-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition>2024-05-15T23:59:59Z</gml:endPosition>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:note>NOTAM: Temporary closure of Runway 09L/27R for scheduled maintenance.</aixm:note>
+      </aixm:NOTAMTimeSlice>
+    </aixm:timeSlice>
+  </aixm:NOTAM>
+
+  <aixm:NOTAM gml:id="uuid.notam002">
+    <gml:identifier codeSpace="urn:uuid:">notam002</gml:identifier>
+    <aixm:timeSlice>
+      <aixm:NOTAMTimeSlice gml:id="NOTAM_TS_2">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="NOTAM_TP_2">
+            <gml:beginPosition>2024-08-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition>2024-08-31T23:59:59Z</gml:endPosition>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:note>NOTAM: Restricted airspace due to VIP movement in the Ottawa region.</aixm:note>
+      </aixm:NOTAMTimeSlice>
+    </aixm:timeSlice>
+  </aixm:NOTAM>
+
+  <aixm:NOTAM gml:id="uuid.notam003">
+    <gml:identifier codeSpace="urn:uuid:">notam003</gml:identifier>
+    <aixm:timeSlice>
+      <aixm:NOTAMTimeSlice gml:id="NOTAM_TS_3">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="NOTAM_TP_3">
+            <gml:beginPosition>2024-09-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition>2024-09-15T23:59:59Z</gml:endPosition>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:note>NOTAM: Temporary change in approach procedures at Toronto Pearson International due to construction work.</aixm:note>
+      </aixm:NOTAMTimeSlice>
+    </aixm:timeSlice>
+  </aixm:NOTAM>
+
+  <!-- Rules and Procedures -->
+  <aixm:RulesProcedures gml:id="uuid.rules001">
+    <gml:identifier codeSpace="urn:uuid:">rules001</gml:identifier>
+    <aixm:timeSlice>
+      <aixm:RulesProceduresTimeSlice gml:id="RP_TS_1">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="RP_TP_1">
+            <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition>2024-12-31T23:59:59Z</gml:endPosition>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:procedureType>Standard Instrument Departure</aixm:procedureType>
+        <aixm:procedureDetails>
+          All departures from Montreal-Trudeau International must follow SID MT001 during peak hours.
+        </aixm:procedureDetails>
+      </aixm:RulesProceduresTimeSlice>
+    </aixm:timeSlice>
+  </aixm:RulesProcedures>
+
+  <aixm:RulesProcedures gml:id="uuid.rules002">
+    <gml:identifier codeSpace="urn:uuid:">rules002</gml:identifier>
+    <aixm:timeSlice>
+      <aixm:RulesProceduresTimeSlice gml:id="RP_TS_2">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="RP_TP_2">
+            <gml:beginPosition>2024-06-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition>2024-06-30T23:59:59Z</gml:endPosition>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:procedureType>Standard Instrument Arrival</aixm:procedureType>
+        <aixm:procedureDetails>
+          Approaches to Vancouver International must follow STAR VI001 with a minimum descent rate of 700 ft/min.
+        </aixm:procedureDetails>
+      </aixm:RulesProceduresTimeSlice>
+    </aixm:timeSlice>
+  </aixm:RulesProcedures>
+  
+  <!-- Additional Regulatory Annotations -->
+  <aixm:RegulatoryAnnotation gml:id="uuid.annot001">
+    <gml:identifier codeSpace="urn:uuid:">annot001</gml:identifier>
+    <aixm:annotation>
+      <aixm:Note gml:id="annot_note_001">
+        <aixm:purpose>REMARK</aixm:purpose>
+        <aixm:translatedNote>
+          <aixm:LinguisticNote gml:id="ln_annot_001">
+            <aixm:note>Mandatory equipment inspection required for all aircraft during winter operations.</aixm:note>
+          </aixm:LinguisticNote>
+        </aixm:translatedNote>
+      </aixm:Note>
+    </aixm:annotation>
+  </aixm:RegulatoryAnnotation>
+  
+  <aixm:RegulatoryAnnotation gml:id="uuid.annot002">
+    <gml:identifier codeSpace="urn:uuid:">annot002</gml:identifier>
+    <aixm:annotation>
+      <aixm:Note gml:id="annot_note_002">
+        <aixm:purpose>REMARK</aixm:purpose>
+        <aixm:translatedNote>
+          <aixm:LinguisticNote gml:id="ln_annot_002">
+            <aixm:note>Emergency procedures must be reviewed bi-annually by all operational staff.</aixm:note>
+          </aixm:LinguisticNote>
+        </aixm:translatedNote>
+      </aixm:Note>
+    </aixm:annotation>
+  </aixm:RegulatoryAnnotation>
+  
+</mes:hasMember>
