@@ -1210,3 +1210,88 @@
     </aixm:timeSlice>
   </aixm:Airspace>
 </message:hasMember>
+<!-- Procedure Section: Instrument Approach and Standard Instrument Departure Procedures -->
+
+<mes:hasMember xmlns:mes="http://www.aixm.aero/schema/5.1.1/message"
+               xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
+               xmlns:gml="http://www.opengis.net/gml/3.2"
+               xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Instrument Approach Procedure -->
+  <aixm:InstrumentApproachProcedure gml:id="uuid.mock.ipa1">
+    <gml:identifier codeSpace="urn:uuid:">mock-procedure-001</gml:identifier>
+    <aixm:timeSlice>
+      <aixm:InstrumentApproachProcedureTimeSlice gml:id="IPA_TS1">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="TP_IPA1">
+            <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:sequenceNumber>1</aixm:sequenceNumber>
+        <aixm:name>ILS Approach to CYVR</aixm:name>
+        <aixm:procedureType>ILS</aixm:procedureType>
+        <aixm:annotation>
+          <aixm:Note gml:id="note1">
+            <aixm:purpose>REMARK</aixm:purpose>
+            <aixm:translatedNote>
+              <aixm:LinguisticNote gml:id="ln1">
+                <aixm:note>This ILS approach procedure includes a steep descent profile due to terrain constraints.</aixm:note>
+              </aixm:LinguisticNote>
+            </aixm:translatedNote>
+          </aixm:Note>
+        </aixm:annotation>
+        <aixm:annotation>
+          <aixm:Note gml:id="note2">
+            <aixm:purpose>OPERATIONAL_REMARK</aixm:purpose>
+            <aixm:translatedNote>
+              <aixm:LinguisticNote gml:id="ln2">
+                <aixm:note>Monitor wind shear conditions closely during final approach.</aixm:note>
+              </aixm:LinguisticNote>
+            </aixm:translatedNote>
+          </aixm:Note>
+        </aixm:annotation>
+      </aixm:InstrumentApproachProcedureTimeSlice>
+    </aixm:timeSlice>
+  </aixm:InstrumentApproachProcedure>
+
+  <!-- Standard Instrument Departure Procedure -->
+  <aixm:StandardInstrumentDeparture gml:id="uuid.mock.sid1">
+    <gml:identifier codeSpace="urn:uuid:">mock-procedure-002</gml:identifier>
+    <aixm:timeSlice>
+      <aixm:StandardInstrumentDepartureTimeSlice gml:id="SID_TS1">
+        <gml:validTime>
+          <gml:TimePeriod gml:id="TP_SID1">
+            <gml:beginPosition>2024-01-01T00:00:00Z</gml:beginPosition>
+            <gml:endPosition indeterminatePosition="unknown"/>
+          </gml:TimePeriod>
+        </gml:validTime>
+        <aixm:interpretation>BASELINE</aixm:interpretation>
+        <aixm:sequenceNumber>1</aixm:sequenceNumber>
+        <aixm:name>SID from CYVR</aixm:name>
+        <aixm:procedureType>SID</aixm:procedureType>
+        <aixm:annotation>
+          <aixm:Note gml:id="note3">
+            <aixm:purpose>REMARK</aixm:purpose>
+            <aixm:translatedNote>
+              <aixm:LinguisticNote gml:id="ln3">
+                <aixm:note>This SID procedure requires climbing at a minimum rate of 800 fpm.</aixm:note>
+              </aixm:LinguisticNote>
+            </aixm:translatedNote>
+          </aixm:Note>
+        </aixm:annotation>
+        <aixm:annotation>
+          <aixm:Note gml:id="note4">
+            <aixm:purpose>OPERATIONAL_REMARK</aixm:purpose>
+            <aixm:translatedNote>
+              <aixm:LinguisticNote gml:id="ln4">
+                <aixm:note>Traffic separation is in effect for departing aircraft.</aixm:note>
+              </aixm:LinguisticNote>
+            </aixm:translatedNote>
+          </aixm:Note>
+        </aixm:annotation>
+      </aixm:StandardInstrumentDepartureTimeSlice>
+    </aixm:timeSlice>
+  </aixm:StandardInstrumentDeparture>
+</mes:hasMember>
+
