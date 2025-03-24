@@ -1200,7 +1200,7 @@
   </aixm:Airspace>
 </message:hasMember>
    <!-- Procedure Section: Instrument Approach and Standard Instrument Departure Procedures -->
-   <message:hasMember xmlns:mes="http://www.aixm.aero/schema/5.1.1/message"
+   <message:hasMember xmlns:message="http://www.aixm.aero/schema/5.1.1/message"
                xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
                xmlns:gml="http://www.opengis.net/gml/3.2"
                xmlns:xlink="http://www.w3.org/1999/xlink">
