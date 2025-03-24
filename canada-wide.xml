@@ -1088,7 +1088,7 @@
 <!-- FIR (Flight Information Region) Section -->
 <message:hasMember>
   <aixm:Airspace gml:id="uuid.fir1">
-    <gml:identifier codeSpace="urn:uuid:">fir-atlantic</gml:identifier>
+    <gml:identifier codeSpace="urn:uuid:">fir-pacific</gml:identifier>
     <aixm:timeSlice>
       <aixm:AirspaceTimeSlice gml:id="AT_slice1">
         <gml:validTime>
@@ -1106,14 +1106,15 @@
           </gml:TimePeriod>
         </aixm:featureLifetime>
         <aixm:type>FIR</aixm:type>
-        <aixm:designator>EATL</aixm:designator>
-        <aixm:name>Atlantic FIR</aixm:name>
-        <!-- Boundary geometry for Atlantic FIR updated to cover eastern Canada -->
+        <aixm:designator>EPAC</aixm:designator>
+        <aixm:name>Pacific FIR</aixm:name>
+        <!-- Updated boundary geometry for Pacific FIR -->
         <gml:Polygon gml:id="poly_fir1">
           <gml:exterior>
             <gml:LinearRing>
+              <!-- Covers roughly lat 45°N to 70°N, long -141°W to -110°W -->
               <gml:posList>
-                41.0 -80.0 41.0 -52.0 83.0 -52.0 83.0 -80.0 41.0 -80.0
+                45.0 -141.0 45.0 -110.0 70.0 -110.0 70.0 -141.0 45.0 -141.0
               </gml:posList>
             </gml:LinearRing>
           </gml:exterior>
@@ -1145,12 +1146,13 @@
         <aixm:type>FIR</aixm:type>
         <aixm:designator>ECTR</aixm:designator>
         <aixm:name>Central FIR</aixm:name>
-        <!-- Boundary geometry for Central FIR updated to cover central Canada -->
+        <!-- Updated boundary geometry for Central FIR -->
         <gml:Polygon gml:id="poly_fir2">
           <gml:exterior>
             <gml:LinearRing>
+              <!-- Covers roughly lat 45°N to 70°N, long -110°W to -80°W -->
               <gml:posList>
-                41.0 -110.0 41.0 -80.0 83.0 -80.0 83.0 -110.0 41.0 -110.0
+                45.0 -110.0 45.0 -80.0 70.0 -80.0 70.0 -110.0 45.0 -110.0
               </gml:posList>
             </gml:LinearRing>
           </gml:exterior>
@@ -1162,7 +1164,7 @@
 
 <message:hasMember>
   <aixm:Airspace gml:id="uuid.fir3">
-    <gml:identifier codeSpace="urn:uuid:">fir-pacific</gml:identifier>
+    <gml:identifier codeSpace="urn:uuid:">fir-atlantic</gml:identifier>
     <aixm:timeSlice>
       <aixm:AirspaceTimeSlice gml:id="AT_slice3">
         <gml:validTime>
@@ -1180,14 +1182,15 @@
           </gml:TimePeriod>
         </aixm:featureLifetime>
         <aixm:type>FIR</aixm:type>
-        <aixm:designator>EPAC</aixm:designator>
-        <aixm:name>Pacific FIR</aixm:name>
-        <!-- Boundary geometry for Pacific FIR updated to cover western Canada -->
+        <aixm:designator>EATL</aixm:designator>
+        <aixm:name>Atlantic FIR</aixm:name>
+        <!-- Updated boundary geometry for Atlantic FIR -->
         <gml:Polygon gml:id="poly_fir3">
           <gml:exterior>
             <gml:LinearRing>
+              <!-- Covers roughly lat 45°N to 70°N, long -80°W to -52°W -->
               <gml:posList>
-                41.0 -141.0 41.0 -110.0 83.0 -110.0 83.0 -141.0 41.0 -141.0
+                45.0 -80.0 45.0 -52.0 70.0 -52.0 70.0 -80.0 45.0 -80.0
               </gml:posList>
             </gml:LinearRing>
           </gml:exterior>
