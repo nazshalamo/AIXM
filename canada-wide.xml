@@ -1085,7 +1085,7 @@
            </aixm:timeSlice>
        </aixm:Route>
    </message:hasMember>
-   <!-- FIR (Flight Information Region) Section -->
+<!-- FIR (Flight Information Region) Section -->
 <message:hasMember>
   <aixm:Airspace gml:id="uuid.fir1">
     <gml:identifier codeSpace="urn:uuid:">fir-atlantic</gml:identifier>
@@ -1108,12 +1108,12 @@
         <aixm:type>FIR</aixm:type>
         <aixm:designator>EATL</aixm:designator>
         <aixm:name>Atlantic FIR</aixm:name>
-        <!-- Boundary geometry for Atlantic FIR -->
+        <!-- Boundary geometry for Atlantic FIR updated to cover eastern Canada -->
         <gml:Polygon gml:id="poly_fir1">
           <gml:exterior>
             <gml:LinearRing>
               <gml:posList>
-                45.0 -65.0 45.0 -50.0 55.0 -50.0 55.0 -65.0 45.0 -65.0
+                41.0 -80.0 41.0 -52.0 83.0 -52.0 83.0 -80.0 41.0 -80.0
               </gml:posList>
             </gml:LinearRing>
           </gml:exterior>
@@ -1145,12 +1145,12 @@
         <aixm:type>FIR</aixm:type>
         <aixm:designator>ECTR</aixm:designator>
         <aixm:name>Central FIR</aixm:name>
-        <!-- Boundary geometry for Central FIR -->
+        <!-- Boundary geometry for Central FIR updated to cover central Canada -->
         <gml:Polygon gml:id="poly_fir2">
           <gml:exterior>
             <gml:LinearRing>
               <gml:posList>
-                55.0 -110.0 55.0 -80.0 65.0 -80.0 65.0 -110.0 55.0 -110.0
+                41.0 -110.0 41.0 -80.0 83.0 -80.0 83.0 -110.0 41.0 -110.0
               </gml:posList>
             </gml:LinearRing>
           </gml:exterior>
@@ -1182,12 +1182,12 @@
         <aixm:type>FIR</aixm:type>
         <aixm:designator>EPAC</aixm:designator>
         <aixm:name>Pacific FIR</aixm:name>
-        <!-- Boundary geometry for Pacific FIR -->
+        <!-- Boundary geometry for Pacific FIR updated to cover western Canada -->
         <gml:Polygon gml:id="poly_fir3">
           <gml:exterior>
             <gml:LinearRing>
               <gml:posList>
-                48.0 -130.0 48.0 -120.0 54.0 -120.0 54.0 -130.0 48.0 -130.0
+                41.0 -141.0 41.0 -110.0 83.0 -110.0 83.0 -141.0 41.0 -141.0
               </gml:posList>
             </gml:LinearRing>
           </gml:exterior>
@@ -1196,7 +1196,6 @@
     </aixm:timeSlice>
   </aixm:Airspace>
 </message:hasMember>
-
    <!-- Procedure Section: Instrument Approach and Standard Instrument Departure Procedures -->
    <message:hasMember xmlns:mes="http://www.aixm.aero/schema/5.1.1/message"
                xmlns:aixm="http://www.aixm.aero/schema/5.1.1"
