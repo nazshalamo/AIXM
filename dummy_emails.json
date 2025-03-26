@@ -317,4 +317,368 @@
     "category": "Cargo Facility Update"
   }
 ]
+[
+  {
+    "id": 36,
+    "subject": "Airport Designation Update",
+    "body": "Hello,\n\nWe are pleased to announce that Maple Ridge Regional (MRR) has been officially designated as a CANPASS airport effective from August 15, 2026. Please update all operational databases accordingly.\n\nRegards,\nAirport Administration",
+    "sender": "admin@canpass.ca",
+    "recipient": "operations@aixm.ca",
+    "date": "2026-07-20",
+    "category": "Airport Approval"
+  },
+  {
+    "id": 37,
+    "subject": "Runway Maintenance Schedule Confirmation",
+    "body": "Dear Maintenance Team,\n\nThis email confirms the scheduled maintenance for Runway 02/20 at Saskatoon International (CYSK) on September 10, 2026. All safety protocols must be strictly followed.\n\nBest,\nMaintenance Department",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "team@aixm.ca",
+    "date": "2026-08-30",
+    "category": "Runway Modification"
+  },
+  {
+    "id": 38,
+    "subject": "NOTAM: Temporary Airspace Closure",
+    "body": "Hello Airspace Team,\n\nPlease note that a temporary closure of controlled airspace over the downtown area of Vancouver (CYVR) will be effective from October 1 to October 3, 2026 due to a VIP event. Ensure that all flight operations are adjusted accordingly.\n\nThank you,\nAirspace Control",
+    "sender": "airspace@canpass.ca",
+    "recipient": "control@aixm.ca",
+    "date": "2026-09-15",
+    "category": "NOTAM"
+  },
+  {
+    "id": 39,
+    "subject": "Procedure Update: New VFR Departure Procedure",
+    "body": "Dear Flight Procedures,\n\nA new Visual Flight Rules (VFR) departure procedure has been implemented for Langley Regional (CYLY). Please review the attached document and update your operational guidelines.\n\nRegards,\nProcedures Department",
+    "sender": "procedures@canpass.ca",
+    "recipient": "flightops@aixm.ca",
+    "date": "2026-10-05",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 40,
+    "subject": "Regulatory Update: Environmental Compliance",
+    "body": "Greetings,\n\nEffective November 1, 2026, new environmental compliance regulations will require all Canadian airports to reduce carbon emissions by 15%. Please ensure that your departments are prepared to implement these changes.\n\nSincerely,\nRegulatory Affairs",
+    "sender": "regulatory@canpass.ca",
+    "recipient": "enviro@aixm.ca",
+    "date": "2026-10-20",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 41,
+    "subject": "Weather Alert: Severe Thunderstorms",
+    "body": "Hello,\n\nA severe thunderstorm warning has been issued for the Winnipeg area. Expect potential delays and disruptions in flight schedules at Winnipeg International (CYWG). Please notify all relevant teams.\n\nBest,\nWeather Service",
+    "sender": "weather@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2026-11-10",
+    "category": "Weather Alert"
+  },
+  {
+    "id": 42,
+    "subject": "Emergency Procedure Drill Announcement",
+    "body": "Dear Safety Team,\n\nAn emergency evacuation drill for Fredericton International (CYFC) is scheduled on December 5, 2026. All departments must participate. Please ensure all emergency protocols are reviewed prior to the drill.\n\nRegards,\nSafety Office",
+    "sender": "safety@canpass.ca",
+    "recipient": "emergency@aixm.ca",
+    "date": "2026-11-25",
+    "category": "Emergency Procedure"
+  },
+  {
+    "id": 43,
+    "subject": "Airspace Adjustment Notification",
+    "body": "Hi Airspace Team,\n\nDue to updated traffic data, the airspace boundaries around Edmonton International (CYEG) have been adjusted. Please update your charts and notify pilots of the new routes.\n\nThank you,\nAirspace Management",
+    "sender": "airspace@canpass.ca",
+    "recipient": "charts@aixm.ca",
+    "date": "2026-12-01",
+    "category": "Airspace Designation"
+  },
+  {
+    "id": 44,
+    "subject": "Maintenance Approval: Terminal Lighting Replacement",
+    "body": "Hello,\n\nThe maintenance team has approved the replacement of outdated terminal lighting systems at Halifax Stanfield International (CYHZ). Work will commence on January 15, 2027. Kindly update maintenance logs accordingly.\n\nRegards,\nMaintenance Department",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "terminal@aixm.ca",
+    "date": "2026-12-20",
+    "category": "Maintenance Approval"
+  },
+  {
+    "id": 45,
+    "subject": "Flight Route Extension Proposal",
+    "body": "Dear Flight Operations,\n\nWe propose extending the current flight route from Montreal (CYUL) to Ottawa (YOW) to include a stopover for refueling. Please review the attached proposal and provide feedback.\n\nThank you,\nRoute Planning",
+    "sender": "routes@canpass.ca",
+    "recipient": "flightops@aixm.ca",
+    "date": "2027-01-05",
+    "category": "Flight Route Approval"
+  },
+  {
+    "id": 46,
+    "subject": "Terminal Expansion Project Phase 3 Update",
+    "body": "Hello Infrastructure Team,\n\nThe Terminal Expansion project at Calgary International (CYYC) has entered Phase 3, which focuses on retail and dining area improvements. Please update project schedules and allocate necessary resources.\n\nBest regards,\nTerminal Development",
+    "sender": "terminal@canpass.ca",
+    "recipient": "infrastructure@aixm.ca",
+    "date": "2027-01-15",
+    "category": "Terminal Expansion"
+  },
+  {
+    "id": 47,
+    "subject": "Cargo Facility Upgrade Notification",
+    "body": "Dear Logistics,\n\nWe are announcing upgrades to the cargo facility at Winnipeg International (CYSK) to include automated sorting systems. The work is scheduled to begin in February 2027. Kindly update all operational guidelines.\n\nSincerely,\nCargo Management",
+    "sender": "cargo@canpass.ca",
+    "recipient": "logistics@aixm.ca",
+    "date": "2027-01-25",
+    "category": "Cargo Facility Update"
+  },
+  {
+    "id": 48,
+    "subject": "Security Protocol Training Reminder",
+    "body": "Hi Security Team,\n\nThis is a reminder that mandatory security protocol training will be held on February 10, 2027, at Toronto Pearson International (CYYZ). Please ensure all security personnel are scheduled to attend.\n\nBest,\nSecurity Office",
+    "sender": "security@canpass.ca",
+    "recipient": "security.team@aixm.ca",
+    "date": "2027-01-30",
+    "category": "Security Protocol Update"
+  },
+  {
+    "id": 49,
+    "subject": "Crew Scheduling Adjustment for Winter Operations",
+    "body": "Dear Crew Management,\n\nDue to expected increased winter demand, we have updated the crew scheduling for the period December 2026 to February 2027. Please review the new roster and confirm any adjustments as needed.\n\nRegards,\nCrew Management",
+    "sender": "crew@canpass.ca",
+    "recipient": "scheduling@aixm.ca",
+    "date": "2027-02-05",
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 50,
+    "subject": "Fuel Price Stabilization Update",
+    "body": "Hello Finance Team,\n\nWe are pleased to inform you that recent market conditions have led to a stabilization in fuel prices at major Canadian airports. Effective March 1, 2027, current rates will remain unchanged. Please update all financial models accordingly.\n\nBest regards,\nFuel Management",
+    "sender": "fuel@canpass.ca",
+    "recipient": "finance@aixm.ca",
+    "date": "2027-02-15",
+    "category": "Fuel Price Update"
+  },
+  {
+    "id": 51,
+    "subject": "Drone Operation Regulation Notification",
+    "body": "Dear Regulatory Department,\n\nNew regulations require all drone operations within 5 km of Canadian airports to have pre-approved flight plans. This change is effective from March 15, 2027. Please review and update the regulatory framework accordingly.\n\nThank you,\nUAS Office",
+    "sender": "uas@canpass.ca",
+    "recipient": "reg.team@aixm.ca",
+    "date": "2027-02-20",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 52,
+    "subject": "Airport Infrastructure Investment Proposal",
+    "body": "Hello Board,\n\nWe are proposing a new investment in airport infrastructure at Vancouver International (CYVR), focusing on improved terminal facilities and enhanced baggage handling systems. Please review the attached proposal and provide your feedback at the upcoming meeting.\n\nRegards,\nInfrastructure Team",
+    "sender": "infrastructure@canpass.ca",
+    "recipient": "board@aixm.ca",
+    "date": "2027-02-28",
+    "category": "Airport Approval"
+  },
+  {
+    "id": 53,
+    "subject": "Passenger Service Enhancement Initiative",
+    "body": "Dear Customer Service,\n\nA new initiative aimed at enhancing passenger services at Montreal-Trudeau International (CYUL) has been approved. This includes improvements in check-in processes, lounge facilities, and real-time flight information displays. Please update your service protocols accordingly.\n\nBest regards,\nCustomer Experience Team",
+    "sender": "customerservice@canpass.ca",
+    "recipient": "service@aixm.ca",
+    "date": "2027-03-05",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 54,
+    "subject": "Air Traffic Control System Upgrade Notice",
+    "body": "Hello ATC Team,\n\nA major upgrade to the air traffic control system at Toronto Pearson (CYYZ) is scheduled to begin in April 2027. This upgrade will incorporate advanced radar and communication technologies to enhance operational efficiency. Please prepare for system downtime during the upgrade period.\n\nThank you,\nATC Department",
+    "sender": "atc@canpass.ca",
+    "recipient": "atc.team@aixm.ca",
+    "date": "2027-03-15",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 55,
+    "subject": "Sustainability Initiative: Renewable Energy Integration",
+    "body": "Dear Sustainability Team,\n\nWe are launching a new initiative to integrate renewable energy sources at several Canadian airports. The first phase involves installing solar panels at Calgary International (CYYC) and Vancouver International (CYVR). Please update your environmental impact reports and plan for upcoming sustainability audits.\n\nBest regards,\nSustainability Office",
+    "sender": "sustainability@canpass.ca",
+    "recipient": "sustainability@aixm.ca",
+    "date": "2027-03-25",
+    "category": "Regulatory Change"
+  }
+]
+[
+  {
+    "id": 56,
+    "subject": "New Cargo Terminal Proposal",
+    "body": "Hello Logistics Team,\n\nWe propose the construction of a new cargo terminal at Calgary International (CYYC) to support increasing cargo volume. The proposal includes cost estimates, design schematics, and a preliminary timeline for completion. Please review the attached proposal and provide feedback.\n\nRegards,\nCargo Development Team",
+    "sender": "cargo@canpass.ca",
+    "recipient": "logistics@aixm.ca",
+    "date": "2027-04-05",
+    "category": "Terminal Expansion"
+  },
+  {
+    "id": 57,
+    "subject": "Air Traffic Control System Maintenance",
+    "body": "Dear ATC Team,\n\nScheduled maintenance for the air traffic control systems at Montreal-Trudeau International (CYUL) is set for May 10, 2027. This maintenance will include system updates and performance improvements. Please prepare for a brief service interruption.\n\nBest,\nATC Department",
+    "sender": "atc@canpass.ca",
+    "recipient": "atc.team@aixm.ca",
+    "date": "2027-04-10",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 58,
+    "subject": "Regulatory Notice: Drone Flight Restrictions",
+    "body": "Hello Regulatory Team,\n\nEffective June 1, 2027, new restrictions on drone flights near major airports will be enforced. All operators must secure permits for flights within 3 km of controlled airspace. Please update the regulations and notify all stakeholders.\n\nSincerely,\nUAS Office",
+    "sender": "uas@canpass.ca",
+    "recipient": "reg.team@aixm.ca",
+    "date": "2027-04-15",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 59,
+    "subject": "Emergency Response Drill Notification",
+    "body": "Dear Safety and Emergency Teams,\n\nAn emergency response drill is scheduled for June 5, 2027 at Calgary International (CYYC). This drill will simulate a multi-agency response to a security breach. Please ensure all teams are briefed and ready to participate.\n\nBest regards,\nSafety Office",
+    "sender": "safety@canpass.ca",
+    "recipient": "emergency@aixm.ca",
+    "date": "2027-04-20",
+    "category": "Emergency Procedure"
+  },
+  {
+    "id": 60,
+    "subject": "Runway Pavement Evaluation Report",
+    "body": "Hello Engineering Team,\n\nAttached is the latest runway pavement evaluation report for Toronto Pearson International (CYYZ). The report highlights areas needing immediate repair and long-term maintenance recommendations. Please review and schedule necessary actions.\n\nThank you,\nEngineering Department",
+    "sender": "engineering@canpass.ca",
+    "recipient": "maintenance@aixm.ca",
+    "date": "2027-04-25",
+    "category": "Runway Modification"
+  },
+  {
+    "id": 61,
+    "subject": "New Airport Security Screening Protocols",
+    "body": "Dear Security Team,\n\nIn light of recent security incidents, updated screening protocols have been developed for all Canadian airports. Please review the attached guidelines and implement the changes at your earliest convenience.\n\nRegards,\nSecurity Office",
+    "sender": "security@canpass.ca",
+    "recipient": "security.team@aixm.ca",
+    "date": "2027-05-01",
+    "category": "Security Protocol Update"
+  },
+  {
+    "id": 62,
+    "subject": "Passenger Experience Survey Results",
+    "body": "Hello Customer Service,\n\nWe have compiled the results from the recent passenger experience survey conducted at Vancouver International (CYVR). The survey identifies key areas for improvement in check-in processes, lounge comfort, and flight information systems. Please review the report and propose actionable steps.\n\nBest,\nCustomer Experience Team",
+    "sender": "customerservice@canpass.ca",
+    "recipient": "service@aixm.ca",
+    "date": "2027-05-05",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 63,
+    "subject": "Terminal Renovation Project Kickoff",
+    "body": "Dear Infrastructure Team,\n\nThe terminal renovation project at Halifax Stanfield International (CYHZ) is scheduled to commence on June 15, 2027. The project includes modernizing passenger facilities and expanding retail spaces. Please review the project plan and confirm your resource allocations.\n\nSincerely,\nTerminal Development",
+    "sender": "terminal@canpass.ca",
+    "recipient": "infrastructure@aixm.ca",
+    "date": "2027-05-10",
+    "category": "Terminal Expansion"
+  },
+  {
+    "id": 64,
+    "subject": "Cargo Operations Efficiency Initiative",
+    "body": "Hi Cargo Team,\n\nWe are launching an initiative to improve the efficiency of cargo operations at Edmonton International (CYEG). The plan includes upgrading sorting systems and streamlining logistics. Please review the attached strategy document and implement the recommended changes.\n\nBest regards,\nCargo Management",
+    "sender": "cargo@canpass.ca",
+    "recipient": "logistics@aixm.ca",
+    "date": "2027-05-15",
+    "category": "Cargo Facility Update"
+  },
+  {
+    "id": 65,
+    "subject": "New Runway Lighting System Proposal",
+    "body": "Dear Maintenance,\n\nA proposal for a new runway lighting system at Ottawa Macdonald-Cartier International (CYOW) has been approved by the board. The new system aims to improve visibility and safety during night operations. Please update your maintenance schedules and prepare for installation.\n\nRegards,\nMaintenance Department",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-05-20",
+    "category": "Maintenance Approval"
+  },
+  {
+    "id": 66,
+    "subject": "Flight Operations Coordination Meeting",
+    "body": "Hello Team,\n\nA coordination meeting for flight operations will be held on May 30, 2027 to discuss new route proposals and scheduling adjustments. Please ensure that all relevant data is prepared and shared in advance.\n\nBest,\nFlight Operations",
+    "sender": "routes@canpass.ca",
+    "recipient": "ops.team@aixm.ca",
+    "date": "2027-05-25",
+    "category": "Flight Route Approval"
+  },
+  {
+    "id": 67,
+    "subject": "Regulatory Compliance Audit Notice",
+    "body": "Dear Compliance Team,\n\nAn audit to ensure regulatory compliance across all airport operations is scheduled for June 10, 2027. Please prepare all necessary documentation and ensure that any non-compliant areas are addressed promptly.\n\nSincerely,\nRegulatory Affairs",
+    "sender": "regulatory@canpass.ca",
+    "recipient": "reg.team@aixm.ca",
+    "date": "2027-05-30",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 68,
+    "subject": "Enhanced In-Flight Entertainment Proposal",
+    "body": "Hi Customer Service,\n\nA proposal for enhanced in-flight entertainment systems has been approved for implementation on select domestic flights from Toronto Pearson (CYYZ). The proposal outlines new content offerings and technical upgrades. Please update the service guidelines accordingly.\n\nRegards,\nCustomer Experience Team",
+    "sender": "customerservice@canpass.ca",
+    "recipient": "service@aixm.ca",
+    "date": "2027-06-05",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 69,
+    "subject": "Terminal Parking Expansion Initiative",
+    "body": "Dear Infrastructure Team,\n\nWe are proposing an expansion of the terminal parking facilities at Calgary International (CYYC) to accommodate increased passenger volume. Please review the attached feasibility study and provide your input on potential design modifications.\n\nBest regards,\nTerminal Development",
+    "sender": "terminal@canpass.ca",
+    "recipient": "infrastructure@aixm.ca",
+    "date": "2027-06-10",
+    "category": "Terminal Expansion"
+  },
+  {
+    "id": 70,
+    "subject": "Safety Inspection Report - Runway 07/25",
+    "body": "Hello Safety Team,\n\nAttached is the latest safety inspection report for Runway 07/25 at Victoria International (CYYJ). The report highlights minor safety issues that need to be addressed immediately. Please review the report and implement the recommended fixes.\n\nThank you,\nSafety Office",
+    "sender": "safety@canpass.ca",
+    "recipient": "maintenance@aixm.ca",
+    "date": "2027-06-15",
+    "category": "Runway Modification"
+  },
+  {
+    "id": 71,
+    "subject": "Fuel Cost Analysis Update",
+    "body": "Dear Finance,\n\nPlease find attached the latest analysis on fuel costs at major Canadian airports. The report indicates a potential decrease in prices due to market adjustments. Update your forecasts accordingly and communicate the changes to the relevant departments.\n\nBest,\nFuel Management",
+    "sender": "fuel@canpass.ca",
+    "recipient": "finance@aixm.ca",
+    "date": "2027-06-20",
+    "category": "Fuel Price Update"
+  },
+  {
+    "id": 72,
+    "subject": "Crew Training Session Announcement",
+    "body": "Hello Crew Management,\n\nWe are organizing a new training session focusing on advanced safety procedures and customer service enhancements for flight attendants. The training is scheduled for July 5, 2027. Please ensure all crew members are informed and registered.\n\nRegards,\nCrew Management",
+    "sender": "crew@canpass.ca",
+    "recipient": "scheduling@aixm.ca",
+    "date": "2027-06-25",
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 73,
+    "subject": "Airline Partnership Proposal",
+    "body": "Dear Business Development,\n\nWe have received a proposal from a major airline to establish a new partnership for enhanced route sharing between Montreal (CYUL) and Vancouver (CYVR). Please review the proposal and prepare a detailed analysis of potential benefits and challenges.\n\nBest regards,\nBusiness Development Team",
+    "sender": "business@canpass.ca",
+    "recipient": "bd@aixm.ca",
+    "date": "2027-07-01",
+    "category": "Airport Approval"
+  },
+  {
+    "id": 74,
+    "subject": "Terminal Wi-Fi Upgrade Notice",
+    "body": "Hi IT Department,\n\nA proposal for upgrading terminal Wi-Fi systems at Toronto Pearson (CYYZ) has been approved. This upgrade will improve connectivity for passengers and staff. Please schedule the necessary IT work and coordinate with the network providers.\n\nThank you,\nIT Services",
+    "sender": "it@canpass.ca",
+    "recipient": "it.team@aixm.ca",
+    "date": "2027-07-05",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 75,
+    "subject": "Sustainability Audit for Airport Operations",
+    "body": "Hello Sustainability Team,\n\nWe are initiating a comprehensive sustainability audit for all airport operations at major hubs. The audit will assess energy usage, waste management, and carbon emissions. Please prepare your departmental reports and schedules for the audit starting in August 2027.\n\nBest regards,\nSustainability Office",
+    "sender": "sustainability@canpass.ca",
+    "recipient": "sustainability@aixm.ca",
+    "date": "2027-07-10",
+    "category": "Regulatory Change"
+  }
+]
 
