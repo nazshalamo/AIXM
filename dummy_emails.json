@@ -135,3 +135,186 @@
     "category": "Fuel Price Update"
   }
 ]
+[
+  {
+    "id": 16,
+    "subject": "Flight Route Expansion Request",
+    "body": "Hello Flight Ops,\n\nWe would like to propose an expansion of the current flight route network from Edmonton (CYEG) to Yellowknife (CYZF). This new route is expected to facilitate cargo operations and improve connectivity in the northern region. Please review the attached feasibility study and let us know if additional information is needed.\n\nRegards,\nRoute Planning Team",
+    "sender": "routes@canpass.ca",
+    "recipient": "flightops@aixm.ca",
+    "date": "2024-05-10",
+    "category": "Flight Route Approval"
+  },
+  {
+    "id": 17,
+    "subject": "Runway Extension Feasibility Study",
+    "body": "Dear Engineering,\n\nWe have received a request to conduct a feasibility study for extending Runway 12/30 at Winnipeg International (CYWG) by an additional 500 meters. The goal is to accommodate larger aircraft and expand international operations. Please coordinate with the construction team and provide a preliminary cost estimate.\n\nThank you,\nAirport Planning Department",
+    "sender": "planning@canpass.ca",
+    "recipient": "engineering@aixm.ca",
+    "date": "2024-06-01",
+    "category": "Runway Modification"
+  },
+  {
+    "id": 18,
+    "subject": "Winter Operations Briefing",
+    "body": "Hello Operations Team,\n\nAs we approach the winter season, we have updated the runway friction measurement procedures and snow removal protocols for all airports in the Quebec region. Please ensure that all ground handling teams and snow removal crews are briefed on the revised guidelines. A mandatory training session is scheduled for November 15, 2025.\n\nBest,\nWinter Ops Coordination",
+    "sender": "winterops@canpass.ca",
+    "recipient": "ops.team@aixm.ca",
+    "date": "2024-10-20",
+    "category": "Weather Alert"
+  },
+  {
+    "id": 19,
+    "subject": "Satellite-Based Approach Procedure Implementation",
+    "body": "Dear Procedures Department,\n\nWe are pleased to announce the implementation of a new satellite-based approach procedure for Halifax Stanfield International (CYHZ). This procedure is expected to enhance navigational accuracy and reduce the risk of missed approaches during adverse weather conditions. Please coordinate with the ATC unit to finalize documentation.\n\nThank you,\nNav Services",
+    "sender": "navservices@canpass.ca",
+    "recipient": "procedures@aixm.ca",
+    "date": "2024-07-05",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 20,
+    "subject": "Bird Hazard Advisory",
+    "body": "Hi Safety Team,\n\nWe have received multiple reports of increased bird activity near Regina International (CYQR). Pilots have reported flocks of geese along the approach path. We recommend issuing a NOTAM and reminding crews to follow bird-strike avoidance procedures. Please update the hazard database accordingly.\n\nRegards,\nWildlife Management",
+    "sender": "wildlife@canpass.ca",
+    "recipient": "safety@aixm.ca",
+    "date": "2024-08-02",
+    "category": "NOTAM"
+  },
+  {
+    "id": 21,
+    "subject": "Emergency Firefighting Exercise Schedule",
+    "body": "Hello Team,\n\nAn emergency firefighting exercise will be conducted at Ottawa Macdonald-Cartier International (CYOW) on March 10, 2025. All relevant departments, including local fire services and airport security, must participate. Please confirm the availability of your teams and finalize the exercise scenario details.\n\nBest,\nEmergency Planning",
+    "sender": "emergency@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2024-11-15",
+    "category": "Emergency Procedure"
+  },
+  {
+    "id": 22,
+    "subject": "Noise Abatement Regulation Update",
+    "body": "Dear Regulatory Team,\n\nEffective January 1, 2026, stricter noise abatement procedures will be enforced at airports located within 50 km of major residential areas. This update is in accordance with the latest environmental protection guidelines. Please ensure that all noise contour maps and pilot briefings are revised accordingly.\n\nRegards,\nEnvironmental Office",
+    "sender": "environment@canpass.ca",
+    "recipient": "reg.team@aixm.ca",
+    "date": "2024-12-05",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 23,
+    "subject": "Airspace Class Revision Proposal",
+    "body": "Hello Airspace Team,\n\nA proposal has been submitted to reclassify certain sections of airspace around Calgary (CYYC) from Class C to Class B to accommodate increasing traffic volume. We request a thorough review of traffic data and coordination with NAV CANADA. A draft of the revised airspace chart is attached.\n\nBest,\nAirspace Management",
+    "sender": "airspace@canpass.ca",
+    "recipient": "airspace.team@aixm.ca",
+    "date": "2025-01-10",
+    "category": "Airspace Designation"
+  },
+  {
+    "id": 24,
+    "subject": "Fuel Price Adjustment Notice",
+    "body": "Dear Finance,\n\nPlease be advised that due to global market fluctuations, fuel prices at major Canadian airports will increase by an average of 4% starting July 1, 2025. We recommend updating operational cost forecasts and informing airline partners. Detailed rate tables are attached.\n\nRegards,\nFuel Management",
+    "sender": "fuel@canpass.ca",
+    "recipient": "finance@aixm.ca",
+    "date": "2025-03-01",
+    "category": "Fuel Price Update"
+  },
+  {
+    "id": 25,
+    "subject": "Cargo Facility Expansion Approval",
+    "body": "Hello Logistics,\n\nWe are pleased to inform you that the proposed expansion of the cargo handling facility at Hamilton International (CYHM) has been approved. Construction is scheduled to begin in August 2025, with a projected completion date of mid-2026. Please update your capacity planning models accordingly.\n\nBest,\nCargo Development",
+    "sender": "cargo@canpass.ca",
+    "recipient": "logistics@aixm.ca",
+    "date": "2025-04-12",
+    "category": "Cargo Facility Update"
+  },
+  {
+    "id": 26,
+    "subject": "Terminal Security Upgrade Notice",
+    "body": "Hi Security Team,\n\nThe terminal security systems at Kelowna International (CYLW) are scheduled for a major upgrade starting September 2025. This includes the installation of new access control systems and advanced screening equipment. Please ensure that all security staff are trained on the updated protocols.\n\nRegards,\nSecurity Upgrades Department",
+    "sender": "security@canpass.ca",
+    "recipient": "security.team@aixm.ca",
+    "date": "2025-05-20",
+    "category": "Security Protocol Update"
+  },
+  {
+    "id": 27,
+    "subject": "Crew Scheduling Roster for Summer Season",
+    "body": "Dear Crew Management,\n\nThis is to notify you that the crew scheduling roster for the summer season (June to August) has been finalized. Due to increased tourist traffic, we have added additional flights to popular destinations. Please review the roster and confirm the availability of all crew members.\n\nBest regards,\nOperations Planning",
+    "sender": "ops@canpass.ca",
+    "recipient": "crew@aixm.ca",
+    "date": "2025-02-28",
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 28,
+    "subject": "Runway Grooving Maintenance Advisory",
+    "body": "Hello Maintenance,\n\nWe have observed reduced traction on Runway 04/22 at St. John's International (CYYT) due to wear on the grooved surface. A maintenance window is available in May 2026 for re-grooving and friction testing. Please coordinate with the engineering team to schedule the necessary work.\n\nRegards,\nRunway Operations",
+    "sender": "runwayops@canpass.ca",
+    "recipient": "maintenance@aixm.ca",
+    "date": "2025-07-18",
+    "category": "Runway Modification"
+  },
+  {
+    "id": 29,
+    "subject": "Regulatory Amendment: Drone Operations",
+    "body": "Dear Regulatory Department,\n\nAn amendment has been issued regarding drone operations within controlled airspace near Vancouver (CYVR). All drone flights above 400 ft AGL now require special clearance. Please incorporate this amendment into the existing regulations and disseminate the updates to local operators.\n\nThank you,\nUAS Office",
+    "sender": "uas@canpass.ca",
+    "recipient": "reg.team@aixm.ca",
+    "date": "2025-08-01",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 30,
+    "subject": "New Instrument Landing System Calibration",
+    "body": "Hi Procedures,\n\nA new ILS has been installed at Fredericton International (CYFC). We are scheduling a calibration flight for February 15, 2026, to verify accuracy. Please coordinate with the flight check team and ATC to ensure minimal disruptions to regular traffic.\n\nRegards,\nNavigation Systems",
+    "sender": "nav@canpass.ca",
+    "recipient": "procedures@aixm.ca",
+    "date": "2025-09-10",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 31,
+    "subject": "Emergency Evacuation Drill - Dry Run",
+    "body": "Hello Safety Office,\n\nA dry run of the emergency evacuation procedures at Billy Bishop Toronto City Airport (CYTZ) is scheduled for April 5, 2026. This drill will involve airline staff, local fire services, and volunteer passengers. Please finalize the scenario outline and resource allocation.\n\nBest,\nEmergency Planning",
+    "sender": "emergency@canpass.ca",
+    "recipient": "safety@aixm.ca",
+    "date": "2025-10-01",
+    "category": "Emergency Procedure"
+  },
+  {
+    "id": 32,
+    "subject": "Aircraft De-Icing Fluid Shortage Alert",
+    "body": "Dear Operations,\n\nWe have been informed of a potential shortage in aircraft de-icing fluid supplies due to supplier constraints. This may impact winter operations at multiple airports, particularly in the Prairie region. Please advise all stations to monitor usage closely and consider alternative sourcing.\n\nThank you,\nSupply Chain Management",
+    "sender": "supply@canpass.ca",
+    "recipient": "operations@aixm.ca",
+    "date": "2025-11-05",
+    "category": "Weather Alert"
+  },
+  {
+    "id": 33,
+    "subject": "Fuel Price Decrease Notification",
+    "body": "Hello Finance,\n\nEffective September 1, 2026, fuel prices at Canadian airports will be reduced by an average of 3%, following recent market adjustments. Please update the financial projections and communicate the revised rates to all airline partners.\n\nRegards,\nFuel Management",
+    "sender": "fuel@canpass.ca",
+    "recipient": "finance@aixm.ca",
+    "date": "2026-01-10",
+    "category": "Fuel Price Update"
+  },
+  {
+    "id": 34,
+    "subject": "Terminal Expansion Milestone Update",
+    "body": "Hi Infrastructure Team,\n\nThe terminal expansion project at Calgary International (CYYC) has reached its second milestone. The new passenger concourse framework is complete, and interior finishing is slated to begin next month. Please review the updated project schedule and resource allocations.\n\nBest regards,\nTerminal Development",
+    "sender": "terminal@canpass.ca",
+    "recipient": "infrastructure@aixm.ca",
+    "date": "2025-12-15",
+    "category": "Terminal Expansion"
+  },
+  {
+    "id": 35,
+    "subject": "Cargo Facility Safety Audit",
+    "body": "Dear Cargo Management,\n\nA comprehensive safety audit of the cargo facility at Halifax Stanfield International (CYHZ) is scheduled for March 2026. This audit will focus on operational efficiency, security compliance, and hazardous materials handling. Please prepare all relevant documentation.\n\nThank you,\nSafety Audits",
+    "sender": "safety@canpass.ca",
+    "recipient": "cargo@aixm.ca",
+    "date": "2026-02-01",
+    "category": "Cargo Facility Update"
+  }
+]
+
