@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "subject": "Airport Approval Notification",
+    "body": "Hello John,\n\nThis is to confirm that Airdrie Air Park (CEF4) has been approved to be designated as an airport of CANPASS (ADE/CAN). The approval is effective as of March 1, 2025. We request that you update the Central Flight System (CFS) with the new designation and circulate this update to all relevant departments. If you require further details, please do not hesitate to reach out.\n\nBest regards,\nAdmin Team",
+    "sender": "admin@canpass.ca",
+    "recipient": "john.doe@aixm.ca",
+    "date": "2024-02-15",
+    "category": "Airport Approval"
+  },
+  {
+    "id": 2,
+    "subject": "Runway Modification Request",
+    "body": "Dear Jane,\n\nFollowing the latest inspection report, we have identified that Runway 09L/27R at Toronto Pearson International (CYYZ) requires urgent resurfacing and an update in its maintenance scheduling. The current surface condition has been flagged as below optimal safety standards, and immediate remedial action is advised.\n\nPlease review the attached inspection report for detailed observations and coordinate with the engineering team to initiate the repair process. Your prompt action is appreciated.\n\nThank you,\nMaintenance Department",
+    "sender": "maintenance@airport.ca",
+    "recipient": "jane.smith@aixm.ca",
+    "date": "2024-03-01",
+    "category": "Runway Modification"
+  },
+  {
+    "id": 3,
+    "subject": "NOTAM: Runway Closure Notification",
+    "body": "Hi Team,\n\nThis is to inform you that NOTAM: Temporary closure of Runway 16/34 at Calgary International (CYYC) is scheduled due to planned maintenance work. The closure will be effective from April 15, 2025, until further notice. All flight operations and scheduling must be adjusted accordingly.\n\nPlease disseminate this information to all affected operational units and update the system records. Further updates will be provided as maintenance progresses.\n\nRegards,\nOperations",
+    "sender": "operations@canpass.ca",
+    "recipient": "ops.team@aixm.ca",
+    "date": "2024-03-15",
+    "category": "NOTAM"
+  },
+  {
+    "id": 4,
+    "subject": "Procedure Update for Instrument Approach",
+    "body": "Hello Mark,\n\nWe would like to notify you of the recent updates to the Instrument Approach Procedure for Vancouver International (CYVR). The new procedure includes revised descent profiles, updated altitudes, and additional wind shear warnings during final approach. These changes have been implemented to enhance safety and operational efficiency.\n\nPlease update your system with the new procedure details and circulate the changes to the flight operations team. For further clarification, refer to the attached revised procedure document.\n\nThank you,\nProcedures Department",
+    "sender": "procedures@canpass.ca",
+    "recipient": "mark.taylor@aixm.ca",
+    "date": "2024-02-28",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 5,
+    "subject": "Regulatory Change Notification",
+    "body": "Greetings,\n\nWe are writing to inform you that, effective July 1, 2025, there will be significant changes to the flight restrictions in the Ottawa region. This update is in line with the latest regulatory guidelines, which now mandate stricter safety measures and revised operational procedures. All associated documents and manuals should be revised accordingly.\n\nPlease ensure that the regulatory team reviews the updated guidelines and implements the necessary changes promptly. A meeting is scheduled next week to discuss the impact of these changes.\n\nSincerely,\nRegulations Team",
+    "sender": "regulations@canpass.ca",
+    "recipient": "reg.team@aixm.ca",
+    "date": "2024-03-10",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 6,
+    "subject": "Weather Alert for Quebec Region",
+    "body": "Hello,\n\nDue to the forecasted severe weather conditions in the Quebec region, please be advised that all flight schedules may experience delays. Our meteorological team has issued a weather alert and is closely monitoring the situation. We advise all operations centers to prepare for potential disruptions and communicate any changes to the flight crews immediately.\n\nStay safe and please keep us updated on any developments.\n\nBest regards,\nWeather Service",
+    "sender": "weather@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2024-03-12",
+    "category": "Weather Alert"
+  },
+  {
+    "id": 7,
+    "subject": "Emergency Procedure Update",
+    "body": "Dear Team,\n\nFollowing the latest safety audits, we have revised the emergency evacuation procedures for Montreal-Trudeau International (CYUL). The updated procedures emphasize faster evacuation routes and enhanced coordination with local emergency services. All personnel are required to review the updated manuals and attend a refresher training session scheduled for next month.\n\nPlease update all relevant documents and ensure that the new procedures are disseminated across all departments. Let us know if there are any questions or concerns.\n\nRegards,\nSafety Office",
+    "sender": "safety@canpass.ca",
+    "recipient": "manuals@aixm.ca",
+    "date": "2024-02-20",
+    "category": "Emergency Procedure"
+  },
+  {
+    "id": 8,
+    "subject": "Airspace Designation Change Notification",
+    "body": "Hi,\n\nPlease note that the airspace designation for the Canadian FIR in the Atlantic region has been revised. The updated boundaries now include additional airspace to better manage traffic flow. A detailed map and revised coordinates are attached for your review.\n\nWe request that the airspace team update the central database and notify all relevant stakeholders about this change as soon as possible.\n\nThank you,\nAirspace Management",
+    "sender": "airspace@canpass.ca",
+    "recipient": "airspace.team@aixm.ca",
+    "date": "2024-03-05",
+    "category": "Airspace Designation"
+  },
+  {
+    "id": 9,
+    "subject": "Maintenance Approval for Lighting Systems",
+    "body": "Hello,\n\nThis email is to confirm that the maintenance work for the lighting systems at Edmonton International (CYEG) has been approved. The scheduled work will commence on May 1, 2025, and is expected to take approximately two weeks to complete. The maintenance team has been briefed and all necessary safety measures are in place.\n\nPlease update your maintenance logs and inform the operations department of the planned work. Let us know if additional support is required.\n\nBest,\nMaintenance Department",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "edmonton@aixm.ca",
+    "date": "2024-03-18",
+    "category": "Maintenance Approval"
+  },
+  {
+    "id": 10,
+    "subject": "New Flight Route Approval",
+    "body": "Dear Operations,\n\nWe are pleased to announce that the new flight route from Vancouver (CYVR) to Calgary (CYYC) has been approved with the designator UA303. This route is expected to optimize air traffic flow and reduce overall flight times significantly.\n\nPlease update the flight route database accordingly and ensure that all relevant teams are informed about the new route. Detailed route specifications and operating conditions will be provided in a follow-up document.\n\nRegards,\nFlight Operations",
+    "sender": "routes@canpass.ca",
+    "recipient": "operations@aixm.ca",
+    "date": "2024-03-22",
+    "category": "Flight Route Approval"
+  },
+  {
+    "id": 11,
+    "subject": "Terminal Expansion Notification",
+    "body": "Hello Team,\n\nWe are excited to inform you that the Terminal Expansion project at Toronto Pearson (CYYZ) has received final approval. This project will involve major renovations including additional boarding gates, expanded customs areas, and upgraded passenger lounges. Construction is scheduled to begin in early June 2025 and is expected to be completed by late 2026.\n\nPlease coordinate with the infrastructure and planning teams to update logistical plans accordingly, and ensure that all stakeholder communications are aligned with the project timeline.\n\nBest regards,\nTerminal Development",
+    "sender": "terminal@canpass.ca",
+    "recipient": "infrastructure@aixm.ca",
+    "date": "2024-04-01",
+    "category": "Terminal Expansion"
+  },
+  {
+    "id": 12,
+    "subject": "Cargo Facility Update",
+    "body": "Dear Logistics Team,\n\nThis is to notify you that the cargo handling facility at Vancouver International (CYVR) has been upgraded to improve efficiency and safety. The upgrades include new loading docks, enhanced security measures, and state-of-the-art tracking systems. The facility will begin operating with these improvements on April 20, 2025.\n\nPlease update your operational guidelines and communicate these changes to all cargo and logistics partners. Additional documentation on the facility upgrades is attached for your review.\n\nSincerely,\nCargo Management",
+    "sender": "cargo@canpass.ca",
+    "recipient": "logistics@aixm.ca",
+    "date": "2024-04-05",
+    "category": "Cargo Facility Update"
+  },
+  {
+    "id": 13,
+    "subject": "Security Protocol Update",
+    "body": "Hi Security Team,\n\nDue to recent global security developments, we have revised the security protocols for all Canadian airports. The updated protocols include stricter access controls, enhanced screening procedures, and additional surveillance measures. All airport security personnel are required to review the updated guidelines and attend a mandatory training session scheduled for next week.\n\nPlease confirm once you have updated your operational procedures and that your teams are fully briefed on the new security measures.\n\nRegards,\nSecurity Office",
+    "sender": "security@canpass.ca",
+    "recipient": "security.team@aixm.ca",
+    "date": "2024-04-10",
+    "category": "Security Protocol Update"
+  },
+  {
+    "id": 14,
+    "subject": "Crew Scheduling Change Notification",
+    "body": "Dear Crew Scheduling,\n\nThis is to inform you that there have been changes to the crew scheduling for the upcoming month. Due to operational requirements and seasonal adjustments, several crew shifts have been updated. Please review the attached schedule and update your records accordingly. For any discrepancies or questions, do not hesitate to contact the operations manager.\n\nThank you for your cooperation.\n\nBest regards,\nCrew Management",
+    "sender": "crew@canpass.ca",
+    "recipient": "scheduling@aixm.ca",
+    "date": "2024-04-15",
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 15,
+    "subject": "Fuel Price Update Notification",
+    "body": "Hello Team,\n\nPlease be advised that the fuel prices at several Canadian airports have been updated due to recent market fluctuations. The new fuel pricing will be effective from May 1, 2025. We advise all relevant departments to update their operational cost calculations and notify the flight operations teams accordingly.\n\nA detailed breakdown of the updated fuel rates is attached to this email. Your prompt attention to this matter is appreciated.\n\nBest regards,\nFuel Management",
+    "sender": "fuel@canpass.ca",
+    "recipient": "finance@aixm.ca",
+    "date": "2024-04-20",
+    "category": "Fuel Price Update"
+  }
+]
