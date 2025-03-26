@@ -133,9 +133,7 @@
     "recipient": "finance@aixm.ca",
     "date": "2024-04-20",
     "category": "Fuel Price Update"
-  }
-]
-[
+  },
   {
     "id": 16,
     "subject": "Flight Route Expansion Request",
@@ -315,9 +313,7 @@
     "recipient": "cargo@aixm.ca",
     "date": "2026-02-01",
     "category": "Cargo Facility Update"
-  }
-]
-[
+  },
   {
     "id": 36,
     "subject": "Airport Designation Update",
@@ -497,9 +493,7 @@
     "recipient": "sustainability@aixm.ca",
     "date": "2027-03-25",
     "category": "Regulatory Change"
-  }
-]
-[
+  },
   {
     "id": 56,
     "subject": "New Cargo Terminal Proposal",
