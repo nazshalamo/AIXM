@@ -673,6 +673,1130 @@
     "recipient": "sustainability@aixm.ca",
     "date": "2027-07-10",
     "category": "Regulatory Change"
+  },
+  {
+    "id": 76,
+    "subject": "New Drone Surveillance Initiative",
+    "body": "Hello Security Team, we are excited to announce a new drone surveillance initiative aimed at enhancing airport perimeter security. The project will commence next month and will utilize high-resolution cameras and advanced sensors. Please coordinate with the operations team for further implementation details.",
+    "sender": "security@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-07-01",
+    "category": "Security Protocol Update"
+  },
+  {
+    "id": 77,
+    "subject": "Runway Inspection Report Update",
+    "body": "Dear Maintenance Team, the latest runway inspection report for Toronto Pearson has been finalized. Several critical maintenance issues have been identified that require immediate attention. Please review the attached report and schedule the necessary repairs.",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "engineering@aixm.ca",
+    "date": "2027-07-02",
+    "category": "Runway Modification"
+  },
+  {
+    "id": 78,
+    "subject": "Airport Expansion Proposal Review",
+    "body": "Hello Board, we have received a new proposal for expanding the terminal facilities at Vancouver International. The proposal outlines additional boarding gates and updated passenger lounges. Please review the attached document and provide your feedback by next week.",
+    "sender": "terminal@canpass.ca",
+    "recipient": "board@aixm.ca",
+    "date": "2027-07-03",
+    "category": "Terminal Expansion"
+  },
+  {
+    "id": 79,
+    "subject": "Flight Route Amendment Suggestion",
+    "body": "Dear Flight Operations, there is a suggestion to amend the current flight route from Montreal to Ottawa. This change could potentially reduce flight times and improve fuel efficiency. Please evaluate the proposal and prepare an impact analysis report.",
+    "sender": "routes@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-07-04",
+    "category": "Flight Route Approval"
+  },
+  {
+    "id": 80,
+    "subject": "New Cargo Handling Equipment Approval",
+    "body": "Hello Cargo Management, new cargo handling equipment has been approved for installation at Calgary International. The equipment promises to improve loading times and increase safety. Kindly schedule the procurement process and coordinate with the maintenance team.",
+    "sender": "cargo@canpass.ca",
+    "recipient": "procurement@aixm.ca",
+    "date": "2027-07-05",
+    "category": "Cargo Facility Update"
+  },
+  {
+    "id": 81,
+    "subject": "Weather Alert for Thunderstorm Activity",
+    "body": "Hi Operations, severe thunderstorm activity is forecasted for the Edmonton area. This may result in delays and potential flight rescheduling at Edmonton International. Please inform all relevant teams and update flight schedules accordingly.",
+    "sender": "weather@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-07-06",
+    "category": "Weather Alert"
+  },
+  {
+    "id": 82,
+    "subject": "Regulatory Update on Passenger Screening",
+    "body": "Dear Security Team, there is a new regulatory update regarding passenger screening procedures at all Canadian airports. The update mandates additional checks for international arrivals. Please update your protocols and ensure that training sessions are scheduled for staff.",
+    "sender": "regulatory@canpass.ca",
+    "recipient": "security@aixm.ca",
+    "date": "2027-07-07",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 83,
+    "subject": "Crew Schedule Revision Notice",
+    "body": "Hello Crew Management, please note that the crew scheduling for the upcoming summer season has been revised. The new schedule aims to optimize shift distribution and reduce overtime. Kindly review the updated roster and confirm availability of all crew members.",
+    "sender": "crew@canpass.ca",
+    "recipient": "scheduling@aixm.ca",
+    "date": "2027-07-08",
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 84,
+    "subject": "Emergency Procedure Drill Announcement",
+    "body": "Dear Safety Office, an emergency procedure drill is scheduled for next week at Montreal-Trudeau International. This drill will simulate a full-scale emergency evacuation. Please coordinate with all departments and prepare the necessary resources.",
+    "sender": "safety@canpass.ca",
+    "recipient": "emergency@aixm.ca",
+    "date": "2027-07-09",
+    "category": "Emergency Procedure"
+  },
+  {
+    "id": 85,
+    "subject": "New Airport Designation Proposal",
+    "body": "Hello Regulatory Affairs, a proposal has been submitted to designate a new regional airport in northern Ontario as a CANPASS hub. The proposal includes detailed operational benefits and regional impact analysis. Please review and provide feedback on the proposal at your earliest convenience.",
+    "sender": "admin@canpass.ca",
+    "recipient": "regulatory@aixm.ca",
+    "date": "2027-07-10",
+    "category": "Airport Approval"
+  },
+  {
+    "id": 86,
+    "subject": "Fuel Price Increase Notification",
+    "body": "Dear Finance, due to recent market fluctuations, fuel prices are expected to increase by 5% at several major Canadian airports. This change will affect operational costs and budgeting. Please update your financial forecasts accordingly and notify airline partners.",
+    "sender": "fuel@canpass.ca",
+    "recipient": "finance@aixm.ca",
+    "date": "2027-07-11",
+    "category": "Fuel Price Update"
+  },
+  {
+    "id": 87,
+    "subject": "Airspace Boundary Revision Notice",
+    "body": "Hello Airspace Management, there is a notice to revise the airspace boundaries around Halifax Stanfield International. The new boundaries are proposed to better manage increasing traffic. Please update the airspace charts and inform all relevant pilots.",
+    "sender": "airspace@canpass.ca",
+    "recipient": "charts@aixm.ca",
+    "date": "2027-07-12",
+    "category": "Airspace Designation"
+  },
+  {
+    "id": 88,
+    "subject": "Terminal Renovation Update",
+    "body": "Dear Terminal Development Team, the renovation project at Toronto Pearson is progressing as scheduled. The new lounge areas have been completed and construction on additional gates will start next month. Please ensure that all updates are reflected in the project timeline.",
+    "sender": "terminal@canpass.ca",
+    "recipient": "infrastructure@aixm.ca",
+    "date": "2027-07-13",
+    "category": "Terminal Expansion"
+  },
+  {
+    "id": 89,
+    "subject": "Maintenance Alert: Runway Surface Repair",
+    "body": "Hello Maintenance Team, this is an alert regarding the need for immediate runway surface repair at Calgary International. Recent inspections have revealed significant wear and tear that could compromise safety. Please prioritize scheduling repairs at the earliest opportunity.",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-07-14",
+    "category": "Runway Modification"
+  },
+  {
+    "id": 90,
+    "subject": "Flight Delay Notification",
+    "body": "Dear Operations, due to unexpected technical issues, several flights at Vancouver International are experiencing delays. The delays are expected to last for about two hours. Please communicate this information to affected passengers and update the flight status accordingly.",
+    "sender": "ops@canpass.ca",
+    "recipient": "flightops@aixm.ca",
+    "date": "2027-07-15",
+    "category": "Flight Route Approval"
+  },
+  {
+    "id": 91,
+    "subject": "New Procedure for Security Screening",
+    "body": "Hello Security Team, a new procedure for security screening has been implemented at all Canadian airports. This procedure emphasizes enhanced verification steps for international arrivals. Please review the updated guidelines and ensure that all staff are properly trained.",
+    "sender": "security@canpass.ca",
+    "recipient": "security.team@aixm.ca",
+    "date": "2027-07-16",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 92,
+    "subject": "Cargo Safety Protocol Update",
+    "body": "Dear Cargo Management, please note that the cargo facility at Edmonton International is updating its safety protocols to better handle hazardous materials. The new protocols include stricter inspection routines and enhanced training for staff. Kindly review and implement these changes immediately.",
+    "sender": "cargo@canpass.ca",
+    "recipient": "logistics@aixm.ca",
+    "date": "2027-07-17",
+    "category": "Cargo Facility Update"
+  },
+  {
+    "id": 93,
+    "subject": "Flight Route Network Optimization",
+    "body": "Hello Flight Operations, our recent analysis suggests that the current flight route network can be optimized to reduce fuel consumption and flight times. Please examine the attached network analysis report and propose modifications. Your feedback is essential for our upcoming strategy meeting.",
+    "sender": "routes@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-07-18",
+    "category": "Flight Route Approval"
+  },
+  {
+    "id": 94,
+    "subject": "Maintenance Work Rescheduling Notice",
+    "body": "Dear Maintenance Team, due to unforeseen weather conditions, maintenance work at Calgary International has been rescheduled to next week. This adjustment is necessary to ensure safety and efficiency. Please update your schedules and notify the affected departments.",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "engineering@aixm.ca",
+    "date": "2027-07-19",
+    "category": "Runway Modification"
+  },
+  {
+    "id": 95,
+    "subject": "Airspace Coordination Meeting",
+    "body": "Hello Airspace Management, an airspace coordination meeting is scheduled for next Friday to discuss recent boundary adjustments and traffic management strategies. All relevant teams are expected to attend. Please prepare your reports and suggestions in advance.",
+    "sender": "airspace@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-07-20",
+    "category": "Airspace Designation"
+  },
+  {
+    "id": 96,
+    "subject": "Regulatory Compliance Update",
+    "body": "Dear Regulatory Team, there is a new update regarding compliance with international aviation standards. The update includes revised documentation and procedures that must be adopted by all relevant departments. Please review the materials and implement the changes promptly.",
+    "sender": "regulatory@canpass.ca",
+    "recipient": "reg.team@aixm.ca",
+    "date": "2027-07-21",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 97,
+    "subject": "New Terminal Facility Proposal",
+    "body": "Hello Terminal Development Team, a proposal for a new terminal facility at Winnipeg International has been submitted. The proposal highlights modern design features and improved passenger flow. Please assess the proposal and provide your recommendations for the next phase.",
+    "sender": "terminal@canpass.ca",
+    "recipient": "infrastructure@aixm.ca",
+    "date": "2027-07-22",
+    "category": "Terminal Expansion"
+  },
+  {
+    "id": 98,
+    "subject": "Fuel Price Forecast Update",
+    "body": "Dear Finance, the latest market analysis predicts a stabilization of fuel prices over the next quarter. Please review the attached forecast report and update your financial models accordingly. This information is crucial for our budgeting process.",
+    "sender": "fuel@canpass.ca",
+    "recipient": "finance@aixm.ca",
+    "date": "2027-07-23",
+    "category": "Fuel Price Update"
+  },
+  {
+    "id": 99,
+    "subject": "Emergency Response Procedure Revision",
+    "body": "Hello Safety Office, following a recent review, the emergency response procedures for Vancouver International have been revised to improve coordination with local emergency services. Please update all relevant protocols and ensure that staff training is scheduled. This revision aims to enhance overall safety.",
+    "sender": "safety@canpass.ca",
+    "recipient": "emergency@aixm.ca",
+    "date": "2027-07-24",
+    "category": "Emergency Procedure"
+  },
+  {
+    "id": 100,
+    "subject": "Crew Scheduling Optimization Proposal",
+    "body": "Dear Crew Management, a proposal for optimizing crew schedules during peak travel periods has been formulated. The proposal suggests new shift patterns and adjustments to rest periods. Kindly review the proposal and provide feedback for further refinement.",
+    "sender": "crew@canpass.ca",
+    "recipient": "scheduling@aixm.ca",
+    "date": "2027-07-25",
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 101,
+    "subject": "Airspace Traffic Analysis Report",
+    "body": "Hello Airspace Management, the latest analysis report on airspace traffic near Calgary International is now available. The report details traffic flow patterns and identifies potential bottlenecks. Please review the report and discuss its implications in the upcoming meeting.",
+    "sender": "airspace@canpass.ca",
+    "recipient": "charts@aixm.ca",
+    "date": "2027-07-26",
+    "category": "Airspace Designation"
+  },
+  {
+    "id": 102,
+    "subject": "New Security Surveillance Cameras Installation",
+    "body": "Dear Security Team, new surveillance cameras are scheduled for installation at Toronto Pearson International to enhance monitoring capabilities. The project includes high-resolution cameras and upgraded data storage systems. Please coordinate with IT and maintenance for smooth implementation.",
+    "sender": "security@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-07-27",
+    "category": "Security Protocol Update"
+  },
+  {
+    "id": 103,
+    "subject": "Terminal Wi-Fi System Upgrade",
+    "body": "Hello IT Department, an upgrade for the terminal Wi-Fi system at Halifax Stanfield International is planned to improve connectivity and speed. The upgrade will involve new hardware installations and network configuration changes. Please coordinate with external vendors to schedule the upgrade with minimal disruption.",
+    "sender": "it@canpass.ca",
+    "recipient": "it.team@aixm.ca",
+    "date": "2027-07-28",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 104,
+    "subject": "Flight Schedule Adjustment Announcement",
+    "body": "Dear Flight Operations, due to changes in air traffic regulations, several flight schedules at Montreal-Trudeau International have been adjusted. The new schedules will take effect next week and are designed to optimize traffic flow. Please update all relevant systems and notify affected passengers promptly.",
+    "sender": "ops@canpass.ca",
+    "recipient": "flightops@aixm.ca",
+    "date": "2027-07-29",
+    "category": "Flight Route Approval"
+  },
+  {
+    "id": 105,
+    "subject": "Cargo Handling Process Improvement",
+    "body": "Hello Cargo Management, a process improvement plan for cargo handling at Winnipeg International has been developed to streamline operations. The plan includes new loading procedures and enhanced safety protocols. Please review the attached plan and implement the recommended changes as soon as possible.",
+    "sender": "cargo@canpass.ca",
+    "recipient": "logistics@aixm.ca",
+    "date": "2027-07-30",
+    "category": "Cargo Facility Update"
+  },
+  {
+    "id": 106,
+    "subject": "Runway Construction Plan Proposal",
+    "body": "Hello Operations Team, we are proposing a new runway construction plan at the regional hub to accommodate larger aircraft. The plan details the layout, estimated cost, and projected completion timeline. Please review the attached blueprint and provide feedback by next week.",
+    "sender": "engineering@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-08-07",
+    "category": "Runway Construction"
+  },
+  {
+    "id": 107,
+    "subject": "Aircraft Hangar Upgrade Notification",
+    "body": "Dear Maintenance, an upgrade to the existing aircraft hangar has been approved to improve storage capacity and safety. The upgrade includes new insulation, fire suppression systems, and modernized maintenance bays. Kindly coordinate with procurement to begin the tender process.",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "procurement@aixm.ca",
+    "date": "2027-08-08",
+    "category": "Hangar Upgrade"
+  },
+  {
+    "id": 108,
+    "subject": "Terminal Lighting Replacement Schedule",
+    "body": "Hello Facilities, the terminal lighting systems at our main hub require replacement to improve energy efficiency. The new LED lighting proposal has been approved and installation is scheduled to start next month. Please update the maintenance calendar accordingly.",
+    "sender": "facilities@canpass.ca",
+    "recipient": "maintenance@aixm.ca",
+    "date": "2027-08-09",
+    "category": "Maintenance Approval"
+  },
+  {
+    "id": 109,
+    "subject": "Security Protocol Revision Announcement",
+    "body": "Dear Security Team, a revision to our airport security protocols is set to take effect next quarter. The update includes enhanced screening procedures and new access control measures. Please attend the mandatory training session scheduled for next month.",
+    "sender": "security@canpass.ca",
+    "recipient": "security.team@aixm.ca",
+    "date": "2027-08-10",
+    "category": "Security Protocol Update"
+  },
+  {
+    "id": 110,
+    "subject": "Terminal Wi-Fi Upgrade Plan",
+    "body": "Hello IT Department, we have finalized a plan to upgrade the terminal Wi-Fi system to provide faster and more reliable connectivity. The project will involve new routers and network configuration changes. Please coordinate with external vendors to schedule the upgrade with minimal disruption.",
+    "sender": "it@canpass.ca",
+    "recipient": "it.team@aixm.ca",
+    "date": "2027-08-11",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 111,
+    "subject": "Airspace Redesign Consultation",
+    "body": "Dear Airspace Management, due to increasing traffic, we are consulting on a redesign of the current airspace boundaries. The objective is to optimize traffic flow and reduce congestion near the hub. Please review the preliminary proposals and share your expert insights.",
+    "sender": "airspace@canpass.ca",
+    "recipient": "charts@aixm.ca",
+    "date": "2027-08-12",
+    "category": "Airspace Designation"
+  },
+  {
+    "id": 112,
+    "subject": "Fuel Consumption Analysis Report",
+    "body": "Hello Finance, the latest operational data shows an unusual spike in fuel consumption across several airports. A detailed analysis has been conducted to identify the potential causes, including changes in flight schedules and equipment performance. Please review the attached report and update your forecasts accordingly.",
+    "sender": "fuel@canpass.ca",
+    "recipient": "finance@aixm.ca",
+    "date": "2027-08-13",
+    "category": "Fuel Price Update"
+  },
+  {
+    "id": 113,
+    "subject": "Crew Training Program Announcement",
+    "body": "Dear Crew Management, a new training program focusing on advanced emergency procedures has been scheduled. The program includes both classroom sessions and practical drills. Please disseminate the schedule to all crew members and ensure enrollment.",
+    "sender": "crew@canpass.ca",
+    "recipient": "scheduling@aixm.ca",
+    "date": "2027-08-14",
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 114,
+    "subject": "Environmental Sustainability Initiative",
+    "body": "Hello Sustainability Team, we are launching a new initiative aimed at reducing carbon emissions across all airport operations. The initiative includes energy audits, green technology investments, and operational changes. Please review the strategic plan and prepare your departmental action plans.",
+    "sender": "sustainability@canpass.ca",
+    "recipient": "sustainability@aixm.ca",
+    "date": "2027-08-15",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 115,
+    "subject": "Emergency Response System Upgrade",
+    "body": "Dear Emergency Services, we are upgrading our emergency response systems to improve coordination during incidents. The upgrade will incorporate real-time communication and advanced tracking technology. Please review the implementation plan and confirm resource allocation.",
+    "sender": "emergency@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-08-16",
+    "category": "Emergency Procedure"
+  },
+  {
+    "id": 116,
+    "subject": "Passenger Service Improvement Feedback",
+    "body": "Hello Customer Service, recent passenger surveys indicate a need for improvements in check-in efficiency and lounge amenities. A proposal has been developed to address these concerns with targeted service enhancements. Please review the feedback report and share your recommendations.",
+    "sender": "customerservice@canpass.ca",
+    "recipient": "service@aixm.ca",
+    "date": "2027-08-17",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 117,
+    "subject": "Data Integration Project Kickoff",
+    "body": "Dear IT and Operations, we are initiating a data integration project to unify our operational databases across all airports. The project will focus on standardizing data formats and improving real-time data access. Please join the kickoff meeting next week to discuss the project roadmap.",
+    "sender": "it@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-08-18",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 118,
+    "subject": "Procedure Update: New Check-In Process",
+    "body": "Hello Operations, we have updated our check-in procedures to reduce wait times and improve efficiency. The new process includes automated kiosks and dedicated lanes for frequent flyers. Please review the updated guidelines and train your staff accordingly.",
+    "sender": "ops@canpass.ca",
+    "recipient": "service@aixm.ca",
+    "date": "2027-08-19",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 119,
+    "subject": "Regulatory Change: Noise Abatement Measures",
+    "body": "Dear Regulatory Team, new noise abatement measures have been approved to minimize airport impact on nearby residential areas. The measures include updated flight paths and reduced engine noise during takeoff. Please update the regulatory documentation and notify all relevant departments.",
+    "sender": "regulatory@canpass.ca",
+    "recipient": "reg.team@aixm.ca",
+    "date": "2027-08-20",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 120,
+    "subject": "Cargo Operations Enhancement Proposal",
+    "body": "Hello Cargo Management, we have developed a proposal to enhance cargo operations by integrating new sorting technologies and streamlined workflows. This proposal is expected to improve processing speed and reduce errors. Please review the attached proposal and provide your input.",
+    "sender": "cargo@canpass.ca",
+    "recipient": "logistics@aixm.ca",
+    "date": "2027-08-21",
+    "category": "Cargo Facility Update"
+  },
+  {
+    "id": 121,
+    "subject": "Runway Expansion Feasibility Study",
+    "body": "Dear Engineering Team, a feasibility study for expanding the current runway at Winnipeg International has been completed. The study outlines potential benefits, costs, and environmental impacts. Please review the study and prepare a presentation for the upcoming planning meeting.",
+    "sender": "engineering@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-08-22",
+    "category": "Runway Construction"
+  },
+  {
+    "id": 122,
+    "subject": "Hangar Construction Update",
+    "body": "Hello Facilities, the construction of the new aircraft hangar at Edmonton International is progressing on schedule. The project has reached its halfway mark with all safety protocols in place. Please update your project tracking system and inform stakeholders of the current status.",
+    "sender": "facilities@canpass.ca",
+    "recipient": "engineering@aixm.ca",
+    "date": "2027-08-23",
+    "category": "Hangar Upgrade"
+  },
+  {
+    "id": 123,
+    "subject": "Terminal Expansion Phase 2 Announcement",
+    "body": "Dear Terminal Development, phase 2 of the terminal expansion project at Calgary International is set to begin next month. This phase focuses on adding additional check-in counters and boarding areas. Please coordinate with the construction team to ensure a smooth transition between phases.",
+    "sender": "terminal@canpass.ca",
+    "recipient": "infrastructure@aixm.ca",
+    "date": "2027-08-24",
+    "category": "Terminal Expansion"
+  },
+  {
+    "id": 124,
+    "subject": "Security Equipment Modernization Notice",
+    "body": "Hello Security Team, the modernization of security equipment at Toronto Pearson is scheduled to start soon. New scanners and surveillance cameras will be installed to enhance overall security. Please review the modernization plan and schedule training sessions for the updated equipment.",
+    "sender": "security@canpass.ca",
+    "recipient": "security.team@aixm.ca",
+    "date": "2027-08-25",
+    "category": "Security Protocol Update"
+  },
+  {
+    "id": 125,
+    "subject": "Flight Scheduling Optimization Report",
+    "body": "Dear Flight Operations, our recent analysis indicates that the current flight scheduling could be optimized to reduce delays. The attached report outlines several potential improvements, including revised time slots and better resource allocation. Please review the report and prepare for a discussion in the next meeting.",
+    "sender": "ops@canpass.ca",
+    "recipient": "flightops@aixm.ca",
+    "date": "2027-08-26",
+    "category": "Flight Route Approval"
+  },
+  {
+    "id": 126,
+    "subject": "Aircraft De-Icing Procedure Revision",
+    "body": "Hello Maintenance, due to recurring issues during winter operations, the aircraft de-icing procedures have been revised. The updated procedure is designed to be more efficient and safe. Please update the training materials and operational manuals accordingly.",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-08-27",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 127,
+    "subject": "New Pilot Training Curriculum Launch",
+    "body": "Dear Training Department, a new pilot training curriculum has been launched to incorporate the latest industry practices. The curriculum covers advanced navigation, safety protocols, and emergency management. Please schedule briefing sessions with all new recruits and existing pilots.",
+    "sender": "training@canpass.ca",
+    "recipient": "pilot.training@aixm.ca",
+    "date": "2027-08-28
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 128,
+    "subject": "Air Traffic Control System Enhancement",
+    "body": "Hello ATC Team, we are upgrading our air traffic control system to improve real-time monitoring and communication. The enhancement includes new radar technologies and improved data analytics. Please review the technical specifications and prepare for system integration.",
+    "sender": "atc@canpass.ca",
+    "recipient": "atc.team@aixm.ca",
+    "date": "2027-08-29",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 129,
+    "subject": "Maintenance Process Improvement Initiative",
+    "body": "Dear Maintenance, a new initiative has been launched to improve the overall maintenance process across our network. The initiative focuses on predictive maintenance and streamlined workflows. Please review the project plan and implement the recommended process changes.",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-08-30",
+    "category": "Runway Modification"
+  },
+  {
+    "id": 130,
+    "subject": "Ground Support Equipment Upgrade",
+    "body": "Hello Operations, we are planning an upgrade for ground support equipment to enhance efficiency at multiple airports. The upgrade includes new vehicles and improved communication devices. Please coordinate with the procurement team to finalize the equipment list and timeline.",
+    "sender": "procurement@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-08-31",
+    "category": "Maintenance Approval"
+  },
+  {
+    "id": 131,
+    "subject": "Emergency Evacuation Drill Outcome Review",
+    "body": "Dear Safety Office, we have completed the review of the recent emergency evacuation drill at Halifax Stanfield International. The review highlights both strengths and areas for improvement in our emergency protocols. Please compile a final report and present your findings at the upcoming safety meeting.",
+    "sender": "safety@canpass.ca",
+    "recipient": "emergency@aixm.ca",
+    "date": "2027-09-01",
+    "category": "Emergency Procedure"
+  },
+  {
+    "id": 132,
+    "subject": "Passenger Feedback Analysis Report",
+    "body": "Hello Customer Service, the latest passenger feedback analysis for Montreal-Trudeau International has been completed. The report identifies key areas where service can be improved, particularly at check-in and boarding. Please review the report and develop an action plan to address the main concerns.",
+    "sender": "customerservice@canpass.ca",
+    "recipient": "service@aixm.ca",
+    "date": "2027-09-02",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 133,
+    "subject": "Operational Cost Reduction Strategy",
+    "body": "Dear Finance, our recent operational review has identified several opportunities to reduce costs across various departments. The proposed strategy includes energy savings, process optimization, and renegotiation of supplier contracts. Please review the detailed plan and schedule a meeting to discuss implementation.",
+    "sender": "finance@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-09-03",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 134,
+    "subject": "Runway Pavement Repair Proposal",
+    "body": "Hello Maintenance, a new proposal for repairing the pavement on Runway 07/25 at Victoria International has been submitted. The proposal includes a detailed cost analysis and a timeline for repair work. Please review the proposal and provide your approval for the repair schedule.",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-09-04",
+    "category": "Runway Modification"
+  },
+  {
+    "id": 135,
+    "subject": "Fuel Price Stabilization Strategy Update",
+    "body": "Dear Finance, we have an update regarding our strategy to stabilize fuel prices amidst recent market volatility. The strategy includes long-term contracts and diversified supplier arrangements. Please review the attached strategic update and incorporate the changes into your forecasts.",
+    "sender": "fuel@canpass.ca",
+    "recipient": "finance@aixm.ca",
+    "date": "2027-09-05",
+    "category": "Fuel Price Update"
+  },
+  {
+    "id": 136,
+    "subject": "Pilot Certification Renewal Reminder",
+    "body": "Hello Crew Management, please be advised that several pilots are due for certification renewal next quarter. The HR department has compiled a list of affected personnel and their renewal dates. Kindly review the schedule and coordinate with training providers accordingly.",
+    "sender": "crew@canpass.ca",
+    "recipient": "hr@aixm.ca",
+    "date": "2027-09-06",
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 137,
+    "subject": "New Baggage Handling System Proposal",
+    "body": "Dear Operations, a new proposal for upgrading the baggage handling system has been submitted. The plan outlines state-of-the-art sorting technology and improved throughput for passenger luggage. Please evaluate the proposal and provide your recommendations by the end of this month.",
+    "sender": "operations@canpass.ca",
+    "recipient": "engineering@aixm.ca",
+    "date": "2027-09-07",
+    "category": "Cargo Facility Update"
+  },
+  {
+    "id": 138,
+    "subject": "Runway Safety Audit Findings",
+    "body": "Hello Safety Team, the latest runway safety audit at Toronto Pearson has been completed. Several issues were identified, including surface wear and inadequate lighting in certain sections. Please review the attached audit report and schedule remedial actions promptly.",
+    "sender": "safety@canpass.ca",
+    "recipient": "maintenance@aixm.ca",
+    "date": "2027-09-08",
+    "category": "Runway Modification"
+  },
+  {
+    "id": 139,
+    "subject": "Airspace Conflict Resolution Meeting",
+    "body": "Dear Airspace Management, we are scheduling a meeting to resolve recent airspace conflicts near the metropolitan area. The discussion will focus on reassigning flight paths and optimizing traffic flow. Please come prepared with your data and proposed solutions.",
+    "sender": "airspace@canpass.ca",
+    "recipient": "charts@aixm.ca",
+    "date": "2027-09-09",
+    "category": "Airspace Designation"
+  },
+  {
+    "id": 140,
+    "subject": "Terminal Renovation Cost Estimate",
+    "body": "Hello Finance, we have received the initial cost estimates for the planned terminal renovations at Vancouver International. The estimate covers construction, new fixtures, and design improvements. Please review the figures and prepare a budget proposal for the board meeting next month.",
+    "sender": "terminal@canpass.ca",
+    "recipient": "finance@aixm.ca",
+    "date": "2027-09-10",
+    "category": "Terminal Expansion"
+  },
+  {
+    "id": 141,
+    "subject": "Fuel Supply Contract Negotiation",
+    "body": "Dear Procurement, negotiations for the upcoming fuel supply contract are underway. Recent market trends indicate a potential increase in prices, so a renegotiation might secure better rates. Please prepare the relevant documents and set up a meeting with our key suppliers.",
+    "sender": "fuel@canpass.ca",
+    "recipient": "procurement@aixm.ca",
+    "date": "2027-09-11",
+    "category": "Fuel Price Update"
+  },
+  {
+    "id": 142,
+    "subject": "Security Drill Performance Review",
+    "body": "Hello Security Team, the recent security drill was completed and preliminary performance reviews are in. While overall performance was satisfactory, several response times were slower than expected. Please review the attached performance summary and propose corrective actions.",
+    "sender": "security@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-09-12",
+    "category": "Security Protocol Update"
+  },
+  {
+    "id": 143,
+    "subject": "Customer Service Feedback on Check-In Process",
+    "body": "Dear Customer Service, recent feedback from passengers highlights issues with the check-in process at Montreal-Trudeau International. The concerns include long wait times and confusing kiosk instructions. Please analyze the feedback report and suggest improvements.",
+    "sender": "customerservice@canpass.ca",
+    "recipient": "service@aixm.ca",
+    "date": "2027-09-13",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 144,
+    "subject": "Maintenance Log Discrepancies Report",
+    "body": "Hello Maintenance, a review of the maintenance logs has revealed several discrepancies that need immediate attention. There are inconsistencies in reporting routine checks that could affect safety compliance. Please investigate these discrepancies and update the logs accurately.",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "quality@aixm.ca",
+    "date": "2027-09-14",
+    "category": "Maintenance Approval"
+  },
+  {
+    "id": 145,
+    "subject": "Emergency Response Training Schedule",
+    "body": "Dear Emergency Services, a new schedule for emergency response training has been finalized. The training will cover updated evacuation procedures and advanced first-aid techniques. Please ensure that all relevant personnel are informed and scheduled for the sessions.",
+    "sender": "emergency@canpass.ca",
+    "recipient": "training@aixm.ca",
+    "date": "2027-09-15",
+    "category": "Emergency Procedure"
+  },
+  {
+    "id": 146,
+    "subject": "New Navigation System Implementation",
+    "body": "Hello Flight Operations, a new navigation system has been approved for implementation at Halifax Stanfield International. This system promises enhanced route accuracy and better integration with air traffic control. Please review the technical specifications and plan for system testing next month.",
+    "sender": "nav@canpass.ca",
+    "recipient": "flightops@aixm.ca",
+    "date": "2027-09-16",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 147,
+    "subject": "Aircraft De-Icing Process Enhancement",
+    "body": "Dear Maintenance, following feedback from winter operations, we are proposing enhancements to the aircraft de-icing process. The new process includes more efficient chemical usage and faster turnaround times. Please evaluate the proposal and implement changes where feasible.",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-09-17",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 148,
+    "subject": "Regulatory Update: Cargo Handling Standards",
+    "body": "Hello Regulatory Team, a new update to cargo handling standards has been issued by the aviation authorities. The update introduces stricter safety protocols and documentation requirements. Please review the attached guidelines and update our procedures accordingly.",
+    "sender": "regulatory@canpass.ca",
+    "recipient": "cargo@aixm.ca",
+    "date": "2027-09-18",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 149,
+    "subject": "Ground Support Equipment Inspection Reminder",
+    "body": "Dear Operations, please be reminded that the quarterly inspection for ground support equipment is due next week. Timely inspections are crucial to ensure operational safety and efficiency. Kindly coordinate with the maintenance team to complete the inspections as scheduled.",
+    "sender": "ops@canpass.ca",
+    "recipient": "maintenance@aixm.ca",
+    "date": "2027-09-19",
+    "category": "Maintenance Approval"
+  },
+  {
+    "id": 150,
+    "subject": "Pilot Performance Review and Feedback",
+    "body": "Hello Crew Management, the quarterly pilot performance review has been completed. The review includes evaluations on flight handling, decision-making, and adherence to safety protocols. Please analyze the feedback report and arrange follow-up training sessions where necessary.",
+    "sender": "crew@canpass.ca",
+    "recipient": "training@aixm.ca",
+    "date": "2027-09-20",
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 151,
+    "subject": "Air Traffic Control Communication Upgrade",
+    "body": "Dear ATC Team, a project to upgrade our communication systems is set to begin soon. The upgrade will provide more reliable, real-time communication between controllers and pilots. Please review the proposed system specifications and prepare for implementation.",
+    "sender": "atc@canpass.ca",
+    "recipient": "atc.team@aixm.ca",
+    "date": "2027-09-21",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 152,
+    "subject": "Hangar Safety Protocols Revision",
+    "body": "Hello Facilities, following recent incidents, we are revising the safety protocols for hangar operations. The new protocols focus on fire safety, equipment handling, and emergency exits. Please update the safety manuals and schedule a training session for all hangar staff.",
+    "sender": "facilities@canpass.ca",
+    "recipient": "maintenance@aixm.ca",
+    "date": "2027-09-22",
+    "category": "Hangar Upgrade"
+  },
+  {
+    "id": 153,
+    "subject": "Airport Waste Management Initiative",
+    "body": "Dear Sustainability Team, we are launching an initiative to improve waste management practices at our airports. The initiative aims to reduce landfill waste and increase recycling efforts. Please develop a detailed action plan and present it at the upcoming sustainability meeting.",
+    "sender": "sustainability@canpass.ca",
+    "recipient": "sustainability@aixm.ca",
+    "date": "2027-09-23",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 154,
+    "subject": "Flight Crew Roster Adjustments",
+    "body": "Hello Crew Management, due to recent changes in flight demand, the flight crew roster needs to be adjusted. The new schedule aims to balance workload and optimize crew rest periods. Please review the proposed adjustments and confirm the changes as soon as possible.",
+    "sender": "crew@canpass.ca",
+    "recipient": "scheduling@aixm.ca",
+    "date": "2027-09-24",
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 155,
+    "subject": "Terminal Signage System Modernization",
+    "body": "Dear IT Department, we have a proposal to modernize the terminal signage system at Toronto Pearson. The modernization includes digital displays for flight information and wayfinding enhancements. Please evaluate the proposal and prepare a project plan for the next phase.",
+    "sender": "it@canpass.ca",
+    "recipient": "infrastructure@aixm.ca",
+    "date": "2027-09-25",
+    "category": "Terminal Expansion"
+  },
+  {
+    "id": 156,
+    "subject": "Maintenance Equipment Calibration Report",
+    "body": "Hello Maintenance, the latest calibration report for our maintenance equipment has been completed. The report identifies several pieces of equipment that require recalibration to meet safety standards. Please review the report and take corrective measures where necessary.",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "quality@aixm.ca",
+    "date": "2027-09-26",
+    "category": "Maintenance Approval"
+  },
+  {
+    "id": 157,
+    "subject": "New Passenger Loyalty Program Proposal",
+    "body": "Dear Marketing, we have developed a proposal for a new passenger loyalty program aimed at enhancing customer retention. The program outlines reward tiers, exclusive benefits, and a points system based on flight frequency. Please review the proposal and provide your insights before the next board meeting.",
+    "sender": "customerservice@canpass.ca",
+    "recipient": "marketing@aixm.ca",
+    "date": "2027-09-27",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 158,
+    "subject": "Security Surveillance Software Upgrade",
+    "body": "Hello IT Department, we are planning to upgrade the security surveillance software at major hubs to improve real-time monitoring and incident response. The new software offers advanced analytics and better integration with our existing systems. Please review the technical specifications and coordinate with the security team for implementation.",
+    "sender": "security@canpass.ca",
+    "recipient": "it.team@aixm.ca",
+    "date": "2027-09-28",
+    "category": "Security Protocol Update"
+  },
+  {
+    "id": 159,
+    "subject": "Regulatory Compliance Audit Schedule",
+    "body": "Dear Regulatory Team, an audit to ensure compliance with the latest international aviation standards is scheduled for next month. All departments must prepare their documentation and rectify any discrepancies. Please confirm the audit schedule and communicate any concerns in advance.",
+    "sender": "regulatory@canpass.ca",
+    "recipient": "reg.team@aixm.ca",
+    "date": "2027-09-29",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 160,
+    "subject": "Runway Pavement Strengthening Proposal",
+    "body": "Hello Maintenance, a proposal for strengthening the pavement on Runway 04/22 has been submitted. The proposal includes innovative materials and a revised maintenance schedule to prolong the runway's lifespan. Please review the proposal and schedule a meeting to discuss the implementation details.",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "engineering@aixm.ca",
+    "date": "2027-09-30",
+    "category": "Runway Construction"
+  },
+  {
+    "id": 161,
+    "subject": "IT Infrastructure Security Assessment",
+    "body": "Dear IT Department, a security assessment of our IT infrastructure across all airport systems is scheduled for next quarter. The assessment aims to identify vulnerabilities and recommend necessary upgrades. Please prepare a list of current systems and potential risks for the evaluation.",
+    "sender": "it@canpass.ca",
+    "recipient": "security@aixm.ca",
+    "date": "2027-10-01",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 162,
+    "subject": "Cargo Terminal Operational Review",
+    "body": "Hello Cargo Management, we are conducting an operational review of the cargo terminal at Halifax Stanfield International. The review will focus on efficiency, safety, and throughput metrics. Please gather the relevant data and prepare a summary report by the end of the month.",
+    "sender": "cargo@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-10-02",
+    "category": "Cargo Facility Update"
+  },
+  {
+    "id": 163,
+    "subject": "Environmental Impact Report for Expansion",
+    "body": "Dear Sustainability Team, the environmental impact report for the proposed terminal expansion at Calgary International has been finalized. The report details both the potential environmental risks and the mitigation strategies. Please review the report and prepare your feedback for the upcoming regulatory review meeting.",
+    "sender": "sustainability@canpass.ca",
+    "recipient": "regulatory@aixm.ca",
+    "date": "2027-10-03",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 164,
+    "subject": "Airline Partnership Negotiation Update",
+    "body": "Hello Business Development, negotiations with a major airline regarding a new route partnership have progressed significantly. The updated proposal outlines revenue sharing, schedule coordination, and marketing collaborations. Please review the latest terms and provide your recommendations before the next negotiation round.",
+    "sender": "business@canpass.ca",
+    "recipient": "bd@aixm.ca",
+    "date": "2027-10-04",
+    "category": "Flight Route Approval"
+  },
+  {
+    "id": 165,
+    "subject": "Emergency Equipment Inventory Check",
+    "body": "Dear Emergency Services, we are conducting an inventory check of all emergency equipment across our airports. This includes first-aid kits, defibrillators, and emergency communication devices. Please verify that all equipment is in proper working condition and update the inventory report accordingly.",
+    "sender": "emergency@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-10-05",
+    "category": "Emergency Procedure"
+  },
+  {
+    "id": 166,
+    "subject": "Fuel Efficiency Initiative Progress Report",
+    "body": "Hello Fuel Team, our latest analysis shows promising improvements in fuel consumption metrics across several hubs. The initiative has already reduced costs by 3% in pilot regions. Please compile a detailed progress report for the upcoming strategy meeting.",
+    "sender": "fuel@canpass.ca",
+    "recipient": "finance@aixm.ca",
+    "date": "2027-10-06",
+    "category": "Fuel Price Update"
+  },
+  {
+    "id": 167,
+    "subject": "New Digital Check-In System Launch",
+    "body": "Dear Customer Service, we are excited to announce the launch of our new digital check-in system designed to streamline the passenger experience. The system integrates real-time updates and self-service kiosks. Please ensure that all front-line staff are trained on the new process.",
+    "sender": "customerservice@canpass.ca",
+    "recipient": "service@aixm.ca",
+    "date": "2027-10-07",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 168,
+    "subject": "Aircraft Maintenance Best Practices Webinar Invitation",
+    "body": "Hello Maintenance Team, we are hosting a webinar on best practices in aircraft maintenance to share insights and new techniques. The session will cover preventive measures and troubleshooting common issues. Please register and encourage all team members to attend.",
+    "sender": "training@canpass.ca",
+    "recipient": "maintenance@aixm.ca",
+    "date": "2027-10-08",
+    "category": "Maintenance Approval"
+  },
+  {
+    "id": 169,
+    "subject": "Emergency Evacuation Drill Recap and Feedback",
+    "body": "Dear Safety Office, the recent emergency evacuation drill has been completed and we have gathered valuable feedback. Overall performance was satisfactory, but some communication delays were noted. Please review the attached summary and propose improvements for future drills.",
+    "sender": "safety@canpass.ca",
+    "recipient": "emergency@aixm.ca",
+    "date": "2027-10-09",
+    "category": "Emergency Procedure"
+  },
+  {
+    "id": 170,
+    "subject": "Runway Surface Condition Improvement Plan",
+    "body": "Hello Maintenance, our engineering team has developed a plan to improve the runway surface condition at our primary hub. The proposal includes new materials and a revised maintenance schedule. Please review the plan and schedule a meeting to discuss its implementation.",
+    "sender": "engineering@canpass.ca",
+    "recipient": "maintenance@aixm.ca",
+    "date": "2027-10-10",
+    "category": "Runway Modification"
+  },
+  {
+    "id": 171,
+    "subject": "Air Traffic Management System Upgrade Overview",
+    "body": "Dear ATC Team, we are planning an upgrade to our air traffic management system to enhance real-time monitoring capabilities. The new system features advanced analytics and improved communication channels. Please review the technical overview and prepare for an integration workshop next month.",
+    "sender": "atc@canpass.ca",
+    "recipient": "atc.team@aixm.ca",
+    "date": "2027-10-11",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 172,
+    "subject": "Regulatory Update: New Noise Abatement Standards",
+    "body": "Hello Regulatory Team, new noise abatement standards have been issued to minimize the environmental impact of airport operations. These standards will affect flight paths and engine noise limits. Please review the guidelines and update our compliance procedures accordingly.",
+    "sender": "regulatory@canpass.ca",
+    "recipient": "reg.team@aixm.ca",
+    "date": "2027-10-12",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 173,
+    "subject": "Terminal Expansion Project Phase 4 Schedule",
+    "body": "Dear Terminal Development, phase 4 of the terminal expansion project has been scheduled to begin next month. This phase will focus on upgrading check-in counters and expanding security lanes. Please update the project timeline and coordinate with the construction team.",
+    "sender": "terminal@canpass.ca",
+    "recipient": "infrastructure@aixm.ca",
+    "date": "2027-10-13",
+    "category": "Terminal Expansion"
+  },
+  {
+    "id": 174,
+    "subject": "Crew Training Curriculum Revision",
+    "body": "Hello Crew Management, we are revising the crew training curriculum to incorporate the latest safety and customer service practices. The updated curriculum includes both theoretical and practical modules. Please review the changes and schedule training sessions for all flight crews.",
+    "sender": "training@canpass.ca",
+    "recipient": "crew@aixm.ca",
+    "date": "2027-10-14",
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 175,
+    "subject": "Security Incident Follow-Up Report",
+    "body": "Dear Security Team, following a recent security incident, a follow-up report has been prepared. The report identifies the root causes and suggests measures to prevent recurrence. Please review the document and implement the recommended corrective actions.",
+    "sender": "security@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-10-15",
+    "category": "Security Protocol Update"
+  },
+  {
+    "id": 176,
+    "subject": "Cargo Operations Efficiency Review",
+    "body": "Hello Cargo Management, our latest review of cargo operations indicates areas where process improvements could boost efficiency. The attached report outlines key bottlenecks and suggests workflow enhancements. Please review and provide your recommendations for implementation.",
+    "sender": "cargo@canpass.ca",
+    "recipient": "logistics@aixm.ca",
+    "date": "2027-10-16",
+    "category": "Cargo Facility Update"
+  },
+  {
+    "id": 177,
+    "subject": "New Vendor Proposal for Aircraft Parts",
+    "body": "Dear Procurement, we have received a new vendor proposal for supplying critical aircraft parts. The proposal offers competitive pricing and expedited delivery times. Please review the proposal and schedule a meeting to discuss potential contract negotiations.",
+    "sender": "procurement@canpass.ca",
+    "recipient": "engineering@aixm.ca",
+    "date": "2027-10-17",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 178,
+    "subject": "Airspace Coordination and Conflict Resolution",
+    "body": "Hello Airspace Management, due to recent reports of conflicting flight paths, we are initiating a review of current airspace assignments. The objective is to optimize routes and minimize conflict zones. Please prepare your latest traffic data and proposed solutions for an upcoming meeting.",
+    "sender": "airspace@canpass.ca",
+    "recipient": "charts@aixm.ca",
+    "date": "2027-10-18",
+    "category": "Airspace Designation"
+  },
+  {
+    "id": 179,
+    "subject": "Pilot Performance Evaluation Summary",
+    "body": "Dear Crew Management, the quarterly pilot performance evaluations have been completed. The summary report highlights areas of strength as well as opportunities for improvement in flight operations. Please review the report and arrange follow-up training sessions as needed.",
+    "sender": "crew@canpass.ca",
+    "recipient": "training@aixm.ca",
+    "date": "2027-10-19",
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 180,
+    "subject": "Passenger Experience Enhancement Initiative",
+    "body": "Hello Customer Service, we are launching an initiative to enhance passenger experience across our hubs. The initiative includes improvements to check-in processes, lounge facilities, and onboard services. Please review the attached strategic plan and prepare an implementation roadmap.",
+    "sender": "customerservice@canpass.ca",
+    "recipient": "service@aixm.ca",
+    "date": "2027-10-20",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 181,
+    "subject": "IT Infrastructure Modernization Plan",
+    "body": "Dear IT Department, a modernization plan for our IT infrastructure has been finalized. The plan aims to improve system reliability and integrate advanced data analytics across operations. Please review the technical documentation and prepare a phased implementation strategy.",
+    "sender": "it@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-10-21",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 182,
+    "subject": "Aircraft De-Icing Process Optimization",
+    "body": "Hello Maintenance, our review of the aircraft de-icing process has identified opportunities to optimize chemical usage and speed up turnaround times. The proposed changes include updated equipment and revised protocols. Please assess the proposal and initiate a pilot program to test its effectiveness.",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-10-22",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 183,
+    "subject": "Maintenance Audit Findings and Recommendations",
+    "body": "Dear Quality Team, our latest maintenance audit has revealed several discrepancies in equipment servicing logs. The audit report outlines specific recommendations for process improvements. Please review the report and implement the corrective measures as soon as possible.",
+    "sender": "quality@canpass.ca",
+    "recipient": "maintenance@aixm.ca",
+    "date": "2027-10-23",
+    "category": "Maintenance Approval"
+  },
+  {
+    "id": 184,
+    "subject": "Runway Lighting System Retrofit Proposal",
+    "body": "Hello Engineering, a retrofit proposal for upgrading the runway lighting system at our main hub has been submitted. The proposal includes new LED technology and improved energy efficiency. Please review the technical specifications and provide your approval for the project.",
+    "sender": "engineering@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-10-24",
+    "category": "Runway Modification"
+  },
+  {
+    "id": 185,
+    "subject": "Regulatory Compliance Update on Safety Protocols",
+    "body": "Dear Regulatory Team, a new update on safety protocols has been issued by the aviation authorities. The update requires all airports to review and enhance their safety procedures. Please ensure that the latest compliance measures are integrated into your operational manuals.",
+    "sender": "regulatory@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-10-25",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 186,
+    "subject": "Terminal Wi-Fi System Performance Report",
+    "body": "Hello IT Department, the performance report for the terminal Wi-Fi system at Montreal-Trudeau International has been finalized. The report indicates a need for further optimization to handle peak loads. Please review the findings and propose improvements for next quarter.",
+    "sender": "it@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-10-26",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 187,
+    "subject": "Flight Schedule Revision and Optimization",
+    "body": "Dear Flight Operations, based on recent traffic data, a revision of the flight schedules is recommended to optimize resource utilization. The proposed changes are designed to reduce delays and improve operational efficiency. Please review the new schedule and implement the adjustments promptly.",
+    "sender": "ops@canpass.ca",
+    "recipient": "flightops@aixm.ca",
+    "date": "2027-10-27",
+    "category": "Flight Route Approval"
+  },
+  {
+    "id": 188,
+    "subject": "Fuel Procurement Strategy Update",
+    "body": "Hello Finance, recent market developments necessitate an update to our fuel procurement strategy. The new strategy focuses on securing long-term contracts and diversifying suppliers to mitigate price volatility. Please review the attached strategy document and update our procurement policies accordingly.",
+    "sender": "fuel@canpass.ca",
+    "recipient": "finance@aixm.ca",
+    "date": "2027-10-28",
+    "category": "Fuel Price Update"
+  },
+  {
+    "id": 189,
+    "subject": "Emergency Equipment Upgrade Plan",
+    "body": "Dear Emergency Services, an upgrade plan for our emergency equipment has been drafted to enhance response capabilities. The plan includes purchasing new communication devices and modernizing first-aid kits. Please review the plan and allocate the necessary budget for implementation.",
+    "sender": "emergency@canpass.ca",
+    "recipient": "finance@aixm.ca",
+    "date": "2027-10-29",
+    "category": "Emergency Procedure"
+  },
+  {
+    "id": 190,
+    "subject": "Airline Partnership Strategic Meeting Invitation",
+    "body": "Hello Business Development, we are inviting key airline partners to a strategic meeting to discuss new route collaborations and revenue sharing opportunities. The meeting agenda includes market analysis and potential schedule adjustments. Please confirm your attendance and review the attached briefing document.",
+    "sender": "business@canpass.ca",
+    "recipient": "bd@aixm.ca",
+    "date": "2027-10-30",
+    "category": "Flight Route Approval"
+  },
+  {
+    "id": 191,
+    "subject": "Terminal Renovation Project Cost Review",
+    "body": "Dear Terminal Development, the cost review for the ongoing terminal renovation project has been completed. The review highlights potential areas for cost savings without compromising quality. Please review the attached cost analysis and prepare a summary for the board meeting.",
+    "sender": "terminal@canpass.ca",
+    "recipient": "finance@aixm.ca",
+    "date": "2027-10-31",
+    "category": "Terminal Expansion"
+  },
+  {
+    "id": 192,
+    "subject": "Security Protocols Testing Results",
+    "body": "Hello Security Team, the latest round of testing for our updated security protocols has been completed. The test results show improvements in response time and threat detection accuracy, though some minor issues persist. Please review the test report and schedule a follow-up session to address the remaining concerns.",
+    "sender": "security@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-11-01",
+    "category": "Security Protocol Update"
+  },
+  {
+    "id": 193,
+    "subject": "Cargo Terminal Expansion Feasibility Study",
+    "body": "Dear Cargo Management, a feasibility study for expanding our cargo terminal facilities has been finalized. The study examines current capacity constraints and future growth projections. Please review the study and prepare recommendations for the next phase of expansion.",
+    "sender": "cargo@canpass.ca",
+    "recipient": "logistics@aixm.ca",
+    "date": "2027-11-02",
+    "category": "Cargo Facility Update"
+  },
+  {
+    "id": 194,
+    "subject": "Crew Scheduling Software Upgrade Notice",
+    "body": "Hello Crew Management, we are planning to upgrade our crew scheduling software to improve efficiency and user experience. The new software offers advanced analytics and a more intuitive interface. Please review the upgrade proposal and provide your feedback before implementation.",
+    "sender": "crew@canpass.ca",
+    "recipient": "it@aixm.ca",
+    "date": "2027-11-03",
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 195,
+    "subject": "Ground Support Equipment Modernization Proposal",
+    "body": "Dear Operations, a proposal for modernizing ground support equipment has been submitted to enhance operational efficiency. The proposal includes new vehicles and upgraded communication systems. Please review the proposal and prepare a cost-benefit analysis for further discussion.",
+    "sender": "procurement@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-11-04",
+    "category": "Maintenance Approval"
+  },
+  {
+    "id": 196,
+    "subject": "Air Traffic Control System Performance Analysis",
+    "body": "Hello ATC Team, our recent performance analysis of the air traffic control system has identified several areas for improvement. The report details system latency issues and suggests hardware upgrades. Please review the analysis and propose corrective actions to enhance system reliability.",
+    "sender": "atc@canpass.ca",
+    "recipient": "engineering@aixm.ca",
+    "date": "2027-11-05",
+    "category": "Procedure Update"
+  },
+  {
+    "id": 197,
+    "subject": "Pilot Training Program Feedback",
+    "body": "Dear Training Department, feedback from our recent pilot training sessions has been compiled into a comprehensive report. The report highlights both strengths and areas that require additional focus, such as emergency procedures. Please review the feedback and update the training curriculum accordingly.",
+    "sender": "training@canpass.ca",
+    "recipient": "crew@aixm.ca",
+    "date": "2027-11-06",
+    "category": "Crew Scheduling Change"
+  },
+  {
+    "id": 198,
+    "subject": "Regulatory Change: Updated Flight Procedures",
+    "body": "Hello Regulatory Team, a new regulatory update requires all airlines to adopt updated flight procedures that enhance safety and efficiency. The changes include modifications to takeoff and landing protocols. Please review the new regulations and ensure that all operational teams are informed.",
+    "sender": "regulatory@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-11-07",
+    "category": "Regulatory Change"
+  },
+  {
+    "id": 199,
+    "subject": "Maintenance Workflow Optimization Plan",
+    "body": "Dear Maintenance, we have developed a plan to optimize the current maintenance workflow by reducing redundant processes and improving communication. The plan outlines new scheduling tools and process adjustments that could save valuable time. Please review the plan and prepare a pilot implementation strategy.",
+    "sender": "maintenance@canpass.ca",
+    "recipient": "ops@aixm.ca",
+    "date": "2027-11-08",
+    "category": "Maintenance Approval"
+  },
+  {
+    "id": 200,
+    "subject": "Sustainability Initiatives for Airport Operations",
+    "body": "Hello Sustainability Team, we are launching a series of sustainability initiatives aimed at reducing energy consumption and waste across our airports. The initiatives include renewable energy integration and comprehensive recycling programs. Please review the strategic plan and provide input on potential improvements.",
+    "sender": "sustainability@canpass.ca",
+    "recipient": "sustainability@aixm.ca",
+    "date": "2027-11-09",
+    "category": "Regulatory Change"
   }
 ]
-
