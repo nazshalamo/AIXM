@@ -1139,7 +1139,7 @@
     "body": "Dear Training Department, a new pilot training curriculum has been launched to incorporate the latest industry practices. The curriculum covers advanced navigation, safety protocols, and emergency management. Please schedule briefing sessions with all new recruits and existing pilots.",
     "sender": "training@canpass.ca",
     "recipient": "pilot.training@aixm.ca",
-    "date": "2027-08-28",
+    "date": "2027-08-28", 
     "category": "Crew Scheduling Change"
   },
   {
